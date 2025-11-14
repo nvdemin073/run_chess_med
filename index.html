@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Николай - Баланс Тела и Разума</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Ссылка на Telegram в левом верхнем углу -->
+<a href="https://t.me/run_and_breathe" class="telegram-link" target="_blank">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.191c-.174.761-1.032 4.312-1.455 5.744-.256.863-.637 1.152-1.119 1.179-.899.051-1.584-.594-2.455-1.165-1.365-.897-2.137-1.455-3.463-2.333-.767-.512-.275-.793.171-1.253.117-.119 2.147-1.967 2.187-2.135.005-.022.009-.101-.04-.143-.05-.041-.122-.027-.175-.016-.074.017-1.254.796-3.54 2.336-.335.228-.64.339-.914.333-.767-.02-1.12-.233-1.559-.447-.626-.306-1.124-.467-1.081-.987.022-.256.288-.518.791-.784 3.1-1.479 5.17-2.451 6.208-2.915 2.878-1.297 3.478-1.525 3.869-1.515.9.023 1.449.396 1.338 1.252z"/>
+    </svg>
+    Мой Telegram
+</a>
+
+    <nav class="navbar">
+        <a href="#home">Главная</a>
+        <a href="#run">Бег</a>
+        <a href="#chess">Шахматы</a>
+        <a href="#prayer">Медитация</a>
+    </nav>
+
+    <section id="home" class="fullscreen-section">
+        <div class="content">
+            <div class="header-with-photo">
+                <img src="./images/my-photo.jpg" alt="Мое фото" class="user-photo" onclick="openPhotoModal()">
+                <div class="header-text">
+                    <h1>Привет, я Николай</h1>
+                    <p>Бегун, шахматист и ищущий человек. Через движение, стратегию и духовность я нахожу баланс в жизни.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="run" class="fullscreen-section">
+        <div class="content">
+            <h1>Бег</h1>
+            <p>Мои тренировки и достижения</p>
+            
+            <div class="content-with-image fade-in">
+                <div class="content-text">
+                    <h2>Преодолевая дистанции</h2>
+                    <p>Регулярные тренировки и участие в забегах. Бег для меня - это медитация в движении и способ поддерживать физическую форму.</p>
+                    <button class="add-photo-btn" onclick="openRunDiary()">Мой беговой дневник →</button>
+                </div>
+                <div class="content-image">
+                    <img src="./images/run-photo.jpg" alt="Пробежка" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="chess" class="fullscreen-section">
+        <div class="content">
+            <h1>Шахматы</h1>
+            <p>Стратегии, партии и анализ</p>
+            
+            <div class="content-with-image fade-in">
+                <div class="content-text">
+                    <h2>Игра королей</h2>
+                    <p>Анализ сыгранных партий, изучение дебютов и тактических приемов. Шахматы учат мыслить стратегически и принимать взвешенные решения.</p>
+                    
+                    <!-- Краткая статистика -->
+                    <div class="chess-stats-preview">
+                        <div class="stat-card">
+                            <h3>Рейтинг Rapid</h3>
+                            <span class="stat-number" id="preview-chess-rating">-</span>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Всего партий</h3>
+                            <span class="stat-number" id="preview-total-games">0</span>
+                        </div>
+                    </div>
+
+                    <!-- Кнопка перехода в шахматный анализатор -->
+                    <a href="chess-analyzer.html" class="add-photo-btn">Открыть шахматный анализатор →</a>
+                </div>
+                <div class="content-image">
+                    <img src="./images/chess-photo.jpg" alt="Шахматы" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="prayer" class="fullscreen-section clickable-section" onclick="openPrayerMenu()">
+        <div class="content">
+            <h1>Медитация</h1>
+            <p>Духовный путь и размышления</p>
+            
+            <div class="content-with-image fade-in">
+                <div class="content-text">
+                    <h2>Внутренняя гармония</h2>
+                    <p>Молитва как способ обретения внутреннего покоя и связи с высшими силами. Здесь я делюсь своими духовными insights и размышлениями.</p>
+                </div>
+                <div class="content-image">
+                    <img src="./images/prayer-photo.jpg" alt="Молитва" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Модальное окно для фото -->
+    <div id="photoModal" class="modal" style="display: none;">
+        <span class="close-modal" onclick="closePhotoModal()">&times;</span>
+        <img id="modalPhoto" src="" alt="Увеличенное фото" class="modal-photo">
+    </div>
+
+    <!-- Модальное окно выбора молитв -->
+    <div id="prayer-modal" class="modal" style="display: none;">
+        <div class="modal-content prayer-modal">
+            <span class="close-modal" onclick="closePrayerModal()">&times;</span>
+            <h2>Молитвы и медитации</h2>
+            <div class="prayer-options">
+                <div class="prayer-option" onclick="location.href='prayer-add.html'">
+                    <h3>➕ Добавить молитву</h3>
+                    <p>Записать новую молитву или размышление</p>
+                </div>
+                <div class="prayer-option" onclick="location.href='prayer-diary.html'">
+                    <h3>📖 Дневник молитв</h3>
+                    <p>Посмотреть историю ваших молитв</p>
+                </div>
+            </div>
+            <button class="close-btn" onclick="closePrayerModal()">Закрыть</button>
+        </div>
+    </div>
+
+    <style>
+    .telegram-link {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--gold);
+        text-decoration: none;
+        font-family: 'Playfair Display', serif;
+        font-size: 0.9rem;
+        font-weight: 500;
+        padding: 8px 16px;
+        border: 1px solid var(--gold);
+        border-radius: 4px;
+        background: rgba(26, 18, 11, 0.8);
+        backdrop-filter: blur(10px);
+        z-index: 1001;
+        transition: all 0.3s ease;
+    }
+
+    .telegram-link:hover {
+        background: var(--gold);
+        color: var(--bg-dark);
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(212, 165, 116, 0.3);
+    }
+
+    .telegram-link svg {
+        width: 18px;
+        height: 18px;
+    }
+    </style>
+
+    <script>
+    // Функция открытия модального окна с фото
+    function openPhotoModal() {
+        console.log('Фото кликнуто!');
+        const modal = document.getElementById('photoModal');
+        const modalImg = document.getElementById('modalPhoto');
+        const userPhoto = document.querySelector('img[src="./images/my-photo.jpg"]');
+        
+        if (modal && modalImg && userPhoto) {
+            modalImg.src = userPhoto.src;
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+            console.log('Модальное окно открыто!');
+        }
+    }
+
+    // Функция закрытия модального окна
+    function closePhotoModal() {
+        const modal = document.getElementById('photoModal');
+        if (modal) {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+    }
+
+    // Открытие модального окна молитв
+    function openPrayerMenu() {
+        const modal = document.getElementById('prayer-modal');
+        if (modal) {
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        }
+    }
+
+    // Закрытие модального окна молитв
+    function closePrayerModal() {
+        const modal = document.getElementById('prayer-modal');
+        if (modal) {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+    }
+
+    // Функция для бегового дневника
+    function openRunDiary() {
+        alert('Беговой дневник будет добавлен позже');
+    }
+
+    // Закрытие по клику вне фото
+    document.addEventListener('click', function(event) {
+        const photoModal = document.getElementById('photoModal');
+        const prayerModal = document.getElementById('prayer-modal');
+        
+        if (photoModal && photoModal.style.display === 'block' && event.target === photoModal) {
+            closePhotoModal();
+        }
+        
+        if (prayerModal && prayerModal.style.display === 'block' && event.target === prayerModal) {
+            closePrayerModal();
+        }
+    });
+
+    // Закрытие по клавише ESC
+    document.addEventListener('keydown', function(event) {
+        const photoModal = document.getElementById('photoModal');
+        const prayerModal = document.getElementById('prayer-modal');
+        
+        if (event.key === 'Escape') {
+            if (photoModal && photoModal.style.display === 'block') {
+                closePhotoModal();
+            }
+            if (prayerModal && prayerModal.style.display === 'block') {
+                closePrayerModal();
+            }
+        }
+    });
+
+    console.log('Скрипт модального окна загружен!');
+    </script>
+
+    <script src="script.js"></script>
+    <script src="user-data.js"></script>
+    <script src="main-page-chess.js"></script>
+
+<style>
+.telegram-link {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    left: auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 8px 16px;
+    border: 1px solid #0f4d75;
+    border-radius: 4px;
+    background: rgba(15, 77, 117, 0.9);
+    backdrop-filter: blur(10px);
+    z-index: 1001;
+    transition: all 0.3s ease;
+}
+
+.telegram-link:hover {
+    background: #0a3a5a;
+    border-color: #0a3a5a;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(15, 77, 117, 0.4);
+}
+
+.telegram-link svg {
+    width: 18px;
+    height: 18px;
+    fill: #ffffff;
+}
+</style>
+</body>
+</html>

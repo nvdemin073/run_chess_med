@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шахматный анализатор - [Твоё Имя]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .analyzer-page {
+            padding-top: 100px;
+            min-height: 100vh;
+        }
+        
+        .page-header {
+            text-align: center;
+            padding: 4rem 2rem 2rem;
+            background: rgba(26, 18, 11, 0.3);
+            margin-bottom: 3rem;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .chess-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .chess-layout {
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+        
+        .chess-board-container {
+            background: rgba(26, 18, 11, 0.7);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        .chess-sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        
+        .import-section {
+            background: rgba(26, 18, 11, 0.7);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 2rem;
+        }
+        
+        .games-list {
+            background: rgba(26, 18, 11, 0.7);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 2rem;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+        
+        #chessboard {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .pgn-input {
+            width: 100%;
+            height: 120px;
+            background: rgba(10, 10, 10, 0.8);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            color: var(--text-primary);
+            padding: 1rem;
+            font-family: monospace;
+            resize: vertical;
+        }
+        
+        .game-item {
+            padding: 1rem;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .game-item:hover {
+            border-color: var(--gold);
+            background: rgba(212, 165, 116, 0.1);
+        }
+        
+        .game-item.active {
+            border-color: var(--gold);
+            background: rgba(212, 165, 116, 0.2);
+        }
+        
+        .game-info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+        
+        .game-result {
+            font-weight: bold;
+            color: var(--gold);
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chessboard-js/1.0.0/chessboard-1.0.0.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html#home" class="back-link">← На главную</a>
+        <a href="#stats">Статистика</a>
+        <a href="#analyzer">Анализатор</a>
+        <a href="#games">Мои партии</a>
+    </nav>
+
+    <div class="analyzer-page">
+        <div class="page-header">
+            <h1>♞ Шахматный анализатор</h1>
+            <p>Анализирую партии, изучаю ошибки, улучшаю стратегию</p>
+        </div>
+
+        <div class="chess-container">
+            <!-- Статистика -->
+            <section id="stats">
+                <h2 class="section-title">Моя шахматная статистика</h2>
+                <div class="chess-stats">
+                    <div class="stat-card">
+                        <h3>Рейтинг Rapid</h3>
+                        <span class="stat-number" id="rapid-rating">-</span>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Рейтинг Blitz</h3>
+                        <span class="stat-number" id="blitz-rating">-</span>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Всего партий</h3>
+                        <span class="stat-number" id="total-games">0</span>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Процент побед</h3>
+                        <span class="stat-number" id="win-percentage">0%</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Анализатор и список партий -->
+            <section id="analyzer" style="margin-top: 4rem;">
+                <h2 class="section-title">Анализатор партий</h2>
+                <div class="chess-layout">
+                    <!-- Шахматная доска -->
+                    <div class="chess-board-container">
+                        <div id="chessboard"></div>
+                        <div class="game-controls" style="margin-top: 2rem;">
+                            <button id="prev-move" class="add-photo-btn">← Назад</button>
+                            <button id="next-move" class="add-photo-btn">Вперед →</button>
+                            <button id="flip-board" class="add-photo-btn">Перевернуть доску</button>
+                        </div>
+                        <div id="game-evaluation" style="margin-top: 1rem; color: var(--text-secondary);">
+                            Оценка позиции: 0.00
+                        </div>
+                    </div>
+
+                    <!-- Сайдбар -->
+           <div class="import-section">
+    <h3>Импорт партий</h3>
+    <p>Вставьте PGN партии или укажите username с chess.com</p>
+    
+    <!-- ЗАМЕНИТЕ СТАРЫЙ БЛОК НА ЭТОТ НОВЫЙ -->
+    <div class="form-group">
+        <label>Chess.com username:</label>
+        <input type="text" id="chess-username" placeholder="Ваш username">
+        <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+            <button id="load-all-data" class="add-photo-btn" style="flex: 2; background: var(--gold); color: var(--bg-dark);">
+                🚀 Загрузить всё
+            </button>
+        </div>
+        <div style="display: flex; gap: 1rem; margin-top: 0.5rem;">
+            <button id="fetch-stats" class="add-photo-btn" style="flex: 1;">
+                📊 Только статистику
+            </button>
+            <button id="fetch-games" class="add-photo-btn" style="flex: 1;">
+                ♟️ Только партии
+            </button>
+        </div>
+    </div>
+    <!-- КОНЕЦ НОВОГО БЛОКА -->
+    
+    <div style="text-align: center; margin: 1rem 0; color: var(--text-secondary);">или</div>
+    
+<div class="form-group">
+    <label>Chess.com username:</label>
+    <input type="text" id="chess-username" placeholder="peretoka73" readonly style="background: rgba(212, 165, 116, 0.1);">
+    <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+        <button id="load-all-data" class="add-photo-btn" style="flex: 2; background: var(--gold); color: var(--bg-dark);">
+            🔄 Обновить всё
+        </button>
+    </div>
+    <div style="display: flex; gap: 1rem; margin-top: 0.5rem;">
+        <button id="fetch-stats" class="add-photo-btn" style="flex: 1;">
+            📊 Только статистику
+        </button>
+        <button id="fetch-games" class="add-photo-btn" style="flex: 1;">
+            ♟️ Только партии
+        </button>
+    </div>
+</div>
+                        <!-- Информация о партии -->
+                        <div class="import-section">
+                            <h3>Информация о партии</h3>
+                            <div id="game-info">
+                                <p>Выберите партию для анализа</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Список партий -->
+            <section id="games" style="margin-top: 4rem;">
+                <h2 class="section-title">Мои партии</h2>
+                <div class="games-list" id="games-list">
+                    <!-- Партии будут загружаться сюда -->
+                    <div class="empty-state">
+                        <p>Пока нет партий. Импортируйте их с chess.com!</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chessboard-js/1.0.0/chessboard-1.0.0.min.js"></script>
+    <script src="chess-analyzer.js"></script>
+</body>
+</html>

@@ -1,0 +1,622 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-dark: #0a0a0a;
+    --bg-card: #1a120b;
+    --text-primary: #f5f5f5;
+    --text-secondary: #c9c0b8;
+    --accent: #d4a574;
+    --border: #2a241e;
+    --gold: #d4a574;
+    --deep-brown: #1a120b;
+    --cosmic-purple: #2d1b69;
+}
+
+html, body {
+    background: var(--bg-dark) !important;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    color: var(--text-primary);
+    line-height: 1.6;
+    overflow-x: hidden;
+    background: 
+        radial-gradient(ellipse at 20% 30%, rgba(42, 36, 30, 0.4) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 70%, rgba(45, 27, 105, 0.3) 0%, transparent 50%),
+        radial-gradient(ellipse at 40% 80%, rgba(26, 18, 11, 0.5) 0%, transparent 50%),
+        linear-gradient(135deg, #0a0a0a 0%, #1a120b 50%, #0a0a0a 100%) !important;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        radial-gradient(circle at 20% 30%, transparent 20%, rgba(212, 165, 116, 0.03) 21%, transparent 22%),
+        radial-gradient(circle at 80% 70%, transparent 15%, rgba(45, 27, 105, 0.02) 16%, transparent 17%),
+        radial-gradient(circle at 40% 80%, transparent 25%, rgba(26, 18, 11, 0.04) 26%, transparent 27%);
+    pointer-events: none;
+    z-index: -1;
+    animation: subtleFloat 20s ease-in-out infinite;
+}
+
+@keyframes subtleFloat {
+    0%, 100% { transform: translateY(0px) scale(1); }
+    50% { transform: translateY(-10px) scale(1.02); }
+}
+
+/* Навигация */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 2rem 3rem;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    background: rgba(10, 10, 10, 0.92) !important;
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border);
+}
+
+.navbar a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+}
+
+.navbar a:hover {
+    color: var(--gold);
+    background: rgba(212, 165, 116, 0.1);
+}
+
+.navbar a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    width: 0;
+    height: 1px;
+    background: var(--gold);
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.navbar a:hover::after {
+    width: 80%;
+}
+
+/* Секции */
+.fullscreen-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3rem;
+    border-bottom: 1px solid rgba(42, 36, 30, 0.3);
+    background: transparent;
+    position: relative;
+}
+
+.content {
+    max-width: 1200px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+/* Заголовок с фото */
+.header-with-photo {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    justify-content: center;
+    text-align: left;
+}
+
+.user-photo {
+    width: 400px;
+    height: 500px;
+    border-radius: 4px;
+    object-fit: cover;
+    filter: grayscale(20%) contrast(110%) sepia(10%);
+    transition: all 0.4s ease;
+    cursor: pointer;
+    border: 1px solid var(--border);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.user-photo:hover {
+    filter: grayscale(0%) contrast(120%) sepia(0%);
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(212, 165, 116, 0.2);
+    border-color: var(--gold);
+}
+
+.header-text {
+    flex: 1;
+    max-width: 500px;
+}
+
+.header-text h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    letter-spacing: -1px;
+    line-height: 1.1;
+    color: var(--text-primary);
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header-text p {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Заголовки */
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    font-family: 'Playfair Display', serif;
+    color: var(--text-primary);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    color: var(--gold);
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.7;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Блоки с контентом */
+.content-with-image {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 3rem;
+    max-width: 1000px;
+    background: rgba(26, 18, 11, 0.7);
+    padding: 3rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.content-with-image:hover {
+    border-color: var(--gold);
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(212, 165, 116, 0.15);
+}
+
+.content-text {
+    flex: 1;
+    text-align: left;
+}
+
+.content-text h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.5px;
+    font-family: 'Playfair Display', serif;
+}
+
+.content-text p {
+    margin: 0;
+    margin-bottom: 2rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+}
+
+.content-image {
+    flex: 1;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.content-image:hover {
+    border-color: var(--gold);
+}
+
+.content-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    filter: grayscale(20%) contrast(110%) sepia(10%);
+    transition: all 0.4s ease;
+}
+
+.content-image img:hover {
+    filter: grayscale(0%) contrast(120%) sepia(0%);
+    transform: scale(1.03);
+}
+
+/* Кнопка */
+.add-photo-btn {
+    background: transparent;
+    color: var(--gold);
+    border: 1px solid var(--gold);
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    font-family: 'Playfair Display', serif;
+}
+
+.add-photo-btn:hover {
+    background: var(--gold);
+    color: var(--bg-dark);
+    border-color: var(--gold);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(212, 165, 116, 0.3);
+}
+
+/* Модальное окно */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 10, 10, 0.98) !important;
+    backdrop-filter: blur(20px);
+}
+
+.close-modal {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    color: var(--gold);
+    font-size: 2.5rem;
+    font-weight: 300;
+    cursor: pointer;
+    z-index: 2001;
+    transition: all 0.3s ease;
+    font-family: 'Playfair Display', serif;
+}
+
+.close-modal:hover {
+    color: var(--text-primary);
+    transform: scale(1.1);
+}
+
+#modal-photo {
+    max-width: 90%;
+    max-height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    border: 1px solid var(--gold);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+}
+
+/* Анимации */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeInUp 0.8s ease forwards;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
+
+    .fullscreen-section {
+        padding: 0 1.5rem;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .header-with-photo {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .user-photo {
+        width: 300px;
+        height: 400px;
+    }
+
+    .header-text h1 {
+        font-size: 2.2rem;
+    }
+
+    .content-with-image {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .content-image img {
+        height: 300px;
+    }
+}
+
+
+#run .content-image img {
+    object-position: center 75%;
+}
+
+
+/* ===== НАСТРОЙКА ФОТО МОЛИТВЫ ===== */
+#prayer .content-image img {
+    object-position: center 25%;
+}
+
+/* Для мобильных устройств */
+@media (max-width: 768px) {
+    #prayer .content-image img {
+        object-position: center 20%;
+    }
+}
+
+/* Шахматные стили */
+.chess-stats-preview {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.chess-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--gold);
+    font-size: 2rem;
+}
+
+.back-link {
+    color: var(--gold);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.back-link:hover {
+    background: var(--gold);
+    color: var(--bg-dark);
+    border-color: var(--gold);
+}
+
+@keyframes slideIn {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+/* Убираем черный фон у body для run-diary.html */
+body {
+    background: transparent !important;
+}
+
+.diary-page {
+    padding-top: 100px;
+    min-height: 100vh;
+}
+
+.diary-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2rem 4rem;
+}
+
+/* Стили для кликабельной секции */
+.clickable-section {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.clickable-section:hover {
+    transform: translateY(-5px);
+}
+
+.click-hint {
+    color: #666;
+    font-style: italic;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Модальное окно выбора молитв */
+.prayer-modal {
+    max-width: 500px;
+    text-align: center;
+}
+
+.prayer-options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.prayer-option {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid #e8e8e8;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.prayer-option:hover {
+    border-color: #3498db;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.prayer-option h3 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.prayer-option p {
+    color: #666;
+    margin: 0;
+}
+
+.close-btn {
+    background: #95a5a6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.close-btn:hover {
+    background: #7f8c8d;
+}
+
+
+/* Стили для модального окна с фото */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 10, 10, 0.98) !important;
+    backdrop-filter: blur(20px);
+}
+
+.close-modal {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    color: var(--gold);
+    font-size: 2.5rem;
+    font-weight: 300;
+    cursor: pointer;
+    z-index: 2001;
+    transition: all 0.3s ease;
+    font-family: 'Playfair Display', serif;
+}
+
+.close-modal:hover {
+    color: var(--text-primary);
+    transform: scale(1.1);
+}
+
+.modal-photo {
+    max-width: 90%;
+    max-height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    border: 1px solid var(--gold);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+    object-fit: contain;
+    background: transparent;
+}
+
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 10, 10, 0.95);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-modal {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: var(--gold);
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.modal-photo {
+    max-width: 90%;
+    max-height: 90vh;
+    border-radius: 8px;
+    border: 2px solid var(--gold);
+}
+

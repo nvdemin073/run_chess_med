@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дневник молитв - Баланс Тела и Разума</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">Главная</a>
+        <a href="index.html#run">Бег</a>
+        <a href="index.html#chess">Шахматы</a>
+        <a href="index.html#prayer">Медитация</a>
+    </nav>
+
+    <section class="fullscreen-section">
+        <div class="content">
+            <h1>Дневник молитв</h1>
+            
+            <div class="prayer-diary-page">
+                <div class="diary-filters">
+                    <button onclick="filterPrayers('all')" class="active">Все</button>
+                    <button onclick="filterPrayers('утренняя')">Утренние</button>
+                    <button onclick="filterPrayers('вечерняя')">Вечерние</button>
+                    <button onclick="filterPrayers('благодарность')">Благодарность</button>
+                    <button onclick="filterPrayers('просьба')">Просьба</button>
+                </div>
+                
+                <div id="prayerList" class="prayer-entries"></div>
+                
+                <a href="prayer-add.html" class="back-link">Добавить новую молитву →</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="prayer-diary.js"></script>
+</body>
+</html>
