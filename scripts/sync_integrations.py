@@ -2,7 +2,7 @@
 import json
 import os
 import sys
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.error import HTTPError
 from urllib.parse import urlencode
@@ -60,38 +60,43 @@ def sync_garmin(key):
         print('::add-mask::' + token)
     today = datetime.now(ZoneInfo('Europe/Moscow')).date()
     month_start = today.replace(day=1)
-    # Search in bounded date windows; include previous month for recent runs.
-    start = (month_start - timedelta(days=1)).replace(day=1)
+    # No date bounds: traverse every page of the account's running history.
     runs = []
     seen = set()
-    while start <= today:
-        end = min(start + timedelta(days=29), today)
-        offset = 0
-        for page in range(100):
-            query = urlencode({'start': offset, 'limit': 100, 'startDate': str(start), 'endDate': str(end), 'activityType': 'running'})
-            batch = request(GARMIN + '/activitylist-service/activities/search/activities?' + query,
-                            {'Authorization': 'Bearer ' + token})
-            if not isinstance(batch, list):
-                raise ValueError('Unexpected activities response')
-            for activity in batch:
-                ident = activity.get('activityId')
-                if ident is None or ident in seen:
-                    continue
-                seen.add(ident)
-                run = public_run(activity)
-                if run:
-                    runs.append(run)
-            if len(batch) < 100:
-                break
-            offset += len(batch)
-        else:
-            raise ValueError('Activity pagination limit reached')
-        start = end + timedelta(days=1)
-    runs.sort(key=lambda r: r['date'], reverse=True)
+    offset = 0
+    for page in range(10000):
+        query = urlencode({'start': offset, 'limit': 100, 'activityType': 'running'})
+        batch = request(GARMIN + '/activitylist-service/activities/search/activities?' + query,
+                        {'Authorization': 'Bearer ' + token})
+        if not isinstance(batch, list):
+            raise ValueError('Unexpected activities response')
+        if not batch:
+            break
+        new_ids = 0
+        for activity in batch:
+            ident = activity.get('activityId')
+            if not isinstance(ident, int) or ident <= 0:
+                raise ValueError('Activity without valid ID')
+            if ident in seen:
+                continue
+            seen.add(ident)
+            new_ids += 1
+            run = public_run(activity)
+            if run:
+                runs.append(run)
+        if not new_ids:
+            raise ValueError('Activities pagination returned the same page')
+        # Advance by the returned size, even if Garmin caps pages below our limit.
+        offset += len(batch)
+    else:
+        raise ValueError('Activity pagination did not terminate')
+    runs.sort(key=lambda r: (r['date'], r.get('garminActivityId', 0)), reverse=True)
     month_runs = [r for r in runs if r['date'] >= str(month_start)]
     return {'updatedAt': datetime.now(timezone.utc).isoformat(), 'month': today.strftime('%Y-%m'),
             'monthRuns': len(month_runs), 'monthDistanceKm': round(sum(r['distanceKm'] for r in month_runs), 2),
-            'recentRuns': runs[:30]}
+            'recentRuns': runs[:30], 'runs': runs, 'historyComplete': True,
+            'historyStart': runs[-1]['date'] if runs else None,
+            'totalRuns': len(runs), 'totalDistanceKm': round(sum(r['distanceKm'] for r in runs), 2)}
 
 def main():
     payload = json.loads(OUTPUT.read_text()) if OUTPUT.exists() else {'version': 1}
