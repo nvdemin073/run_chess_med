@@ -105,7 +105,7 @@
             if (window.Chessboard && window.Chess) {
                 position = new Chess();
                 board = Chessboard('chessboard', {position: 'start', draggable: false,
-                    pieceTheme: 'https://cdnjs.cloudflare.com/ajax/libs/chessboard-js/1.0.0/img/chesspieces/wikipedia/{piece}.png'});
+                    pieceTheme: 'images/chesspieces/{piece}.png'});
                 window.addEventListener('resize', () => board.resize());
             }
         } catch (_) { set('game-evaluation', 'Доска временно недоступна'); }
