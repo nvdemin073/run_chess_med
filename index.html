@@ -6,6 +6,14 @@
     <title>Николай - Баланс Тела и Разума</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <style>
+    .cooking-section { height: auto; min-height: 100vh; padding-top: 7rem; padding-bottom: 4rem; }
+    .cooking-menu { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; margin-bottom: 2rem; }
+    .cooking-menu ul { padding-left: 1.3rem; margin-top: .75rem; color: var(--text-secondary); }
+    .cooking-menu li { margin-bottom: .5rem; }
+    .content-text .camp-note { padding-top: 1.5rem; border-top: 1px solid var(--border); font-size: 1rem; margin-bottom: 0; }
+    @media (max-width: 600px) { .cooking-menu { grid-template-columns: 1fr; } }
+    </style>
 </head>
 <body>
     <!-- Ссылка на Telegram в левом верхнем углу -->
@@ -20,7 +28,7 @@
         <a href="#home">Главная</a>
         <a href="#run">Бег</a>
         <a href="#chess">Шахматы</a>
-        <a href="#prayer">Медитация</a>
+        <a href="#cooking">Готовим сами</a>
     </nav>
 
     <section id="home" class="fullscreen-section">
@@ -29,7 +37,7 @@
                 <img src="./images/my-photo.jpg" alt="Мое фото" class="user-photo" onclick="openPhotoModal()">
                 <div class="header-text">
                     <h1>Привет, я Николай</h1>
-                    <p>Бегун, шахматист и ищущий человек. Через движение, стратегию и духовность я нахожу баланс в жизни.</p>
+                    <p>Бегаю, играю в шахматы и люблю готовить. Моя цель — организовать детский лагерь летом 2027 года: движение, логика и умение накормить себя и близких.</p>
                 </div>
             </div>
         </div>
@@ -85,18 +93,19 @@
         </div>
     </section>
 
-    <section id="prayer" class="fullscreen-section clickable-section" onclick="openPrayerMenu()">
+    <section id="cooking" class="fullscreen-section cooking-section">
         <div class="content">
-            <h1>Медитация</h1>
-            <p>Духовный путь и размышления</p>
-            
+            <h1>Готовим сами</h1>
+            <p>Просто, вкусно, по-домашнему — для детей и мужиков.</p>
             <div class="content-with-image fade-in">
                 <div class="content-text">
-                    <h2>Внутренняя гармония</h2>
-                    <p>Молитва как способ обретения внутреннего покоя и связи с высшими силами. Здесь я делюсь своими духовными insights и размышлениями.</p>
-                </div>
-                <div class="content-image">
-                    <img src="./images/prayer-photo.jpg" alt="Молитва" loading="lazy">
+                    <h2>Накормить себя и близких</h2>
+                    <p>Готовка — навык, который пригодится в любой семье. Начнём с любимых простых блюд и постепенно перейдём к тем, что требуют чуть больше времени.</p>
+                    <div class="cooking-menu">
+                        <div><h3>Начинаем с простого</h3><ul><li>Блины</li><li>Карбонара</li><li>Жареная картошка</li></ul></div>
+                        <div><h3>Пробуем посложнее</h3><ul><li>Лазанья</li><li>Мясо по-французски</li><li>Жаркое в горшочках</li></ul></div>
+                    </div>
+                    <p class="camp-note">Лето 2027 · Идея будущего детского лагеря: бег и физкультура, шахматы, кулинария. Учимся двигаться, думать и заботиться о себе и близких.</p>
                 </div>
             </div>
         </div>
@@ -106,25 +115,6 @@
     <div id="photoModal" class="modal" style="display: none;">
         <span class="close-modal" onclick="closePhotoModal()">&times;</span>
         <img id="modalPhoto" src="" alt="Увеличенное фото" class="modal-photo">
-    </div>
-
-    <!-- Модальное окно выбора молитв -->
-    <div id="prayer-modal" class="modal" style="display: none;">
-        <div class="modal-content prayer-modal">
-            <span class="close-modal" onclick="closePrayerModal()">&times;</span>
-            <h2>Молитвы и медитации</h2>
-            <div class="prayer-options">
-                <div class="prayer-option" onclick="location.href='prayer-add.html'">
-                    <h3>➕ Добавить молитву</h3>
-                    <p>Записать новую молитву или размышление</p>
-                </div>
-                <div class="prayer-option" onclick="location.href='prayer-diary.html'">
-                    <h3>📖 Дневник молитв</h3>
-                    <p>Посмотреть историю ваших молитв</p>
-                </div>
-            </div>
-            <button class="close-btn" onclick="closePrayerModal()">Закрыть</button>
-        </div>
     </div>
 
     <style>
@@ -162,87 +152,7 @@
     }
     </style>
 
-    <script>
-    // Функция открытия модального окна с фото
-    function openPhotoModal() {
-        console.log('Фото кликнуто!');
-        const modal = document.getElementById('photoModal');
-        const modalImg = document.getElementById('modalPhoto');
-        const userPhoto = document.querySelector('img[src="./images/my-photo.jpg"]');
-        
-        if (modal && modalImg && userPhoto) {
-            modalImg.src = userPhoto.src;
-            modal.style.display = 'block';
-            document.body.style.overflow = 'hidden';
-            console.log('Модальное окно открыто!');
-        }
-    }
-
-    // Функция закрытия модального окна
-    function closePhotoModal() {
-        const modal = document.getElementById('photoModal');
-        if (modal) {
-            modal.style.display = 'none';
-            document.body.style.overflow = 'auto';
-        }
-    }
-
-    // Открытие модального окна молитв
-    function openPrayerMenu() {
-        const modal = document.getElementById('prayer-modal');
-        if (modal) {
-            modal.style.display = 'block';
-            document.body.style.overflow = 'hidden';
-        }
-    }
-
-    // Закрытие модального окна молитв
-    function closePrayerModal() {
-        const modal = document.getElementById('prayer-modal');
-        if (modal) {
-            modal.style.display = 'none';
-            document.body.style.overflow = 'auto';
-        }
-    }
-
-    // Функция для бегового дневника
-    function openRunDiary() {
-        alert('Беговой дневник будет добавлен позже');
-    }
-
-    // Закрытие по клику вне фото
-    document.addEventListener('click', function(event) {
-        const photoModal = document.getElementById('photoModal');
-        const prayerModal = document.getElementById('prayer-modal');
-        
-        if (photoModal && photoModal.style.display === 'block' && event.target === photoModal) {
-            closePhotoModal();
-        }
-        
-        if (prayerModal && prayerModal.style.display === 'block' && event.target === prayerModal) {
-            closePrayerModal();
-        }
-    });
-
-    // Закрытие по клавише ESC
-    document.addEventListener('keydown', function(event) {
-        const photoModal = document.getElementById('photoModal');
-        const prayerModal = document.getElementById('prayer-modal');
-        
-        if (event.key === 'Escape') {
-            if (photoModal && photoModal.style.display === 'block') {
-                closePhotoModal();
-            }
-            if (prayerModal && prayerModal.style.display === 'block') {
-                closePrayerModal();
-            }
-        }
-    });
-
-    console.log('Скрипт модального окна загружен!');
-    </script>
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
     <script src="user-data.js"></script>
     <script src="main-page-chess.js"></script>
 
