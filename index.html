@@ -1,197 +1,80 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Николай - Баланс Тела и Разума</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <style>
-    .cooking-section { height: auto; min-height: 100vh; padding-top: 7rem; padding-bottom: 4rem; }
-    .cooking-menu { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; margin-bottom: 2rem; }
-    .cooking-menu ul { padding-left: 1.3rem; margin-top: .75rem; color: var(--text-secondary); }
-    .cooking-menu li { margin-bottom: .5rem; }
-    .content-text .camp-note { padding-top: 1.5rem; border-top: 1px solid var(--border); font-size: 1rem; margin-bottom: 0; }
-    @media (max-width: 600px) { .cooking-menu { grid-template-columns: 1fr; } }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#142019">
+  <meta name="description" content="Николай. Бег, шахматы и простая домашняя кулинария. Личный путь и идея детского лагеря летом 2027 года.">
+  <title>Николай — Двигаемся. Думаем. Готовим сами.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <!-- Ссылка на Telegram в левом верхнем углу -->
-<a href="https://t.me/run_and_breathe" class="telegram-link" target="_blank">
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.191c-.174.761-1.032 4.312-1.455 5.744-.256.863-.637 1.152-1.119 1.179-.899.051-1.584-.594-2.455-1.165-1.365-.897-2.137-1.455-3.463-2.333-.767-.512-.275-.793.171-1.253.117-.119 2.147-1.967 2.187-2.135.005-.022.009-.101-.04-.143-.05-.041-.122-.027-.175-.016-.074.017-1.254.796-3.54 2.336-.335.228-.64.339-.914.333-.767-.02-1.12-.233-1.559-.447-.626-.306-1.124-.467-1.081-.987.022-.256.288-.518.791-.784 3.1-1.479 5.17-2.451 6.208-2.915 2.878-1.297 3.478-1.525 3.869-1.515.9.023 1.449.396 1.338 1.252z"/>
-    </svg>
-    Мой Telegram
-</a>
-
-    <nav class="navbar">
-        <a href="#home">Главная</a>
-        <a href="#run">Бег</a>
-        <a href="#chess">Шахматы</a>
-        <a href="#cooking">Готовим сами</a>
-    </nav>
-
-    <section id="home" class="fullscreen-section">
-        <div class="content">
-            <div class="header-with-photo">
-                <img src="./images/my-photo.jpg" alt="Мое фото" class="user-photo" onclick="openPhotoModal()">
-                <div class="header-text">
-                    <h1>Привет, я Николай</h1>
-                    <p>Бегаю, играю в шахматы и люблю готовить. Моя цель — организовать детский лагерь летом 2027 года: движение, логика и умение накормить себя и близких.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="run" class="fullscreen-section">
-        <div class="content">
-            <h1>Бег</h1>
-            <p>Мои тренировки и достижения</p>
-            
-            <div class="content-with-image fade-in">
-                <div class="content-text">
-                    <h2>Преодолевая дистанции</h2>
-                    <p>Регулярные тренировки и участие в забегах. Бег для меня - это медитация в движении и способ поддерживать физическую форму.</p>
-                    <button class="add-photo-btn" onclick="openRunDiary()">Мой беговой дневник →</button>
-                </div>
-                <div class="content-image">
-                    <img src="./images/run-photo.jpg" alt="Пробежка" loading="lazy">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="chess" class="fullscreen-section">
-        <div class="content">
-            <h1>Шахматы</h1>
-            <p>Стратегии, партии и анализ</p>
-            
-            <div class="content-with-image fade-in">
-                <div class="content-text">
-                    <h2>Игра королей</h2>
-                    <p>Анализ сыгранных партий, изучение дебютов и тактических приемов. Шахматы учат мыслить стратегически и принимать взвешенные решения.</p>
-                    
-                    <!-- Краткая статистика -->
-                    <div class="chess-stats-preview">
-                        <div class="stat-card">
-                            <h3>Рейтинг Rapid</h3>
-                            <span class="stat-number" id="preview-chess-rating">-</span>
-                        </div>
-                        <div class="stat-card">
-                            <h3>Всего партий</h3>
-                            <span class="stat-number" id="preview-total-games">0</span>
-                        </div>
-                    </div>
-
-                    <!-- Кнопка перехода в шахматный анализатор -->
-                    <a href="chess-analyzer.html" class="add-photo-btn">Открыть шахматный анализатор →</a>
-                </div>
-                <div class="content-image">
-                    <img src="./images/chess-photo.jpg" alt="Шахматы" loading="lazy">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="cooking" class="fullscreen-section cooking-section">
-        <div class="content">
-            <h1>Готовим сами</h1>
-            <p>Просто, вкусно, по-домашнему — для детей и мужиков.</p>
-            <div class="content-with-image fade-in">
-                <div class="content-text">
-                    <h2>Накормить себя и близких</h2>
-                    <p>Готовка — навык, который пригодится в любой семье. Начнём с любимых простых блюд и постепенно перейдём к тем, что требуют чуть больше времени.</p>
-                    <div class="cooking-menu">
-                        <div><h3>Начинаем с простого</h3><ul><li>Блины</li><li>Карбонара</li><li>Жареная картошка</li></ul></div>
-                        <div><h3>Пробуем посложнее</h3><ul><li>Лазанья</li><li>Мясо по-французски</li><li>Жаркое в горшочках</li></ul></div>
-                    </div>
-                    <p class="camp-note">Лето 2027 · Идея будущего детского лагеря: бег и физкультура, шахматы, кулинария. Учимся двигаться, думать и заботиться о себе и близких.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Модальное окно для фото -->
-    <div id="photoModal" class="modal" style="display: none;">
-        <span class="close-modal" onclick="closePhotoModal()">&times;</span>
-        <img id="modalPhoto" src="" alt="Увеличенное фото" class="modal-photo">
+<body class="home-page">
+  <a class="skip-link" href="#main">К содержимому</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="Николай — на главную"><span class="brand-symbol" aria-hidden="true">✳</span><span>Николай<small>Беги и Дыши</small></span></a>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a href="#run">Бег</a><a href="#chess">Шахматы</a><a href="#cooking">Готовим сами</a><a href="#camp">Лагерь 2027</a>
+      </nav>
+      <a class="header-social" href="https://t.me/run_and_breathe" target="_blank" rel="noopener noreferrer">Мой канал <span aria-hidden="true">↗</span></a>
     </div>
-
-    <style>
-    .telegram-link {
-        position: fixed;
-        top: 20px;
-        left: 20px;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        color: var(--gold);
-        text-decoration: none;
-        font-family: 'Playfair Display', serif;
-        font-size: 0.9rem;
-        font-weight: 500;
-        padding: 8px 16px;
-        border: 1px solid var(--gold);
-        border-radius: 4px;
-        background: rgba(26, 18, 11, 0.8);
-        backdrop-filter: blur(10px);
-        z-index: 1001;
-        transition: all 0.3s ease;
-    }
-
-    .telegram-link:hover {
-        background: var(--gold);
-        color: var(--bg-dark);
-        transform: translateY(-2px);
-        box-shadow: 0 5px 15px rgba(212, 165, 116, 0.3);
-    }
-
-    .telegram-link svg {
-        width: 18px;
-        height: 18px;
-    }
-    </style>
-
-<script src="script.js"></script>
-    <script src="user-data.js"></script>
-    <script src="main-page-chess.js"></script>
-
-<style>
-.telegram-link {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    left: auto;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    color: #ffffff;
-    text-decoration: none;
-    font-family: 'Playfair Display', serif;
-    font-size: 0.9rem;
-    font-weight: 500;
-    padding: 8px 16px;
-    border: 1px solid #0f4d75;
-    border-radius: 4px;
-    background: rgba(15, 77, 117, 0.9);
-    backdrop-filter: blur(10px);
-    z-index: 1001;
-    transition: all 0.3s ease;
-}
-
-.telegram-link:hover {
-    background: #0a3a5a;
-    border-color: #0a3a5a;
-    color: #ffffff;
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(15, 77, 117, 0.4);
-}
-
-.telegram-link svg {
-    width: 18px;
-    height: 18px;
-    fill: #ffffff;
-}
-</style>
+  </header>
+  <main id="main">
+    <section id="home" class="hero page-shell">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> Личный проект Николая</p>
+        <h1>Быть в движении.<br><em>Быть собой.</em></h1>
+        <p class="hero-lead">В беге я чувствую жизнь. В шахматах нахожу ясность. В готовке — простой способ позаботиться о близких.</p>
+        <p class="hero-note">Здесь собираю то, что люблю, и делаю шаг к своей мечте — детскому лагерю летом 2027 года.</p>
+        <div class="hero-actions"><a class="button button-gold" href="#directions">Три направления <span aria-hidden="true">↘</span></a><a class="text-link" href="#camp">Моя идея лагеря <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-signature"><span class="signature-line" aria-hidden="true"></span><p>Двигаться. Думать. Заботиться.<small>Навыки, которые остаются с нами.</small></p></div>
+      </div>
+      <figure class="hero-photo">
+        <button type="button" class="photo-open" data-photo="images/my-photo.jpg" aria-label="Увеличить фотографию Николая среди скал"><img src="images/my-photo.jpg" alt="Николай среди скал, с открытыми навстречу миру руками" width="960" height="1280" fetchpriority="high"></button>
+        <figcaption><span>Чувствовать себя частью большого мира</span><span aria-hidden="true">↗</span></figcaption>
+      </figure>
+      <div class="hero-bottom"><span>Тело · Мысль · Забота</span><a href="#directions">Листай, познакомимся ближе <span aria-hidden="true">↓</span></a></div>
+    </section>
+    <section id="directions" class="directions-strip page-shell" aria-label="Три направления проекта">
+      <a href="#run"><span class="direction-number">01</span><div><h2>Двигаться</h2><p>Бег и физкультура</p></div><span class="strip-arrow" aria-hidden="true">↗</span></a>
+      <a href="#chess"><span class="direction-number">02</span><div><h2>Думать</h2><p>Шахматы и стратегия</p></div><span class="strip-arrow" aria-hidden="true">↗</span></a>
+      <a href="#cooking"><span class="direction-number">03</span><div><h2>Заботиться</h2><p>Готовим сами</p></div><span class="strip-arrow" aria-hidden="true">↗</span></a>
+    </section>
+    <section id="run" class="story-section page-shell">
+      <div class="section-heading"><p class="eyebrow">01 / Тело</p><p class="section-aside">Почувствовать силу своего тела</p></div>
+      <div class="story-grid">
+        <figure class="story-photo run-photo"><img src="images/run-race-2026.jpg" alt="Николай в жёлтой футболке на забеге, номер 17201" width="640" height="640" loading="lazy"><figcaption><span class="photo-dot" aria-hidden="true"></span> Мой бег. Мой ритм.</figcaption></figure>
+        <div class="story-copy"><p class="overline">Бег и физкультура</p><h2>Когда бегу —<br><em>чувствую, что живу.</em></h2><p>Воздух, трава, небо и каждый шаг. Бег помогает мне почувствовать связь с миром и вернуться к себе.</p><p>Бегаю с 2015 года. Для меня это здоровье, дисциплина и радость движения, которой хочется делиться.</p><div class="value-line"><span>С 2015</span><p>Бег — часть моей жизни</p></div><div class="small-principle"><span aria-hidden="true">↗</span><p>В будущем лагере — движение, координация и удовольствие от того, что умеет твоё тело.</p></div></div>
+      </div>
+    </section>
+    <section id="chess" class="chess-section">
+      <div class="page-shell story-section">
+        <div class="section-heading"><p class="eyebrow">02 / Мысль</p><p class="section-aside">Увидеть больше одного хода</p></div>
+        <div class="story-grid chess-grid">
+          <div class="story-copy"><p class="overline">Шахматы</p><h2>Спокойствие.<br><em>И свой следующий ход.</em></h2><p>Мне нравится, как шахматы учат замечать возможности. Остановиться, посмотреть на всю доску и принять решение.</p><p>Здесь — мои партии и шахматная статистика. А в идее лагеря — логика, внимание и умение думать наперёд.</p><div class="chess-stats-preview"><div><span class="stat-number" id="preview-chess-rating">—</span><span class="stat-label">Рейтинг Rapid</span></div><div><span class="stat-number" id="preview-total-games">—</span><span class="stat-label">Сохранённые партии</span></div></div><a class="button button-outline" href="chess-analyzer.html">Мои партии <span aria-hidden="true">↗</span></a></div>
+          <figure class="story-photo chess-photo"><img src="images/chess-photo.jpg" alt="Шахматы — логика, внимание и стратегия" loading="lazy"><figcaption>У каждой позиции есть продолжение.</figcaption></figure>
+        </div>
+      </div>
+    </section>
+    <section id="cooking" class="cooking-section">
+      <div class="page-shell story-section">
+        <div class="section-heading"><p class="eyebrow">03 / Забота</p><p class="section-aside">Просто, вкусно, по-домашнему</p></div>
+        <div class="story-grid cooking-grid">
+          <figure class="story-photo cooking-photo"><img src="images/cooking-blini.webp" alt="Иллюстрация: золотистые домашние блины со сметаной и ягодами на деревянном столе" width="1200" height="800" loading="lazy"><figcaption>Домашние блины · Иллюстрация к разделу</figcaption></figure>
+          <div class="story-copy"><p class="overline">Готовим сами</p><h2>Уметь накормить.<br><em>Себя и тех, кто рядом.</em></h2><p>Простая и вкусная кулинария для детей и мужиков. Сделать блины, собрать пасту, позвать близких к столу — в этом много тепла.</p><p>Хочу передать детям навык, который пригодится в любой семье: уверенно приготовить еду своими руками.</p><div class="cooking-menu"><div><h3>Начинаем с простого</h3><ul><li>Блины</li><li>Карбонара</li><li>Жареная картошка</li></ul></div><div><h3>Пробуем посложнее</h3><ul><li>Лазанья</li><li>Мясо по-французски</li><li>Жаркое в горшочках</li></ul></div></div></div>
+        </div>
+      </div>
+    </section>
+    <section id="camp" class="camp-section page-shell">
+      <div class="camp-panel"><div class="camp-intro"><p class="eyebrow">Большая идея / Лето 2027</p><h2>Лето, в котором<br><em>становишься самостоятельнее.</em></h2><p>Моя цель — организовать детский лагерь, где можно двигаться, думать и учиться заботиться о себе и близких.</p><span class="status-tag"><span class="live-dot" aria-hidden="true"></span> Проект в разработке</span></div><div class="camp-values"><div><span>01</span><p><strong>Тело</strong>Бег и физкультура</p></div><div><span>02</span><p><strong>Мысль</strong>Шахматы и стратегия</p></div><div><span>03</span><p><strong>Забота</strong>Готовка своими руками</p></div></div><div class="camp-bottom"><p>Программа, место и даты ещё формируются.<br>Пока делюсь своим путём и развиваю эту идею.</p><a class="button button-gold" href="https://t.me/run_and_breathe" target="_blank" rel="noopener noreferrer">Следить в Telegram <span aria-hidden="true">↗</span></a></div></div>
+    </section>
+  </main>
+  <footer class="site-footer page-shell"><a class="brand" href="#home"><span class="brand-symbol" aria-hidden="true">✳</span><span>Николай<small>Беги и Дыши</small></span></a><p>Двигаемся. Думаем. Готовим сами.</p><a class="text-link" href="#home">Наверх ↑</a></footer>
+  <dialog id="photoModal" class="photo-dialog" aria-label="Фотография крупным планом"><button class="close-modal" type="button" aria-label="Закрыть фотографию">×</button><img id="modalPhoto" alt=""></dialog>
+  <script src="script.js"></script>
+  <script src="main-page-chess.js"></script>
 </body>
 </html>

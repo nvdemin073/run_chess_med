@@ -1,53 +1,41 @@
-// Общие действия главной страницы.
-function openPhotoModal() {
-    const modal = document.getElementById('photoModal');
-    const photo = document.querySelector('.user-photo');
-    const enlarged = document.getElementById('modalPhoto');
-    if (!modal || !photo || !enlarged) return;
-    enlarged.src = photo.src;
-    enlarged.alt = photo.alt;
-    modal.style.display = 'block';
-    document.body.style.overflow = 'hidden';
-}
-
+const photoDialog = document.getElementById('photoModal');
+let previousPhotoFocus = null;
 function closePhotoModal() {
-    const modal = document.getElementById('photoModal');
-    if (!modal) return;
-    modal.style.display = 'none';
+    if (!photoDialog?.open) return;
+    photoDialog.close();
+}
+document.querySelectorAll('[data-photo]').forEach(button => {
+    button.addEventListener('click', () => {
+        const image = document.getElementById('modalPhoto');
+        if (!image || !photoDialog) return;
+        previousPhotoFocus = button;
+        image.src = button.dataset.photo;
+        image.alt = button.querySelector('img')?.alt || 'Фотография';
+        photoDialog.showModal();
+        document.body.style.overflow = 'hidden';
+    });
+});
+photoDialog?.querySelector('.close-modal')?.addEventListener('click', closePhotoModal);
+photoDialog?.addEventListener('click', event => {
+    if (event.target === photoDialog) closePhotoModal();
+});
+photoDialog?.addEventListener('close', () => {
     document.body.style.overflow = '';
-}
-
-document.addEventListener('click', function(event) {
-    if (event.target === document.getElementById('photoModal')) closePhotoModal();
-});
-document.addEventListener('keydown', function(event) {
-    if (event.key === 'Escape') closePhotoModal();
+    previousPhotoFocus?.focus();
 });
 
+// Навигация остаётся доступной без JavaScript; CSS учитывает reduced motion.
 if ('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver(function(entries) {
-        entries.forEach(function(entry) {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('fade-in');
-                observer.unobserve(entry.target);
-            }
+    const links = [...document.querySelectorAll('.main-nav a')];
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) return;
+            links.forEach(link => {
+                const active = link.getAttribute('href') === '#' + entry.target.id;
+                if (active) link.setAttribute('aria-current', 'location');
+                else link.removeAttribute('aria-current');
+            });
         });
-    }, { threshold: 0.1 });
-    document.querySelectorAll('.content-with-image').forEach(function(element) {
-        observer.observe(element);
-    });
-}
-
-document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
-    anchor.addEventListener('click', function(event) {
-        const id = anchor.getAttribute('href').slice(1);
-        const target = document.getElementById(id);
-        if (!target) return;
-        event.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
-});
-
-function openRunDiary() {
-    alert('Беговой дневник будет добавлен позже');
+    }, { rootMargin: '-20% 0px -50% 0px' });
+    document.querySelectorAll('main > section[id]').forEach(section => observer.observe(section));
 }
