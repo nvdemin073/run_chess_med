@@ -50,3 +50,22 @@
 @media(max-width:420px){.sports-page .sport-filter{gap:8px}.sports-page .sport-filter select{padding-left:9px;padding-right:23px;font-size:13px;flex:1 1 100px}.sports-page .sport-filter label{flex:0 0 auto}.sports-page #runs-time{font-size:22px}}
 
 .sports-page .distance-chart line{stroke:var(--border)}
+
+@media(max-width:760px){
+ .activity-page .activity-shell{width:calc(100% - 32px)}
+ .activity-page .activity-header .activity-shell{gap:14px;min-height:66px}
+ .activity-page .activity-header a{min-height:44px;display:flex;align-items:center}
+ .activity-page .button{min-height:44px}.activity-page .move-button{min-height:44px;min-width:40px}
+ .activity-page .review-top{align-items:flex-start;flex-wrap:wrap;gap:16px}.activity-page .board-controls{gap:7px}.activity-page .board-controls .button{flex:1 1 auto;justify-content:center}
+ .activity-page .activity-panel,.activity-page .metrics-grid,.activity-page .metric{min-width:0}
+ .activity-page .data-table{font-size:14px}.activity-page .data-table th{font-size:12px}
+ .activity-page .games-list{max-height:none}.activity-page .game-item strong{overflow-wrap:anywhere}
+ .sports-page .sport-filter select{min-height:44px}.sports-page .training-open{height:44px;width:44px}
+}
+@media(max-width:760px){
+ .sports-page .source-badge{display:none}
+ .sports-page .sport-filter{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%;gap:8px}
+ .sports-page .sport-filter label{grid-column:1/-1}
+ .sports-page .sport-filter select{width:100%;min-width:0;padding-right:26px}
+}
+@media(max-width:360px){.activity-page .activity-intro h1{font-size:30px}}

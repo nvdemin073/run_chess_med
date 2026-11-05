@@ -164,3 +164,43 @@
 @media(min-width:601px) and (max-width:1000px){.touches-feature{padding:22px}.home-page .touches-feature h2{font-size:25px}.touches-portrait{width:115px;height:115px}.touches-entry{gap:18px}.touches-invitation{font-size:16px}.touches-description{font-size:16px}.touches-link{font-size:14px}}
 @media(max-width:600px){.touches-feature{padding:24px 21px;margin-top:25px}.home-page .touches-feature h2{font-size:27px}.touches-description{font-size:17px}.touches-portrait{width:140px;height:140px}.touches-entry{gap:20px}.touches-invitation{font-size:17px}.touches-link{font-size:14px}}
 @media(max-width:380px){.touches-portrait{width:120px;height:120px}.touches-entry{gap:17px}.touches-invitation{font-size:16px}.home-page .touches-feature h2{font-size:25px}}
+
+/* Automatic phone layout. Desktop remains the default above this breakpoint. */
+.mobile-menu,.mobile-hero-photo{display:none}
+@media(max-width:760px){
+ html{scroll-padding-top:140px}
+ body.home-page{padding-right:0}
+ .home-page .header-inner{width:calc(100% - 32px);gap:8px 12px;padding-top:12px;min-height:0;flex-wrap:wrap}
+ .home-page .brand{font-size:20px}.home-page .brand-symbol{font-size:35px}.home-page .brand small{font-size:10px}
+ .home-page .header-social{margin-left:auto;font-size:13px;padding:9px 13px;min-height:44px;display:flex;align-items:center}
+ .home-page .main-nav{display:none}
+ .mobile-menu{display:block;order:3;width:100%;border-top:1px solid var(--border)}
+ .mobile-menu summary{display:flex;align-items:center;justify-content:space-between;list-style:none;cursor:pointer;padding:11px 0;min-height:44px;color:var(--text-primary);font-size:14px}
+ .mobile-menu summary::-webkit-details-marker{display:none}.mobile-menu summary>span{font-size:21px;color:var(--gold);transition:transform .2s}.mobile-menu[open] summary>span{transform:rotate(180deg)}
+ .mobile-menu nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px 8px;padding-bottom:12px;max-height:45dvh;overflow:auto}
+ .mobile-menu nav a{display:grid;place-items:center;min-height:44px;border-radius:5px;font-size:14px;color:var(--text-primary);background:#332e2c;text-align:center;padding:8px}
+ .mobile-menu nav .mobile-camp-link{grid-column:1/-1;color:var(--gold);font-size:13px}
+ .home-page .page-shell{width:calc(100% - 32px)}
+ .home-page .hero{grid-template-columns:minmax(0,1fr);padding-top:27px;gap:0}
+ .home-page .hero-copy{padding-bottom:0;min-width:0}
+ .home-page .hero h1{font-size:clamp(34px,9.4vw,44px);letter-spacing:-.8px;line-height:1.2;margin:19px 0 24px}
+ .home-page .hero-visual{width:100%}.home-page .hero-visual>.hero-photo{display:none}
+ .mobile-hero-photo{display:block;margin:0 0 27px;min-width:0}
+ .mobile-hero-photo .photo-open{border-radius:74px 7px 7px 7px}
+ .mobile-hero-photo img{display:block;width:100%;height:auto;aspect-ratio:1 / 1.04;object-fit:cover;object-position:center 68%}
+ .home-page .hero-lead{font-size:18px;line-height:1.85;max-width:none}.home-page .hero-note{font-size:17px;line-height:1.85;max-width:none}
+ .home-page .hero-signature{margin-block:26px 30px}
+ .home-page .hero-actions{gap:15px;align-items:stretch;flex-wrap:wrap}.home-page .hero-actions .button{min-height:50px;justify-content:space-between}.home-page .hero-actions .text-link{display:flex;align-items:center;min-height:44px}
+ .home-page .hero-bottom{gap:15px;font-size:11px;align-items:center;padding-block:24px}.home-page .hero-bottom>a{font-size:11px;max-width:160px}
+ .home-page .story-grid,.home-page .cooking-grid{grid-template-columns:minmax(0,1fr);gap:28px}
+ .home-page .story-copy{min-width:0}.home-page .story-copy>p:not(.overline){font-size:18px;max-width:none}
+ .home-page .chess-grid .story-photo{order:1}.home-page .chess-grid .story-copy{order:2}
+ .home-page .chess-stats-preview{flex-wrap:wrap;gap:18px 25px}.home-page .stat-number{font-size:33px}.home-page .stat-label{font-size:14px}
+ .home-page .cooking-photo{min-height:0}.home-page .camp-values{grid-template-columns:1fr;gap:0}.home-page .camp-values>div{border-top:0;border-bottom:1px solid #8c7764}
+ .home-page .camp-panel{padding:25px 20px;gap:24px}.home-page .camp-intro h2{font-size:32px}.home-page .camp-bottom{flex-direction:column;align-items:stretch}.home-page .camp-bottom .button{width:100%}
+ .home-page .section-heading{gap:14px}.home-page .section-aside{max-width:175px;font-size:12px}.home-page .eyebrow{font-size:11px;letter-spacing:1px}
+ .home-page .touches-feature{margin-top:0;padding:23px 20px}.home-page .touches-feature h2{font-size:26px}.home-page .touches-description{font-size:17px}.home-page .touches-entry{gap:18px}.home-page .touches-portrait{width:134px;height:134px}.home-page .touches-invitation{font-size:16px}
+ .home-page .photo-dialog{max-width:calc(100vw - 20px);max-height:92dvh;padding:45px 10px 12px}.home-page .photo-dialog img{max-height:78dvh}
+ .home-page .project-shortcuts{width:min(430px,calc(100% - 32px));margin-top:20px;gap:10px}
+}
+@media(max-width:360px){.home-page .header-social{font-size:12px;padding-inline:10px}.home-page .brand{font-size:18px}.home-page .brand-symbol{font-size:31px}.home-page .touches-portrait{width:110px;height:110px}.home-page .touches-entry{gap:15px}.home-page .touches-link{font-size:13px}.home-page .touches-feature h2{font-size:24px}.home-page .touches-invitation{font-size:15px}}

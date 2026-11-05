@@ -39,3 +39,8 @@ if ('IntersectionObserver' in window) {
     }, { rootMargin: '-20% 0px -50% 0px' });
     document.querySelectorAll('main > section[id]').forEach(section => observer.observe(section));
 }
+
+// Collapse mobile navigation after choosing a section.
+document.querySelectorAll('.mobile-menu nav a').forEach(link => {
+    link.addEventListener('click', () => link.closest('details').removeAttribute('open'));
+});
