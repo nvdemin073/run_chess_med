@@ -44,8 +44,12 @@ def public_run(activity):
     if not isinstance(distance, (int, float)) or not isinstance(duration, (int, float)) or distance <= 0 or duration <= 0:
         return None
     datetime.strptime(date, '%Y-%m-%d')
-    return {'date': date, 'distanceKm': round(distance / 1000, 3), 'durationSeconds': round(duration),
+    result = {'date': date, 'distanceKm': round(distance / 1000, 3), 'durationSeconds': round(duration),
             'paceSecondsPerKm': round(duration / (distance / 1000))}
+    ident = activity.get('activityId')
+    if isinstance(ident, int) and not isinstance(ident, bool) and 0 < ident < 2**53:
+        result['garminActivityId'] = ident
+    return result
 
 def sync_garmin(key):
     token = request(GARMIN + '/personalapitoken-service/personal-api/personal-api-key/token',
@@ -87,7 +91,7 @@ def sync_garmin(key):
     month_runs = [r for r in runs if r['date'] >= str(month_start)]
     return {'updatedAt': datetime.now(timezone.utc).isoformat(), 'month': today.strftime('%Y-%m'),
             'monthRuns': len(month_runs), 'monthDistanceKm': round(sum(r['distanceKm'] for r in month_runs), 2),
-            'recentRuns': runs[:5]}
+            'recentRuns': runs[:30]}
 
 def main():
     payload = json.loads(OUTPUT.read_text()) if OUTPUT.exists() else {'version': 1}

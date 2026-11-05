@@ -19,3 +19,7 @@ Workflow обновляет данные каждые шесть часов и �
 - https://www.chess.com/news/view/published-data-api
 - https://developer.garmin.com/gc-developer-program/personal/personal-api/
 - https://github.com/garmin/connect-personal-api-python
+
+На сайте есть тёмная страница `runs.html`: до 30 последних пробежек за текущий и предыдущий месяцы. Для перехода к отдельной тренировке сохраняется только её числовой Garmin ID. Внешний Garmin Connect использует собственное оформление.
+
+Шахматы: по умолчанию показана статистика. Доска создаётся при выборе партии; просмотр ходов не является автоматическим анализом шахматным движком.

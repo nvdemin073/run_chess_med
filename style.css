@@ -121,6 +121,12 @@
 .home-page .photo-open:focus-visible img{transform:scale(1.025)}
 @media(prefers-reduced-motion:reduce){.home-page .photo-open:focus-visible img{transform:none!important}}
 
-/* Фотографии без обводки, в том числе после закрытия увеличенного просмотра. */
 .home-page .photo-open,.home-page .photo-open:focus,.home-page .photo-open:focus-visible{border:0;outline:none;box-shadow:none}
 .home-page .photo-open:focus-visible img{filter:brightness(1.1)}
+
+/* Лагерь — отдельная строка навигации, как самостоятельный проект. */
+.home-page .main-nav{display:grid;grid-template-columns:repeat(3,max-content);justify-content:center;gap:0 27px}
+.home-page .main-nav a{padding-block:8px}
+.home-page .main-nav .camp-nav-link{grid-column:1 / -1;justify-self:center;text-align:center;white-space:normal;font-size:15px;color:var(--gold)}
+@media(max-width:900px){html{scroll-padding-top:190px}.home-page .main-nav{justify-content:space-between;gap:0 18px}.home-page .main-nav .camp-nav-link{font-size:14px}}
+@media(max-width:420px){.home-page .main-nav{gap:0 12px}.home-page .main-nav .camp-nav-link{font-size:14px}}

@@ -1,213 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Партии Николая — Chess.com</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <style>
-        .analyzer-page {
-            padding-top: 100px;
-            min-height: 100vh;
-        }
-        
-        .page-header {
-            text-align: center;
-            padding: 4rem 2rem 2rem;
-            background: rgba(26, 18, 11, 0.3);
-            margin-bottom: 3rem;
-            border-bottom: 1px solid var(--border);
-        }
-        
-        .chess-container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 0 2rem;
-        }
-        
-        .chess-layout {
-            display: grid;
-            grid-template-columns: 1fr 400px;
-            gap: 3rem;
-            margin-bottom: 3rem;
-        }
-        
-        .chess-board-container {
-            background: rgba(26, 18, 11, 0.7);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 2rem;
-            text-align: center;
-        }
-        
-        .chess-sidebar {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-        }
-        
-        .import-section {
-            background: rgba(26, 18, 11, 0.7);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 2rem;
-        }
-        
-        .games-list {
-            background: rgba(26, 18, 11, 0.7);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 2rem;
-            max-height: 600px;
-            overflow-y: auto;
-        }
-        
-        #chessboard {
-            width: 100%;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        
-        .pgn-input {
-            width: 100%;
-            height: 120px;
-            background: rgba(10, 10, 10, 0.8);
-            border: 1px solid var(--border);
-            border-radius: 4px;
-            color: var(--text-primary);
-            padding: 1rem;
-            font-family: monospace;
-            resize: vertical;
-        }
-        
-        .game-item {
-            padding: 1rem;
-            border: 1px solid var(--border);
-            border-radius: 4px;
-            margin-bottom: 1rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-        
-        .game-item:hover {
-            border-color: var(--gold);
-            background: rgba(212, 165, 116, 0.1);
-        }
-        
-        .game-item.active {
-            border-color: var(--gold);
-            background: rgba(212, 165, 116, 0.2);
-        }
-        
-        .game-info {
-            display: flex;
-            justify-content: space-between;
-            font-size: 0.9rem;
-            color: var(--text-secondary);
-        }
-        
-        .game-result {
-            font-weight: bold;
-            color: var(--gold);
-        }
-    </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chessboard-js/1.0.0/chessboard-1.0.0.min.css">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#29282a"><title>Шахматы Николая — статистика и партии</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="activity-pages.css?v=dark1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chessboard-js/1.0.0/chessboard-1.0.0.min.css">
 </head>
-<body>
-    <nav class="navbar">
-        <a href="index.html#home" class="back-link">← На главную</a>
-        <a href="#stats">Статистика</a>
-        <a href="#analyzer">Анализатор</a>
-        <a href="#games">Мои партии</a>
-    </nav>
-
-    <div class="analyzer-page">
-        <div class="page-header">
-            <h1>♞ Шахматный анализатор</h1>
-            <p>Анализирую партии, изучаю ошибки, улучшаю стратегию</p>
-        </div>
-
-        <div class="chess-container">
-            <!-- Статистика -->
-            <section id="stats">
-                <h2 class="section-title">Моя шахматная статистика</h2>
-                <div class="chess-stats">
-                    <div class="stat-card">
-                        <h3>Рейтинг Rapid</h3>
-                        <span class="stat-number" id="rapid-rating">-</span>
-                    </div>
-                    <div class="stat-card">
-                        <h3>Рейтинг Blitz</h3>
-                        <span class="stat-number" id="blitz-rating">-</span>
-                    </div>
-                    <div class="stat-card">
-                        <h3>Партий в статистике</h3>
-                        <span class="stat-number" id="total-games">0</span>
-                    </div>
-                    <div class="stat-card">
-                        <h3>Процент побед</h3>
-                        <span class="stat-number" id="win-percentage">0%</span>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Анализатор и список партий -->
-            <section id="analyzer" style="margin-top: 4rem;">
-                <h2 class="section-title">Анализатор партий</h2>
-                <div class="chess-layout">
-                    <!-- Шахматная доска -->
-                    <div class="chess-board-container">
-                        <div id="chessboard"></div>
-                        <div class="game-controls" style="margin-top: 2rem;">
-                            <button id="prev-move" class="add-photo-btn">← Назад</button>
-                            <button id="next-move" class="add-photo-btn">Вперед →</button>
-                            <button id="flip-board" class="add-photo-btn">Перевернуть доску</button>
-                        </div>
-                        <div id="game-evaluation" style="margin-top: 1rem; color: var(--text-secondary);">
-                            Выберите партию для просмотра ходов
-                        </div>
-                    </div>
-
-                    <!-- Сайдбар -->
-                    <div class="chess-sidebar">
-                      <div class="import-section">
-                        <h3>Мой Chess.com</h3>
-                        <p><a href="https://www.chess.com/member/peretoka73" target="_blank" rel="noopener noreferrer">peretoka73 ↗</a></p>
-                        <p id="chess-status" role="status" aria-live="polite">Загружаю данные…</p>
-                        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:20px">
-                          <button id="load-all-data" class="add-photo-btn">Обновить всё</button>
-                          <button id="fetch-stats" class="add-photo-btn">Статистика</button>
-                          <button id="fetch-games" class="add-photo-btn">Партии</button>
-                        </div>
-                      </div>
-                        <!-- Информация о партии -->
-                        <div class="import-section">
-                            <h3>Информация о партии</h3>
-                            <div id="game-info">
-                                <p>Выберите партию для анализа</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Список партий -->
-            <section id="games" style="margin-top: 4rem;">
-                <h2 class="section-title">Мои партии</h2>
-                <div class="games-list" id="games-list">
-                    <!-- Партии будут загружаться сюда -->
-                    <div class="empty-state">
-                        <p>Загружаю последние партии с Chess.com…</p>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/chessboard-js/1.0.0/chessboard-1.0.0.min.js"></script>
-    <script src="chess-analyzer.js?v=pieces2"></script>
-</body>
-</html>
+<body class="activity-page">
+<header class="activity-header"><div class="activity-shell"><a href="index.html#chess">← На главную</a><a class="activity-brand" href="index.html">Беги и Дыши</a></div></header>
+<main class="activity-shell">
+<div class="activity-intro"><p class="eyebrow">Шахматы / peretoka73</p><h1>Каждая партия —<br>новая история.</h1><p>Моя статистика и сыгранные партии. Выбери любую, чтобы посмотреть её ход за ходом.</p></div>
+<div class="activity-grid">
+<div>
+<section id="stats" class="activity-panel" aria-labelledby="stats-title">
+<h2 id="stats-title">Моя статистика</h2>
+<div class="metrics-grid"><div class="metric"><strong id="rapid-rating">—</strong><span>Рейтинг Rapid</span></div><div class="metric"><strong id="blitz-rating">—</strong><span>Рейтинг Blitz</span></div><div class="metric"><strong id="total-games">—</strong><span>Партий в статистике</span></div><div class="metric"><strong id="win-percentage">—</strong><span>Побед</span></div></div>
+<div class="results-track" aria-hidden="true"><span class="results-win" id="wins-bar"></span><span class="results-draw" id="draws-bar"></span><span class="results-loss" id="losses-bar"></span></div>
+<div class="results-legend"><span>Победы <strong id="wins-count">—</strong></span><span>Ничьи <strong id="draws-count">—</strong></span><span>Поражения <strong id="losses-count">—</strong></span></div>
+<table class="data-table"><thead><tr><th scope="col">Контроль</th><th scope="col">Рейтинг</th><th scope="col">Лучший</th><th scope="col">Партий</th></tr></thead><tbody id="ratings-table"></tbody></table>
+<p class="activity-status">Стандартные шахматы: Rapid, Blitz, Bullet и Daily.</p>
+<a class="text-link" href="https://www.chess.com/member/peretoka73" target="_blank" rel="noopener noreferrer">Мой профиль Chess.com ↗</a>
+</section>
+<section id="review" class="activity-panel" aria-labelledby="review-title" hidden>
+<div class="review-top"><h2 id="review-title" tabindex="-1">Просмотр партии</h2><button type="button" id="back-to-stats" class="button button-outline">← К статистике</button></div>
+<div id="game-info" class="review-meta"></div>
+<div id="chessboard" aria-label="Шахматная доска"></div>
+<div class="board-controls"><button id="first-move" class="button button-outline" aria-label="В начало партии">В начало</button><button id="prev-move" class="button button-outline">← Назад</button><button id="next-move" class="button button-outline">Вперёд →</button><button id="flip-board" class="button button-outline">Перевернуть</button></div>
+<p id="game-evaluation" class="board-progress" aria-live="polite"></p>
+<div id="move-list" class="move-list" aria-label="Ходы партии"></div>
+</section>
+</div>
+<aside class="activity-panel" aria-labelledby="games-title"><h2 id="games-title">Мои партии</h2><button id="load-all-data" class="button button-outline">Обновить данные ↻</button><p id="chess-status" class="activity-status" role="status" aria-live="polite">Загружаю данные Chess.com…</p><div id="games-list" class="games-list"><p class="activity-status">Загружаю партии…</p></div></aside>
+</div>
+</main><footer class="activity-footer"><div class="activity-shell">Двигаемся. Думаем. Готовим сами.</div></footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chessboard-js/1.0.0/chessboard-1.0.0.min.js"></script>
+<script src="chess-analyzer.js?v=dark1"></script>
+</body></html>
