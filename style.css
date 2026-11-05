@@ -130,3 +130,18 @@
 .home-page .main-nav .camp-nav-link{grid-column:1 / -1;justify-self:center;text-align:center;white-space:normal;font-size:15px;color:var(--gold)}
 @media(max-width:900px){html{scroll-padding-top:190px}.home-page .main-nav{justify-content:space-between;gap:0 18px}.home-page .main-nav .camp-nav-link{font-size:14px}}
 @media(max-width:420px){.home-page .main-nav{gap:0 12px}.home-page .main-nav .camp-nav-link{font-size:14px}}
+
+/* Круглые переходы к основным проектам. */
+.project-shortcuts{position:fixed;right:20px;top:50%;transform:translateY(-50%);z-index:25;width:98px;display:grid;gap:24px;text-align:center}
+.project-shortcut{display:grid;justify-items:center;align-content:start;gap:8px;color:var(--text-primary);font-size:13px;line-height:1.4;text-decoration:none}
+.shortcut-circle{position:relative;display:grid;place-items:center;width:72px;height:72px;border-radius:50%;border:1px solid #9c8061;background:#39312b;color:#dfb987;transition:transform .25s,background .25s,border-color .25s;overflow:hidden}
+.shortcut-circle img{height:100%;width:100%;object-fit:cover;object-position:center 25%;transition:transform .3s}
+.shortcut-circle svg{height:33px;width:33px}.shortcut-chess{font-family:Georgia,serif;font-size:49px;line-height:1;background:#332e2c}
+.shortcut-touches{background:#44362e}.shortcut-touches>span{font-family:var(--display-font);font-size:39px;line-height:1;transform:translateY(-5px)}.shortcut-touches svg{position:absolute;width:16px;height:13px;bottom:8px}
+.shortcut-soon .shortcut-circle{border-style:dashed;background:#302d2c;color:#bca68c}.shortcut-label{max-width:96px}.shortcut-label small{display:block;font-size:10px;letter-spacing:.5px;color:#baa994;margin-top:3px}
+.project-shortcut:hover .shortcut-circle{transform:translateY(-4px);background:#4b3b2f;border-color:#e8c395}.project-shortcut:hover .shortcut-circle img{transform:scale(1.07)}.project-shortcut:hover .shortcut-label{color:#e8c395}
+.project-shortcut:focus-visible{outline:none}.project-shortcut:focus-visible .shortcut-circle{outline:3px solid #dfb987;outline-offset:4px}
+@media(min-width:1100px) and (max-width:1499px){body.home-page{padding-right:118px}}
+@media(max-width:1099px),(max-height:650px){.project-shortcuts{position:static;transform:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));width:min(580px,calc(100% - 40px));margin:25px auto 0;gap:18px;z-index:auto}.shortcut-circle{width:65px;height:65px}.project-shortcut{font-size:13px}.shortcut-touches>span{font-size:35px}.shortcut-chess{font-size:44px}}
+@media(min-width:1100px) and (max-width:1499px) and (max-height:650px){body.home-page{padding-right:0}}
+@media(max-width:600px){.project-shortcuts{gap:10px;margin-top:23px}.shortcut-circle{width:58px;height:58px}.project-shortcut{font-size:12px;gap:8px}.shortcut-label{max-width:80px}.shortcut-label small{font-size:10px;margin-top:2px}.shortcut-circle svg{height:29px;width:29px}.shortcut-touches>span{font-size:32px}.shortcut-touches svg{width:13px;height:11px;bottom:7px}.shortcut-chess{font-size:39px}}
