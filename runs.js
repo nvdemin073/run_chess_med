@@ -34,7 +34,8 @@
             const bw=Math.max(3,Math.min(28,step*.6)),bh=distance/max*h,x=left+i*step+(step-bw)/2;
             const bar=svgNode('rect',{x,y:top+h-bh,width:bw,height:bh,rx:2,class:'chart-bar'});
             bar.append(svgNode('title',{},longLabel(day)+' · '+km(distance)+' км'));svg.append(bar);
-            if(i===0||i===points.length-1||i%Math.max(1,Math.ceil(points.length/6))===0){
+            const labelEvery=Math.max(1,Math.ceil(points.length/6));
+            if(i===0||i===points.length-1||(i%labelEvery===0&&points.length-1-i>=Math.max(2,Math.ceil(labelEvery/2)))){
                 svg.append(svgNode('text',{x:left+(i+.5)*step,y:top+h+23,'text-anchor':'middle'},shortLabel(day)));
             }
         });box.append(svg);
