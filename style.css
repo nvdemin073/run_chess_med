@@ -241,11 +241,11 @@
 .book-preface{font-size:12px;letter-spacing:1.4px;text-transform:uppercase;color:var(--gold);margin-bottom:28px}
 .book-chapters{list-style:none;margin:0;padding:0;position:relative}
 .book-chapters:before{content:'';position:absolute;left:12px;top:20px;bottom:30px;width:1px;background:linear-gradient(var(--border),var(--gold),var(--border));opacity:.65}
-.book-chapter{display:grid;grid-template-columns:26px minmax(0,1fr);gap:17px;position:relative;padding-bottom:28px}
+.book-chapter{display:grid;grid-template-columns:26px minmax(0,1fr);gap:17px;position:relative;padding-bottom:22px}
 .book-chapter:last-child{padding-bottom:0}
 .chapter-number{position:relative;align-self:start;background:var(--bg-dark);padding-block:5px;color:var(--gold);font-size:11px;letter-spacing:1px;line-height:1.5}
 .home-page .book-chapter h2{font-family:var(--display-font);font-size:28px;line-height:1.3;letter-spacing:-.3px;margin:0 0 12px;color:var(--text-primary)}
-.book-chapter p{font-size:18px;line-height:1.85;color:var(--text-primary);margin:0}
+.book-chapter p{font-size:19px;line-height:1.85;color:var(--text-primary);margin:0}
 .book-afterword{margin:28px 0 30px 43px;padding-top:21px;border-top:1px solid var(--border);color:var(--text-secondary);font-size:16px;line-height:1.85}
 .home-page .hero-visual{align-self:start;padding-top:70px}
-@media(max-width:760px){.home-page .hero-book{margin-top:24px;max-width:none}.book-preface{font-size:10px;margin-bottom:25px;letter-spacing:1.2px}.book-chapter{gap:13px;grid-template-columns:23px minmax(0,1fr);padding-bottom:28px}.book-chapters:before{left:10px}.chapter-number{font-size:10px}.home-page .book-chapter h2{font-size:27px;margin-bottom:10px}.book-chapter p{font-size:17px;line-height:1.85}.book-afterword{margin-left:36px;font-size:16px}.home-page .hero-visual{padding-top:0}}
+@media(max-width:760px){.home-page .hero-book{margin-top:24px;max-width:none}.book-preface{font-size:10px;margin-bottom:25px;letter-spacing:1.2px}.book-chapter{gap:13px;grid-template-columns:23px minmax(0,1fr);padding-bottom:22px}.book-chapters:before{left:10px}.chapter-number{font-size:10px}.home-page .book-chapter h2{font-size:27px;margin-bottom:10px}.book-chapter p{font-size:17px;line-height:1.85}.book-afterword{margin-left:36px;font-size:16px}.home-page .hero-visual{padding-top:0}}
