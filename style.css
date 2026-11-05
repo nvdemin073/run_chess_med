@@ -152,18 +152,21 @@
 
 /* Девять касаний — крупнее, в основной колонке, левее боковой навигации. */
 .hero-visual{min-width:0;align-self:center}
-.touches-feature{display:block;margin-top:24px;padding:26px;background:#332e2c;border:1px solid #63544a;border-radius:16px;color:#f6eee3;transition:background .25s,border-color .25s}
-.touches-feature:hover{background:#3d332e;border-color:#b49673}.touches-tag{color:#dfb987;font-size:12px;letter-spacing:1.3px;text-transform:uppercase}
-.home-page .touches-feature h2{font-family:var(--display-font);font-size:28px;line-height:1.35;font-weight:400;margin:10px 0 14px;letter-spacing:-.3px}
-.touches-description{font-size:17px;line-height:1.8;color:#dcd4cb}
-.touches-entry{display:flex;align-items:center;gap:25px;margin-top:22px}
-.touches-portrait{display:block;width:164px;height:164px;flex:0 0 auto;overflow:hidden;border-radius:50%;background:#171614}
-.touches-portrait img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .4s}.touches-feature:hover .touches-portrait img{transform:scale(1.035)}
-.touches-invitation{font-size:18px;line-height:1.65;color:#e8ded2}.touches-link{display:block;font-size:15px;color:#dfb987;margin-top:16px}.touches-link>span{margin-left:8px}
+/* An independent project, with the same circular identity as the shortcuts. */
+.home-page .touches-feature{display:flex;flex-direction:column;align-items:center;margin-top:34px;padding:0 10px;background:transparent;border:0;border-radius:0;color:var(--text-primary);text-align:center}
+.home-page .touches-feature:hover{background:transparent}
+.home-page .touches-feature h2{font-family:var(--display-font);font-size:26px;line-height:1.4;font-weight:400;margin:0 0 10px;letter-spacing:-.3px;max-width:430px}
+.home-page .touches-description{font-size:16px;line-height:1.8;color:var(--text-secondary);max-width:390px;margin:0}
+.home-page .touches-portrait{display:block;width:220px;height:220px;flex:0 0 auto;overflow:hidden;border-radius:50%;border:1px solid #9c8061;background:#171614;margin:25px 0 14px;transition:transform .25s,border-color .25s}
+.touches-portrait img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .3s}
+.home-page .touches-feature:hover .touches-portrait{transform:translateY(-4px);border-color:#e8c395}
+.home-page .touches-feature:hover .touches-portrait img{transform:scale(1.04)}
+.home-page .touches-name{font-size:20px;line-height:1.5;font-weight:500}
+.home-page .touches-link{display:block;font-size:14px;color:var(--gold);margin-top:8px}
+.touches-link>span{margin-left:8px}
+.home-page .touches-feature:focus-visible{outline:0}
+.home-page .touches-feature:focus-visible .touches-portrait{outline:3px solid var(--gold);outline-offset:5px}
 @media(max-width:1099px),(max-height:650px){.project-shortcuts{grid-template-columns:repeat(3,minmax(0,1fr));max-width:430px}}
-@media(min-width:601px) and (max-width:1000px){.touches-feature{padding:22px}.home-page .touches-feature h2{font-size:25px}.touches-portrait{width:115px;height:115px}.touches-entry{gap:18px}.touches-invitation{font-size:16px}.touches-description{font-size:16px}.touches-link{font-size:14px}}
-@media(max-width:600px){.touches-feature{padding:24px 21px;margin-top:25px}.home-page .touches-feature h2{font-size:27px}.touches-description{font-size:17px}.touches-portrait{width:140px;height:140px}.touches-entry{gap:20px}.touches-invitation{font-size:17px}.touches-link{font-size:14px}}
-@media(max-width:380px){.touches-portrait{width:120px;height:120px}.touches-entry{gap:17px}.touches-invitation{font-size:16px}.home-page .touches-feature h2{font-size:25px}}
 
 /* Automatic phone layout. Desktop remains the default above this breakpoint. */
 .mobile-menu,.mobile-hero-photo{display:none}
@@ -199,8 +202,8 @@
  .home-page .cooking-photo{min-height:0}.home-page .camp-values{grid-template-columns:1fr;gap:0}.home-page .camp-values>div{border-top:0;border-bottom:1px solid #8c7764}
  .home-page .camp-panel{padding:25px 20px;gap:24px}.home-page .camp-intro h2{font-size:32px}.home-page .camp-bottom{flex-direction:column;align-items:stretch}.home-page .camp-bottom .button{width:100%}
  .home-page .section-heading{gap:14px}.home-page .section-aside{max-width:175px;font-size:12px}.home-page .eyebrow{font-size:11px;letter-spacing:1px}
- .home-page .touches-feature{margin-top:0;padding:23px 20px}.home-page .touches-feature h2{font-size:26px}.home-page .touches-description{font-size:17px}.home-page .touches-entry{gap:18px}.home-page .touches-portrait{width:134px;height:134px}.home-page .touches-invitation{font-size:16px}
+ .home-page .touches-feature{margin-top:0;padding:0 6px 10px}.home-page .touches-feature h2{font-size:25px}.home-page .touches-description{font-size:16px}.home-page .touches-portrait{width:200px;height:200px}
  .home-page .photo-dialog{max-width:calc(100vw - 20px);max-height:92dvh;padding:45px 10px 12px}.home-page .photo-dialog img{max-height:78dvh}
  .home-page .project-shortcuts{width:min(430px,calc(100% - 32px));margin-top:20px;gap:10px}
 }
-@media(max-width:360px){.home-page .header-social{font-size:12px;padding-inline:10px}.home-page .brand{font-size:18px}.home-page .brand-symbol{font-size:31px}.home-page .touches-portrait{width:110px;height:110px}.home-page .touches-entry{gap:15px}.home-page .touches-link{font-size:13px}.home-page .touches-feature h2{font-size:24px}.home-page .touches-invitation{font-size:15px}}
+@media(max-width:360px){.home-page .header-social{font-size:12px;padding-inline:10px}.home-page .brand{font-size:18px}.home-page .brand-symbol{font-size:31px}.home-page .touches-portrait{width:180px;height:180px}.home-page .touches-link{font-size:13px}.home-page .touches-feature h2{font-size:23px}}
