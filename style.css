@@ -120,3 +120,7 @@
 .home-page .hero-photo figcaption{left:16px;right:16px;bottom:18px;pointer-events:none}
 .home-page .photo-open:focus-visible img{transform:scale(1.025)}
 @media(prefers-reduced-motion:reduce){.home-page .photo-open:focus-visible img{transform:none!important}}
+
+/* Фотографии без обводки, в том числе после закрытия увеличенного просмотра. */
+.home-page .photo-open,.home-page .photo-open:focus,.home-page .photo-open:focus-visible{border:0;outline:none;box-shadow:none}
+.home-page .photo-open:focus-visible img{filter:brightness(1.1)}
