@@ -1,55 +1,23 @@
-// main-page-runs.js
-document.addEventListener('DOMContentLoaded', function() {
-    console.log('🏃 Загрузка статистики пробежек на главной');
-    loadRunStats();
-});
-
-function loadRunStats() {
-    const savedData = localStorage.getItem('runMainPageData');
-    
-    if (savedData) {
+// Garmin credentials never enter the browser; only selected metrics are public.
+(() => {
+    document.addEventListener('DOMContentLoaded', async () => {
+        const panel = document.getElementById('run-live-stats');
+        if (!panel) return;
         try {
-            const data = JSON.parse(savedData);
-            console.log('📊 Данные пробежек для главной:', data);
-            updateRunElements(data);
-        } catch (error) {
-            console.error('❌ Ошибка загрузки:', error);
-            showDefaultStats();
-        }
-    } else {
-        // Если данных нет, создаем пустые
-        updateMainPageRunStats();
-        showDefaultStats();
-    }
-}
-
-function updateRunElements(data) {
-    const elements = {
-        'preview-total-runs': data.totalRuns || '0',
-        'preview-total-distance': data.totalDistance || '0', 
-        'preview-runs-status': 'Обновлено: ' + new Date().toLocaleTimeString()
-    };
-    
-    for (const [id, value] of Object.entries(elements)) {
-        const element = document.getElementById(id);
-        if (element) {
-            element.textContent = value;
-            console.log(`✅ Обновлен ${id}: ${value}`);
-        }
-    }
-}
-
-function showDefaultStats() {
-    updateRunElements({
-        totalRuns: '0',
-        totalDistance: '0',
-        lastUpdate: new Date().toISOString()
+            const response = await fetch('data/integrations.json', {cache: 'no-cache'});
+            if (!response.ok) return;
+            const data = (await response.json()).garmin;
+            if (!data || !/^\d{4}-\d{2}$/.test(data.month)) return;
+            document.getElementById('preview-total-runs').textContent = data.monthRuns.toLocaleString('ru-RU');
+            document.getElementById('preview-total-distance').textContent = data.monthDistanceKm.toLocaleString('ru-RU', {maximumFractionDigits: 1});
+            const month = new Date(data.month + '-01T12:00:00Z').toLocaleDateString('ru-RU', {month: 'long', year: 'numeric'});
+            document.getElementById('preview-runs-status').textContent = `Garmin · ${month} · обновлено ${new Date(data.updatedAt).toLocaleDateString('ru-RU')}`;
+            const last = data.recentRuns?.[0];
+            if (last) {
+                const pace = Math.round(last.paceSecondsPerKm);
+                document.getElementById('preview-last-run').textContent = `Последняя пробежка: ${new Date(last.date + 'T12:00:00Z').toLocaleDateString('ru-RU')} · ${last.distanceKm.toLocaleString('ru-RU', {maximumFractionDigits: 2})} км · ${Math.floor(pace / 60)}:${String(pace % 60).padStart(2, '0')} мин/км`;
+            }
+            panel.hidden = false;
+        } catch (_) { /* Keep the existing running section when sync is unavailable. */ }
     });
-}
-
-// Принудительное обновление
-function refreshRunStats() {
-    updateMainPageRunStats();
-    loadRunStats();
-    showNotification('🔄 Статистика пробежек обновлена');
-}
+})();

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Шахматный анализатор - [Твоё Имя]</title>
+    <title>Партии Николая — Chess.com</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <style>
@@ -142,7 +142,7 @@
                         <span class="stat-number" id="blitz-rating">-</span>
                     </div>
                     <div class="stat-card">
-                        <h3>Всего партий</h3>
+                        <h3>Партий в статистике</h3>
                         <span class="stat-number" id="total-games">0</span>
                     </div>
                     <div class="stat-card">
@@ -165,54 +165,22 @@
                             <button id="flip-board" class="add-photo-btn">Перевернуть доску</button>
                         </div>
                         <div id="game-evaluation" style="margin-top: 1rem; color: var(--text-secondary);">
-                            Оценка позиции: 0.00
+                            Выберите партию для просмотра ходов
                         </div>
                     </div>
 
                     <!-- Сайдбар -->
-           <div class="import-section">
-    <h3>Импорт партий</h3>
-    <p>Вставьте PGN партии или укажите username с chess.com</p>
-    
-    <!-- ЗАМЕНИТЕ СТАРЫЙ БЛОК НА ЭТОТ НОВЫЙ -->
-    <div class="form-group">
-        <label>Chess.com username:</label>
-        <input type="text" id="chess-username" placeholder="Ваш username">
-        <div style="display: flex; gap: 1rem; margin-top: 1rem;">
-            <button id="load-all-data" class="add-photo-btn" style="flex: 2; background: var(--gold); color: var(--bg-dark);">
-                🚀 Загрузить всё
-            </button>
-        </div>
-        <div style="display: flex; gap: 1rem; margin-top: 0.5rem;">
-            <button id="fetch-stats" class="add-photo-btn" style="flex: 1;">
-                📊 Только статистику
-            </button>
-            <button id="fetch-games" class="add-photo-btn" style="flex: 1;">
-                ♟️ Только партии
-            </button>
-        </div>
-    </div>
-    <!-- КОНЕЦ НОВОГО БЛОКА -->
-    
-    <div style="text-align: center; margin: 1rem 0; color: var(--text-secondary);">или</div>
-    
-<div class="form-group">
-    <label>Chess.com username:</label>
-    <input type="text" id="chess-username" placeholder="peretoka73" readonly style="background: rgba(212, 165, 116, 0.1);">
-    <div style="display: flex; gap: 1rem; margin-top: 1rem;">
-        <button id="load-all-data" class="add-photo-btn" style="flex: 2; background: var(--gold); color: var(--bg-dark);">
-            🔄 Обновить всё
-        </button>
-    </div>
-    <div style="display: flex; gap: 1rem; margin-top: 0.5rem;">
-        <button id="fetch-stats" class="add-photo-btn" style="flex: 1;">
-            📊 Только статистику
-        </button>
-        <button id="fetch-games" class="add-photo-btn" style="flex: 1;">
-            ♟️ Только партии
-        </button>
-    </div>
-</div>
+                    <div class="chess-sidebar">
+                      <div class="import-section">
+                        <h3>Мой Chess.com</h3>
+                        <p><a href="https://www.chess.com/member/peretoka73" target="_blank" rel="noopener noreferrer">peretoka73 ↗</a></p>
+                        <p id="chess-status" role="status" aria-live="polite">Загружаю данные…</p>
+                        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:20px">
+                          <button id="load-all-data" class="add-photo-btn">Обновить всё</button>
+                          <button id="fetch-stats" class="add-photo-btn">Статистика</button>
+                          <button id="fetch-games" class="add-photo-btn">Партии</button>
+                        </div>
+                      </div>
                         <!-- Информация о партии -->
                         <div class="import-section">
                             <h3>Информация о партии</h3>
@@ -230,15 +198,16 @@
                 <div class="games-list" id="games-list">
                     <!-- Партии будут загружаться сюда -->
                     <div class="empty-state">
-                        <p>Пока нет партий. Импортируйте их с chess.com!</p>
+                        <p>Загружаю последние партии с Chess.com…</p>
                     </div>
                 </div>
             </section>
         </div>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chessboard-js/1.0.0/chessboard-1.0.0.min.js"></script>
-    <script src="chess-analyzer.js"></script>
+    <script src="chess-analyzer.js?v=connect1"></script>
 </body>
 </html>
