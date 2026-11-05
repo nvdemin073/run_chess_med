@@ -2,7 +2,7 @@
   "version": 1,
   "chess": {
     "username": "peretoka73",
-    "updatedAt": "2026-11-05T11:31:15.963048+00:00",
+    "updatedAt": "2026-11-05T12:35:42.548484+00:00",
     "stats": {
       "chess_rapid": {
         "last": {
@@ -346,7 +346,7 @@
     ]
   },
   "garmin": {
-    "updatedAt": "2026-11-05T11:31:17.689178+00:00",
+    "updatedAt": "2026-11-05T12:35:47.889727+00:00",
     "month": "2026-11",
     "monthRuns": 0,
     "monthDistanceKm": 0,
@@ -561,6 +561,5437 @@
         "paceSecondsPerKm": 312,
         "garminActivityId": 24659166202
       }
-    ]
+    ],
+    "runs": [
+      {
+        "date": "2026-10-28",
+        "distanceKm": 5.601,
+        "durationSeconds": 1886,
+        "paceSecondsPerKm": 337,
+        "garminActivityId": 24880479868
+      },
+      {
+        "date": "2026-10-28",
+        "distanceKm": 1.012,
+        "durationSeconds": 346,
+        "paceSecondsPerKm": 341,
+        "garminActivityId": 24879284964
+      },
+      {
+        "date": "2026-10-27",
+        "distanceKm": 8.347,
+        "durationSeconds": 2865,
+        "paceSecondsPerKm": 343,
+        "garminActivityId": 24864564235
+      },
+      {
+        "date": "2026-10-26",
+        "distanceKm": 8.141,
+        "durationSeconds": 2688,
+        "paceSecondsPerKm": 330,
+        "garminActivityId": 24853016064
+      },
+      {
+        "date": "2026-10-25",
+        "distanceKm": 15.005,
+        "durationSeconds": 5836,
+        "paceSecondsPerKm": 389,
+        "garminActivityId": 24842241149
+      },
+      {
+        "date": "2026-10-23",
+        "distanceKm": 1.503,
+        "durationSeconds": 465,
+        "paceSecondsPerKm": 309,
+        "garminActivityId": 24826809241
+      },
+      {
+        "date": "2026-10-23",
+        "distanceKm": 8.388,
+        "durationSeconds": 2711,
+        "paceSecondsPerKm": 323,
+        "garminActivityId": 24826808416
+      },
+      {
+        "date": "2026-10-22",
+        "distanceKm": 8.064,
+        "durationSeconds": 3054,
+        "paceSecondsPerKm": 379,
+        "garminActivityId": 24826806376
+      },
+      {
+        "date": "2026-10-21",
+        "distanceKm": 3.431,
+        "durationSeconds": 923,
+        "paceSecondsPerKm": 269,
+        "garminActivityId": 24826803918
+      },
+      {
+        "date": "2026-10-21",
+        "distanceKm": 5.55,
+        "durationSeconds": 1702,
+        "paceSecondsPerKm": 307,
+        "garminActivityId": 24826802407
+      },
+      {
+        "date": "2026-10-21",
+        "distanceKm": 1.245,
+        "durationSeconds": 361,
+        "paceSecondsPerKm": 290,
+        "garminActivityId": 24800515507
+      },
+      {
+        "date": "2026-10-21",
+        "distanceKm": 1.037,
+        "durationSeconds": 426,
+        "paceSecondsPerKm": 411,
+        "garminActivityId": 24800466394
+      },
+      {
+        "date": "2026-10-20",
+        "distanceKm": 8.029,
+        "durationSeconds": 2524,
+        "paceSecondsPerKm": 314,
+        "garminActivityId": 24788215994
+      },
+      {
+        "date": "2026-10-19",
+        "distanceKm": 8.103,
+        "durationSeconds": 2896,
+        "paceSecondsPerKm": 357,
+        "garminActivityId": 24780990703
+      },
+      {
+        "date": "2026-10-18",
+        "distanceKm": 19.89,
+        "durationSeconds": 5799,
+        "paceSecondsPerKm": 292,
+        "garminActivityId": 24763335625
+      },
+      {
+        "date": "2026-10-17",
+        "distanceKm": 5.007,
+        "durationSeconds": 1143,
+        "paceSecondsPerKm": 228,
+        "garminActivityId": 24751907024
+      },
+      {
+        "date": "2026-10-17",
+        "distanceKm": 3.003,
+        "durationSeconds": 985,
+        "paceSecondsPerKm": 328,
+        "garminActivityId": 24751752262
+      },
+      {
+        "date": "2026-10-16",
+        "distanceKm": 8.056,
+        "durationSeconds": 2723,
+        "paceSecondsPerKm": 338,
+        "garminActivityId": 24741000488
+      },
+      {
+        "date": "2026-10-15",
+        "distanceKm": 8.046,
+        "durationSeconds": 2744,
+        "paceSecondsPerKm": 341,
+        "garminActivityId": 24729232477
+      },
+      {
+        "date": "2026-10-15",
+        "distanceKm": 0.167,
+        "durationSeconds": 76,
+        "paceSecondsPerKm": 458,
+        "garminActivityId": 24729231443
+      },
+      {
+        "date": "2026-10-14",
+        "distanceKm": 8.052,
+        "durationSeconds": 2810,
+        "paceSecondsPerKm": 349,
+        "garminActivityId": 24716735904
+      },
+      {
+        "date": "2026-10-13",
+        "distanceKm": 7.199,
+        "durationSeconds": 2679,
+        "paceSecondsPerKm": 372,
+        "garminActivityId": 24704838039
+      },
+      {
+        "date": "2026-10-13",
+        "distanceKm": 1.459,
+        "durationSeconds": 526,
+        "paceSecondsPerKm": 361,
+        "garminActivityId": 24704121327
+      },
+      {
+        "date": "2026-10-12",
+        "distanceKm": 6.67,
+        "durationSeconds": 2298,
+        "paceSecondsPerKm": 345,
+        "garminActivityId": 24692436575
+      },
+      {
+        "date": "2026-10-12",
+        "distanceKm": 1.484,
+        "durationSeconds": 532,
+        "paceSecondsPerKm": 359,
+        "garminActivityId": 24692435955
+      },
+      {
+        "date": "2026-10-11",
+        "distanceKm": 21.206,
+        "durationSeconds": 5163,
+        "paceSecondsPerKm": 243,
+        "garminActivityId": 24681315665
+      },
+      {
+        "date": "2026-10-10",
+        "distanceKm": 2.872,
+        "durationSeconds": 616,
+        "paceSecondsPerKm": 214,
+        "garminActivityId": 24675075827
+      },
+      {
+        "date": "2026-10-10",
+        "distanceKm": 0.595,
+        "durationSeconds": 284,
+        "paceSecondsPerKm": 478,
+        "garminActivityId": 24675074870
+      },
+      {
+        "date": "2026-10-10",
+        "distanceKm": 2.545,
+        "durationSeconds": 881,
+        "paceSecondsPerKm": 346,
+        "garminActivityId": 24670042808
+      },
+      {
+        "date": "2026-10-09",
+        "distanceKm": 6.009,
+        "durationSeconds": 1874,
+        "paceSecondsPerKm": 312,
+        "garminActivityId": 24659166202
+      },
+      {
+        "date": "2026-10-09",
+        "distanceKm": 2.025,
+        "durationSeconds": 899,
+        "paceSecondsPerKm": 444,
+        "garminActivityId": 24658675219
+      },
+      {
+        "date": "2026-10-08",
+        "distanceKm": 8.092,
+        "durationSeconds": 2680,
+        "paceSecondsPerKm": 331,
+        "garminActivityId": 24647841254
+      },
+      {
+        "date": "2026-10-07",
+        "distanceKm": 8.038,
+        "durationSeconds": 2684,
+        "paceSecondsPerKm": 334,
+        "garminActivityId": 24635135162
+      },
+      {
+        "date": "2026-10-06",
+        "distanceKm": 8.117,
+        "durationSeconds": 2690,
+        "paceSecondsPerKm": 331,
+        "garminActivityId": 24621813046
+      },
+      {
+        "date": "2026-10-05",
+        "distanceKm": 0.16,
+        "durationSeconds": 92,
+        "paceSecondsPerKm": 573,
+        "garminActivityId": 24616487534
+      },
+      {
+        "date": "2026-10-05",
+        "distanceKm": 0.402,
+        "durationSeconds": 153,
+        "paceSecondsPerKm": 380,
+        "garminActivityId": 24616347987
+      },
+      {
+        "date": "2026-10-05",
+        "distanceKm": 2.508,
+        "durationSeconds": 878,
+        "paceSecondsPerKm": 350,
+        "garminActivityId": 24615651252
+      },
+      {
+        "date": "2026-10-05",
+        "distanceKm": 8.018,
+        "durationSeconds": 2643,
+        "paceSecondsPerKm": 330,
+        "garminActivityId": 24609599302
+      },
+      {
+        "date": "2026-10-04",
+        "distanceKm": 15.001,
+        "durationSeconds": 5052,
+        "paceSecondsPerKm": 337,
+        "garminActivityId": 24597708490
+      },
+      {
+        "date": "2026-10-03",
+        "distanceKm": 5.004,
+        "durationSeconds": 1160,
+        "paceSecondsPerKm": 232,
+        "garminActivityId": 24585472450
+      },
+      {
+        "date": "2026-10-03",
+        "distanceKm": 4.174,
+        "durationSeconds": 1378,
+        "paceSecondsPerKm": 330,
+        "garminActivityId": 24585329943
+      },
+      {
+        "date": "2026-10-02",
+        "distanceKm": 8.082,
+        "durationSeconds": 2692,
+        "paceSecondsPerKm": 333,
+        "garminActivityId": 24574316470
+      },
+      {
+        "date": "2026-10-01",
+        "distanceKm": 8.02,
+        "durationSeconds": 2659,
+        "paceSecondsPerKm": 332,
+        "garminActivityId": 24562109114
+      },
+      {
+        "date": "2026-09-30",
+        "distanceKm": 8.032,
+        "durationSeconds": 2620,
+        "paceSecondsPerKm": 326,
+        "garminActivityId": 24549537769
+      },
+      {
+        "date": "2026-09-29",
+        "distanceKm": 8.169,
+        "durationSeconds": 2237,
+        "paceSecondsPerKm": 274,
+        "garminActivityId": 24536509737
+      },
+      {
+        "date": "2026-09-27",
+        "distanceKm": 45.492,
+        "durationSeconds": 11582,
+        "paceSecondsPerKm": 255,
+        "garminActivityId": 24514710629
+      },
+      {
+        "date": "2026-09-25",
+        "distanceKm": 13.116,
+        "durationSeconds": 4048,
+        "paceSecondsPerKm": 309,
+        "garminActivityId": 24489468298
+      },
+      {
+        "date": "2026-09-24",
+        "distanceKm": 0.62,
+        "durationSeconds": 178,
+        "paceSecondsPerKm": 287,
+        "garminActivityId": 24482565261
+      },
+      {
+        "date": "2026-09-24",
+        "distanceKm": 3.0,
+        "durationSeconds": 780,
+        "paceSecondsPerKm": 260,
+        "garminActivityId": 24482525979
+      },
+      {
+        "date": "2026-09-24",
+        "distanceKm": 0.707,
+        "durationSeconds": 218,
+        "paceSecondsPerKm": 308,
+        "garminActivityId": 24482384240
+      },
+      {
+        "date": "2026-09-24",
+        "distanceKm": 8.008,
+        "durationSeconds": 2842,
+        "paceSecondsPerKm": 355,
+        "garminActivityId": 24477160319
+      },
+      {
+        "date": "2026-09-23",
+        "distanceKm": 8.066,
+        "durationSeconds": 2884,
+        "paceSecondsPerKm": 358,
+        "garminActivityId": 24464601613
+      },
+      {
+        "date": "2026-09-22",
+        "distanceKm": 7.601,
+        "durationSeconds": 2384,
+        "paceSecondsPerKm": 314,
+        "garminActivityId": 24457291627
+      },
+      {
+        "date": "2026-09-22",
+        "distanceKm": 8.019,
+        "durationSeconds": 2884,
+        "paceSecondsPerKm": 360,
+        "garminActivityId": 24452105733
+      },
+      {
+        "date": "2026-09-21",
+        "distanceKm": 0.39,
+        "durationSeconds": 150,
+        "paceSecondsPerKm": 385,
+        "garminActivityId": 24445680215
+      },
+      {
+        "date": "2026-09-21",
+        "distanceKm": 0.412,
+        "durationSeconds": 188,
+        "paceSecondsPerKm": 455,
+        "garminActivityId": 24445523781
+      },
+      {
+        "date": "2026-09-21",
+        "distanceKm": 2.232,
+        "durationSeconds": 841,
+        "paceSecondsPerKm": 377,
+        "garminActivityId": 24444904673
+      },
+      {
+        "date": "2026-09-21",
+        "distanceKm": 0.105,
+        "durationSeconds": 264,
+        "paceSecondsPerKm": 2524,
+        "garminActivityId": 24444594318
+      },
+      {
+        "date": "2026-09-21",
+        "distanceKm": 5.725,
+        "durationSeconds": 1748,
+        "paceSecondsPerKm": 305,
+        "garminActivityId": 24439004704
+      },
+      {
+        "date": "2026-09-20",
+        "distanceKm": 8.002,
+        "durationSeconds": 3258,
+        "paceSecondsPerKm": 407,
+        "garminActivityId": 24426766429
+      },
+      {
+        "date": "2026-09-19",
+        "distanceKm": 5.027,
+        "durationSeconds": 1165,
+        "paceSecondsPerKm": 232,
+        "garminActivityId": 24415305649
+      },
+      {
+        "date": "2026-09-19",
+        "distanceKm": 0.901,
+        "durationSeconds": 328,
+        "paceSecondsPerKm": 364,
+        "garminActivityId": 24414888640
+      },
+      {
+        "date": "2026-09-19",
+        "distanceKm": 2.273,
+        "durationSeconds": 860,
+        "paceSecondsPerKm": 378,
+        "garminActivityId": 24414816859
+      },
+      {
+        "date": "2026-09-18",
+        "distanceKm": 6.091,
+        "durationSeconds": 1661,
+        "paceSecondsPerKm": 273,
+        "garminActivityId": 24403359972
+      },
+      {
+        "date": "2026-09-17",
+        "distanceKm": 5.549,
+        "durationSeconds": 1841,
+        "paceSecondsPerKm": 332,
+        "garminActivityId": 24391307043
+      },
+      {
+        "date": "2026-09-16",
+        "distanceKm": 5.998,
+        "durationSeconds": 1645,
+        "paceSecondsPerKm": 274,
+        "garminActivityId": 24386098359
+      },
+      {
+        "date": "2026-09-16",
+        "distanceKm": 5.552,
+        "durationSeconds": 1782,
+        "paceSecondsPerKm": 321,
+        "garminActivityId": 24378721505
+      },
+      {
+        "date": "2026-09-15",
+        "distanceKm": 2.006,
+        "durationSeconds": 649,
+        "paceSecondsPerKm": 323,
+        "garminActivityId": 24371854451
+      },
+      {
+        "date": "2026-09-15",
+        "distanceKm": 8.003,
+        "durationSeconds": 2188,
+        "paceSecondsPerKm": 273,
+        "garminActivityId": 24371709265
+      },
+      {
+        "date": "2026-09-15",
+        "distanceKm": 6.005,
+        "durationSeconds": 1629,
+        "paceSecondsPerKm": 271,
+        "garminActivityId": 24365333140
+      },
+      {
+        "date": "2026-09-14",
+        "distanceKm": 0.427,
+        "durationSeconds": 160,
+        "paceSecondsPerKm": 375,
+        "garminActivityId": 24359985378
+      },
+      {
+        "date": "2026-09-14",
+        "distanceKm": 0.414,
+        "durationSeconds": 176,
+        "paceSecondsPerKm": 424,
+        "garminActivityId": 24359810370
+      },
+      {
+        "date": "2026-09-14",
+        "distanceKm": 2.431,
+        "durationSeconds": 908,
+        "paceSecondsPerKm": 374,
+        "garminActivityId": 24359065875
+      },
+      {
+        "date": "2026-09-14",
+        "distanceKm": 6.045,
+        "durationSeconds": 1847,
+        "paceSecondsPerKm": 306,
+        "garminActivityId": 24352911791
+      },
+      {
+        "date": "2026-09-13",
+        "distanceKm": 20.003,
+        "durationSeconds": 6632,
+        "paceSecondsPerKm": 332,
+        "garminActivityId": 24341374914
+      },
+      {
+        "date": "2026-09-12",
+        "distanceKm": 5.009,
+        "durationSeconds": 1142,
+        "paceSecondsPerKm": 228,
+        "garminActivityId": 24328782915
+      },
+      {
+        "date": "2026-09-12",
+        "distanceKm": 4.19,
+        "durationSeconds": 1353,
+        "paceSecondsPerKm": 323,
+        "garminActivityId": 24328630152
+      },
+      {
+        "date": "2026-09-11",
+        "distanceKm": 6.101,
+        "durationSeconds": 1937,
+        "paceSecondsPerKm": 317,
+        "garminActivityId": 24317423535
+      },
+      {
+        "date": "2026-09-11",
+        "distanceKm": 0.346,
+        "durationSeconds": 117,
+        "paceSecondsPerKm": 338,
+        "garminActivityId": 24317422513
+      },
+      {
+        "date": "2026-09-10",
+        "distanceKm": 9.007,
+        "durationSeconds": 2910,
+        "paceSecondsPerKm": 323,
+        "garminActivityId": 24312704632
+      },
+      {
+        "date": "2026-09-10",
+        "distanceKm": 6.367,
+        "durationSeconds": 2142,
+        "paceSecondsPerKm": 336,
+        "garminActivityId": 24304723501
+      },
+      {
+        "date": "2026-09-09",
+        "distanceKm": 7.045,
+        "durationSeconds": 3243,
+        "paceSecondsPerKm": 460,
+        "garminActivityId": 24299951812
+      },
+      {
+        "date": "2026-09-09",
+        "distanceKm": 4.149,
+        "durationSeconds": 1474,
+        "paceSecondsPerKm": 355,
+        "garminActivityId": 24292306305
+      },
+      {
+        "date": "2026-09-09",
+        "distanceKm": 1.032,
+        "durationSeconds": 407,
+        "paceSecondsPerKm": 394,
+        "garminActivityId": 24292305476
+      },
+      {
+        "date": "2026-09-08",
+        "distanceKm": 10.412,
+        "durationSeconds": 3567,
+        "paceSecondsPerKm": 343,
+        "garminActivityId": 24287679327
+      },
+      {
+        "date": "2026-09-08",
+        "distanceKm": 6.002,
+        "durationSeconds": 1793,
+        "paceSecondsPerKm": 299,
+        "garminActivityId": 24278852423
+      },
+      {
+        "date": "2026-09-07",
+        "distanceKm": 0.4,
+        "durationSeconds": 183,
+        "paceSecondsPerKm": 458,
+        "garminActivityId": 24273981035
+      },
+      {
+        "date": "2026-09-07",
+        "distanceKm": 0.4,
+        "durationSeconds": 201,
+        "paceSecondsPerKm": 501,
+        "garminActivityId": 24273976478
+      },
+      {
+        "date": "2026-09-07",
+        "distanceKm": 1.27,
+        "durationSeconds": 566,
+        "paceSecondsPerKm": 445,
+        "garminActivityId": 24273973347
+      },
+      {
+        "date": "2026-09-07",
+        "distanceKm": 2.055,
+        "durationSeconds": 883,
+        "paceSecondsPerKm": 430,
+        "garminActivityId": 24272672082
+      },
+      {
+        "date": "2026-09-07",
+        "distanceKm": 5.284,
+        "durationSeconds": 1831,
+        "paceSecondsPerKm": 347,
+        "garminActivityId": 24268206166
+      },
+      {
+        "date": "2026-09-07",
+        "distanceKm": 1.026,
+        "durationSeconds": 378,
+        "paceSecondsPerKm": 368,
+        "garminActivityId": 24268203831
+      },
+      {
+        "date": "2026-09-06",
+        "distanceKm": 19.001,
+        "durationSeconds": 6635,
+        "paceSecondsPerKm": 349,
+        "garminActivityId": 24256047189
+      },
+      {
+        "date": "2026-09-06",
+        "distanceKm": 1.021,
+        "durationSeconds": 374,
+        "paceSecondsPerKm": 366,
+        "garminActivityId": 24256041433
+      },
+      {
+        "date": "2026-09-05",
+        "distanceKm": 5.007,
+        "durationSeconds": 1200,
+        "paceSecondsPerKm": 240,
+        "garminActivityId": 24242327782
+      },
+      {
+        "date": "2026-09-05",
+        "distanceKm": 4.181,
+        "durationSeconds": 1351,
+        "paceSecondsPerKm": 323,
+        "garminActivityId": 24242327030
+      },
+      {
+        "date": "2026-09-04",
+        "distanceKm": 4.004,
+        "durationSeconds": 1603,
+        "paceSecondsPerKm": 400,
+        "garminActivityId": 24242324359
+      },
+      {
+        "date": "2026-09-04",
+        "distanceKm": 1.024,
+        "durationSeconds": 425,
+        "paceSecondsPerKm": 415,
+        "garminActivityId": 24230416162
+      },
+      {
+        "date": "2026-09-03",
+        "distanceKm": 3.331,
+        "durationSeconds": 1092,
+        "paceSecondsPerKm": 328,
+        "garminActivityId": 24218892866
+      },
+      {
+        "date": "2026-09-03",
+        "distanceKm": 2.034,
+        "durationSeconds": 758,
+        "paceSecondsPerKm": 373,
+        "garminActivityId": 24218892071
+      },
+      {
+        "date": "2026-09-02",
+        "distanceKm": 5.002,
+        "durationSeconds": 1822,
+        "paceSecondsPerKm": 364,
+        "garminActivityId": 24208785677
+      },
+      {
+        "date": "2026-09-01",
+        "distanceKm": 8.255,
+        "durationSeconds": 2649,
+        "paceSecondsPerKm": 321,
+        "garminActivityId": 24199473222
+      },
+      {
+        "date": "2026-09-01",
+        "distanceKm": 4.51,
+        "durationSeconds": 1516,
+        "paceSecondsPerKm": 336,
+        "garminActivityId": 24195928191
+      },
+      {
+        "date": "2026-09-01",
+        "distanceKm": 5.022,
+        "durationSeconds": 1702,
+        "paceSecondsPerKm": 339,
+        "garminActivityId": 24195305234
+      },
+      {
+        "date": "2026-08-29",
+        "distanceKm": 2.508,
+        "durationSeconds": 889,
+        "paceSecondsPerKm": 355,
+        "garminActivityId": 24155756242
+      },
+      {
+        "date": "2026-08-29",
+        "distanceKm": 5.0,
+        "durationSeconds": 1218,
+        "paceSecondsPerKm": 244,
+        "garminActivityId": 24155519830
+      },
+      {
+        "date": "2026-08-29",
+        "distanceKm": 3.92,
+        "durationSeconds": 1155,
+        "paceSecondsPerKm": 295,
+        "garminActivityId": 24155352538
+      },
+      {
+        "date": "2026-08-28",
+        "distanceKm": 3.654,
+        "durationSeconds": 1008,
+        "paceSecondsPerKm": 276,
+        "garminActivityId": 24148634665
+      },
+      {
+        "date": "2026-08-28",
+        "distanceKm": 0.697,
+        "durationSeconds": 348,
+        "paceSecondsPerKm": 499,
+        "garminActivityId": 24148409910
+      },
+      {
+        "date": "2026-08-26",
+        "distanceKm": 11.571,
+        "durationSeconds": 3237,
+        "paceSecondsPerKm": 280,
+        "garminActivityId": 24125782121
+      },
+      {
+        "date": "2026-08-25",
+        "distanceKm": 8.007,
+        "durationSeconds": 2283,
+        "paceSecondsPerKm": 285,
+        "garminActivityId": 24110557989
+      },
+      {
+        "date": "2026-08-24",
+        "distanceKm": 9.004,
+        "durationSeconds": 2970,
+        "paceSecondsPerKm": 330,
+        "garminActivityId": 24099044597
+      },
+      {
+        "date": "2026-08-24",
+        "distanceKm": 1.005,
+        "durationSeconds": 643,
+        "paceSecondsPerKm": 640,
+        "garminActivityId": 24098211862
+      },
+      {
+        "date": "2026-08-23",
+        "distanceKm": 10.008,
+        "durationSeconds": 3291,
+        "paceSecondsPerKm": 329,
+        "garminActivityId": 24080055507
+      },
+      {
+        "date": "2026-08-22",
+        "distanceKm": 4.007,
+        "durationSeconds": 997,
+        "paceSecondsPerKm": 249,
+        "garminActivityId": 24075172164
+      },
+      {
+        "date": "2026-08-22",
+        "distanceKm": 2.585,
+        "durationSeconds": 987,
+        "paceSecondsPerKm": 382,
+        "garminActivityId": 24075170628
+      },
+      {
+        "date": "2026-08-22",
+        "distanceKm": 4.866,
+        "durationSeconds": 1240,
+        "paceSecondsPerKm": 255,
+        "garminActivityId": 24068477480
+      },
+      {
+        "date": "2026-08-21",
+        "distanceKm": 3.009,
+        "durationSeconds": 801,
+        "paceSecondsPerKm": 266,
+        "garminActivityId": 24061554986
+      },
+      {
+        "date": "2026-08-21",
+        "distanceKm": 1.151,
+        "durationSeconds": 599,
+        "paceSecondsPerKm": 521,
+        "garminActivityId": 24061334533
+      },
+      {
+        "date": "2026-08-19",
+        "distanceKm": 5.0,
+        "durationSeconds": 1531,
+        "paceSecondsPerKm": 306,
+        "garminActivityId": 24037026025
+      },
+      {
+        "date": "2026-08-18",
+        "distanceKm": 0.234,
+        "durationSeconds": 71,
+        "paceSecondsPerKm": 302,
+        "garminActivityId": 24025240679
+      },
+      {
+        "date": "2026-08-18",
+        "distanceKm": 12.637,
+        "durationSeconds": 3574,
+        "paceSecondsPerKm": 283,
+        "garminActivityId": 24025235254
+      },
+      {
+        "date": "2026-08-17",
+        "distanceKm": 9.07,
+        "durationSeconds": 2592,
+        "paceSecondsPerKm": 286,
+        "garminActivityId": 24012224859
+      },
+      {
+        "date": "2026-08-15",
+        "distanceKm": 8.864,
+        "durationSeconds": 7467,
+        "paceSecondsPerKm": 842,
+        "garminActivityId": 23986743183
+      },
+      {
+        "date": "2026-08-12",
+        "distanceKm": 11.234,
+        "durationSeconds": 3128,
+        "paceSecondsPerKm": 278,
+        "garminActivityId": 23951848590
+      },
+      {
+        "date": "2026-08-11",
+        "distanceKm": 3.006,
+        "durationSeconds": 952,
+        "paceSecondsPerKm": 317,
+        "garminActivityId": 23937188648
+      },
+      {
+        "date": "2026-08-11",
+        "distanceKm": 5.138,
+        "durationSeconds": 1510,
+        "paceSecondsPerKm": 294,
+        "garminActivityId": 23933755950
+      },
+      {
+        "date": "2026-08-11",
+        "distanceKm": 1.466,
+        "durationSeconds": 804,
+        "paceSecondsPerKm": 548,
+        "garminActivityId": 23933420264
+      },
+      {
+        "date": "2026-08-10",
+        "distanceKm": 0.283,
+        "durationSeconds": 98,
+        "paceSecondsPerKm": 347,
+        "garminActivityId": 23926130863
+      },
+      {
+        "date": "2026-08-10",
+        "distanceKm": 5.004,
+        "durationSeconds": 1255,
+        "paceSecondsPerKm": 251,
+        "garminActivityId": 23926090795
+      },
+      {
+        "date": "2026-08-10",
+        "distanceKm": 0.404,
+        "durationSeconds": 157,
+        "paceSecondsPerKm": 387,
+        "garminActivityId": 23925468159
+      },
+      {
+        "date": "2026-08-10",
+        "distanceKm": 0.424,
+        "durationSeconds": 166,
+        "paceSecondsPerKm": 392,
+        "garminActivityId": 23925341195
+      },
+      {
+        "date": "2026-08-10",
+        "distanceKm": 0.406,
+        "durationSeconds": 167,
+        "paceSecondsPerKm": 411,
+        "garminActivityId": 23925164969
+      },
+      {
+        "date": "2026-08-10",
+        "distanceKm": 0.979,
+        "durationSeconds": 449,
+        "paceSecondsPerKm": 458,
+        "garminActivityId": 23924979162
+      },
+      {
+        "date": "2026-08-10",
+        "distanceKm": 2.486,
+        "durationSeconds": 901,
+        "paceSecondsPerKm": 363,
+        "garminActivityId": 23924680950
+      },
+      {
+        "date": "2026-08-10",
+        "distanceKm": 3.676,
+        "durationSeconds": 1063,
+        "paceSecondsPerKm": 289,
+        "garminActivityId": 23920540816
+      },
+      {
+        "date": "2026-08-07",
+        "distanceKm": 3.668,
+        "durationSeconds": 1139,
+        "paceSecondsPerKm": 311,
+        "garminActivityId": 23884748933
+      },
+      {
+        "date": "2026-08-06",
+        "distanceKm": 6.011,
+        "durationSeconds": 1795,
+        "paceSecondsPerKm": 299,
+        "garminActivityId": 23872687103
+      },
+      {
+        "date": "2026-08-06",
+        "distanceKm": 5.008,
+        "durationSeconds": 1595,
+        "paceSecondsPerKm": 318,
+        "garminActivityId": 23870212043
+      },
+      {
+        "date": "2026-08-06",
+        "distanceKm": 1.09,
+        "durationSeconds": 622,
+        "paceSecondsPerKm": 571,
+        "garminActivityId": 23870211289
+      },
+      {
+        "date": "2026-08-04",
+        "distanceKm": 9.003,
+        "durationSeconds": 2862,
+        "paceSecondsPerKm": 318,
+        "garminActivityId": 23850713291
+      },
+      {
+        "date": "2026-08-04",
+        "distanceKm": 4.006,
+        "durationSeconds": 1291,
+        "paceSecondsPerKm": 322,
+        "garminActivityId": 23843982880
+      },
+      {
+        "date": "2026-08-04",
+        "distanceKm": 0.907,
+        "durationSeconds": 577,
+        "paceSecondsPerKm": 636,
+        "garminActivityId": 23843982078
+      },
+      {
+        "date": "2026-08-03",
+        "distanceKm": 0.403,
+        "durationSeconds": 164,
+        "paceSecondsPerKm": 406,
+        "garminActivityId": 23838488626
+      },
+      {
+        "date": "2026-08-03",
+        "distanceKm": 0.398,
+        "durationSeconds": 179,
+        "paceSecondsPerKm": 449,
+        "garminActivityId": 23838361754
+      },
+      {
+        "date": "2026-08-03",
+        "distanceKm": 0.4,
+        "durationSeconds": 190,
+        "paceSecondsPerKm": 475,
+        "garminActivityId": 23838229952
+      },
+      {
+        "date": "2026-08-03",
+        "distanceKm": 2.013,
+        "durationSeconds": 841,
+        "paceSecondsPerKm": 418,
+        "garminActivityId": 23837660980
+      },
+      {
+        "date": "2026-08-02",
+        "distanceKm": 30.003,
+        "durationSeconds": 9316,
+        "paceSecondsPerKm": 311,
+        "garminActivityId": 23820660935
+      },
+      {
+        "date": "2026-08-01",
+        "distanceKm": 3.094,
+        "durationSeconds": 964,
+        "paceSecondsPerKm": 311,
+        "garminActivityId": 23811496815
+      },
+      {
+        "date": "2026-08-01",
+        "distanceKm": 3.196,
+        "durationSeconds": 992,
+        "paceSecondsPerKm": 311,
+        "garminActivityId": 23811239136
+      },
+      {
+        "date": "2026-08-01",
+        "distanceKm": 1.248,
+        "durationSeconds": 1024,
+        "paceSecondsPerKm": 821,
+        "garminActivityId": 23807923258
+      },
+      {
+        "date": "2026-08-01",
+        "distanceKm": 0.455,
+        "durationSeconds": 192,
+        "paceSecondsPerKm": 421,
+        "garminActivityId": 23807785619
+      },
+      {
+        "date": "2026-08-01",
+        "distanceKm": 4.997,
+        "durationSeconds": 1229,
+        "paceSecondsPerKm": 246,
+        "garminActivityId": 23807785232
+      },
+      {
+        "date": "2026-08-01",
+        "distanceKm": 3.554,
+        "durationSeconds": 1125,
+        "paceSecondsPerKm": 316,
+        "garminActivityId": 23807784361
+      },
+      {
+        "date": "2026-07-30",
+        "distanceKm": 2.223,
+        "durationSeconds": 754,
+        "paceSecondsPerKm": 339,
+        "garminActivityId": 23792792908
+      },
+      {
+        "date": "2026-07-30",
+        "distanceKm": 1.217,
+        "durationSeconds": 646,
+        "paceSecondsPerKm": 531,
+        "garminActivityId": 23792305490
+      },
+      {
+        "date": "2026-07-30",
+        "distanceKm": 5.411,
+        "durationSeconds": 1529,
+        "paceSecondsPerKm": 283,
+        "garminActivityId": 23792161996
+      },
+      {
+        "date": "2026-07-30",
+        "distanceKm": 1.008,
+        "durationSeconds": 614,
+        "paceSecondsPerKm": 609,
+        "garminActivityId": 23791837645
+      },
+      {
+        "date": "2026-07-30",
+        "distanceKm": 2.094,
+        "durationSeconds": 564,
+        "paceSecondsPerKm": 269,
+        "garminActivityId": 23791701551
+      },
+      {
+        "date": "2026-07-28",
+        "distanceKm": 6.001,
+        "durationSeconds": 1747,
+        "paceSecondsPerKm": 291,
+        "garminActivityId": 23763325812
+      },
+      {
+        "date": "2026-07-28",
+        "distanceKm": 6.001,
+        "durationSeconds": 1936,
+        "paceSecondsPerKm": 323,
+        "garminActivityId": 23760290491
+      },
+      {
+        "date": "2026-07-25",
+        "distanceKm": 5.007,
+        "durationSeconds": 1282,
+        "paceSecondsPerKm": 256,
+        "garminActivityId": 23722469536
+      },
+      {
+        "date": "2026-07-25",
+        "distanceKm": 3.452,
+        "durationSeconds": 1266,
+        "paceSecondsPerKm": 367,
+        "garminActivityId": 23722299037
+      },
+      {
+        "date": "2026-07-24",
+        "distanceKm": 6.001,
+        "durationSeconds": 1785,
+        "paceSecondsPerKm": 298,
+        "garminActivityId": 23712797069
+      },
+      {
+        "date": "2026-07-23",
+        "distanceKm": 3.676,
+        "durationSeconds": 1095,
+        "paceSecondsPerKm": 298,
+        "garminActivityId": 23703327192
+      },
+      {
+        "date": "2026-07-22",
+        "distanceKm": 8.054,
+        "durationSeconds": 2555,
+        "paceSecondsPerKm": 317,
+        "garminActivityId": 23693918096
+      },
+      {
+        "date": "2026-07-22",
+        "distanceKm": 6.001,
+        "durationSeconds": 1986,
+        "paceSecondsPerKm": 331,
+        "garminActivityId": 23688268864
+      },
+      {
+        "date": "2026-07-21",
+        "distanceKm": 2.391,
+        "durationSeconds": 922,
+        "paceSecondsPerKm": 385,
+        "garminActivityId": 23681328166
+      },
+      {
+        "date": "2026-07-21",
+        "distanceKm": 15.008,
+        "durationSeconds": 4596,
+        "paceSecondsPerKm": 306,
+        "garminActivityId": 23679985481
+      },
+      {
+        "date": "2026-07-20",
+        "distanceKm": 0.883,
+        "durationSeconds": 348,
+        "paceSecondsPerKm": 394,
+        "garminActivityId": 23667197591
+      },
+      {
+        "date": "2026-07-20",
+        "distanceKm": 0.403,
+        "durationSeconds": 173,
+        "paceSecondsPerKm": 429,
+        "garminActivityId": 23667002652
+      },
+      {
+        "date": "2026-07-20",
+        "distanceKm": 2.12,
+        "durationSeconds": 804,
+        "paceSecondsPerKm": 379,
+        "garminActivityId": 23666474186
+      },
+      {
+        "date": "2026-07-20",
+        "distanceKm": 6.002,
+        "durationSeconds": 1883,
+        "paceSecondsPerKm": 314,
+        "garminActivityId": 23663475627
+      },
+      {
+        "date": "2026-07-19",
+        "distanceKm": 7.005,
+        "durationSeconds": 2247,
+        "paceSecondsPerKm": 321,
+        "garminActivityId": 23649007131
+      },
+      {
+        "date": "2026-07-18",
+        "distanceKm": 5.488,
+        "durationSeconds": 2017,
+        "paceSecondsPerKm": 368,
+        "garminActivityId": 23637425659
+      },
+      {
+        "date": "2026-07-16",
+        "distanceKm": 9.37,
+        "durationSeconds": 3481,
+        "paceSecondsPerKm": 372,
+        "garminActivityId": 23622885880
+      },
+      {
+        "date": "2026-07-16",
+        "distanceKm": 6.005,
+        "durationSeconds": 1767,
+        "paceSecondsPerKm": 294,
+        "garminActivityId": 23621237378
+      },
+      {
+        "date": "2026-07-15",
+        "distanceKm": 0.813,
+        "durationSeconds": 361,
+        "paceSecondsPerKm": 444,
+        "garminActivityId": 23610327646
+      },
+      {
+        "date": "2026-07-15",
+        "distanceKm": 4.493,
+        "durationSeconds": 1783,
+        "paceSecondsPerKm": 397,
+        "garminActivityId": 23610223880
+      },
+      {
+        "date": "2026-07-15",
+        "distanceKm": 1.768,
+        "durationSeconds": 698,
+        "paceSecondsPerKm": 395,
+        "garminActivityId": 23609863664
+      },
+      {
+        "date": "2026-07-14",
+        "distanceKm": 0.5,
+        "durationSeconds": 185,
+        "paceSecondsPerKm": 369,
+        "garminActivityId": 23592299221
+      },
+      {
+        "date": "2026-07-14",
+        "distanceKm": 5.004,
+        "durationSeconds": 1162,
+        "paceSecondsPerKm": 232,
+        "garminActivityId": 23592262614
+      },
+      {
+        "date": "2026-07-14",
+        "distanceKm": 2.002,
+        "durationSeconds": 654,
+        "paceSecondsPerKm": 327,
+        "garminActivityId": 23591901533
+      },
+      {
+        "date": "2026-07-13",
+        "distanceKm": 0.402,
+        "durationSeconds": 172,
+        "paceSecondsPerKm": 427,
+        "garminActivityId": 23583967403
+      },
+      {
+        "date": "2026-07-13",
+        "distanceKm": 0.568,
+        "durationSeconds": 223,
+        "paceSecondsPerKm": 392,
+        "garminActivityId": 23583794646
+      },
+      {
+        "date": "2026-07-13",
+        "distanceKm": 0.73,
+        "durationSeconds": 273,
+        "paceSecondsPerKm": 373,
+        "garminActivityId": 23583610312
+      },
+      {
+        "date": "2026-07-13",
+        "distanceKm": 2.103,
+        "durationSeconds": 833,
+        "paceSecondsPerKm": 396,
+        "garminActivityId": 23583368861
+      },
+      {
+        "date": "2026-07-12",
+        "distanceKm": 24.999,
+        "durationSeconds": 9150,
+        "paceSecondsPerKm": 366,
+        "garminActivityId": 23565952465
+      },
+      {
+        "date": "2026-07-11",
+        "distanceKm": 10.001,
+        "durationSeconds": 3672,
+        "paceSecondsPerKm": 367,
+        "garminActivityId": 23553880095
+      },
+      {
+        "date": "2026-07-10",
+        "distanceKm": 6.001,
+        "durationSeconds": 1943,
+        "paceSecondsPerKm": 324,
+        "garminActivityId": 23547135367
+      },
+      {
+        "date": "2026-07-09",
+        "distanceKm": 1.28,
+        "durationSeconds": 550,
+        "paceSecondsPerKm": 430,
+        "garminActivityId": 23538678813
+      },
+      {
+        "date": "2026-07-09",
+        "distanceKm": 2.775,
+        "durationSeconds": 1096,
+        "paceSecondsPerKm": 395,
+        "garminActivityId": 23538529415
+      },
+      {
+        "date": "2026-07-09",
+        "distanceKm": 1.502,
+        "durationSeconds": 593,
+        "paceSecondsPerKm": 395,
+        "garminActivityId": 23538101969
+      },
+      {
+        "date": "2026-07-09",
+        "distanceKm": 6.004,
+        "durationSeconds": 1549,
+        "paceSecondsPerKm": 258,
+        "garminActivityId": 23533211030
+      },
+      {
+        "date": "2026-07-08",
+        "distanceKm": 6.002,
+        "durationSeconds": 1819,
+        "paceSecondsPerKm": 303,
+        "garminActivityId": 23521168184
+      },
+      {
+        "date": "2026-07-07",
+        "distanceKm": 3.009,
+        "durationSeconds": 960,
+        "paceSecondsPerKm": 319,
+        "garminActivityId": 23508259986
+      },
+      {
+        "date": "2026-07-07",
+        "distanceKm": 0.403,
+        "durationSeconds": 141,
+        "paceSecondsPerKm": 350,
+        "garminActivityId": 23506112441
+      },
+      {
+        "date": "2026-07-07",
+        "distanceKm": 1.7,
+        "durationSeconds": 696,
+        "paceSecondsPerKm": 410,
+        "garminActivityId": 23505952739
+      },
+      {
+        "date": "2026-07-06",
+        "distanceKm": 0.799,
+        "durationSeconds": 296,
+        "paceSecondsPerKm": 371,
+        "garminActivityId": 23500727811
+      },
+      {
+        "date": "2026-07-06",
+        "distanceKm": 0.803,
+        "durationSeconds": 299,
+        "paceSecondsPerKm": 372,
+        "garminActivityId": 23500499833
+      },
+      {
+        "date": "2026-07-06",
+        "distanceKm": 2.437,
+        "durationSeconds": 849,
+        "paceSecondsPerKm": 349,
+        "garminActivityId": 23500108618
+      },
+      {
+        "date": "2026-07-06",
+        "distanceKm": 1.221,
+        "durationSeconds": 401,
+        "paceSecondsPerKm": 328,
+        "garminActivityId": 23499807288
+      },
+      {
+        "date": "2026-07-06",
+        "distanceKm": 6.002,
+        "durationSeconds": 1731,
+        "paceSecondsPerKm": 288,
+        "garminActivityId": 23496720474
+      },
+      {
+        "date": "2026-07-05",
+        "distanceKm": 2.325,
+        "durationSeconds": 1011,
+        "paceSecondsPerKm": 435,
+        "garminActivityId": 23483361799
+      },
+      {
+        "date": "2026-07-05",
+        "distanceKm": 14.894,
+        "durationSeconds": 4515,
+        "paceSecondsPerKm": 303,
+        "garminActivityId": 23483271689
+      },
+      {
+        "date": "2026-07-04",
+        "distanceKm": 10.003,
+        "durationSeconds": 3681,
+        "paceSecondsPerKm": 368,
+        "garminActivityId": 23472051000
+      },
+      {
+        "date": "2026-07-03",
+        "distanceKm": 5.255,
+        "durationSeconds": 1596,
+        "paceSecondsPerKm": 304,
+        "garminActivityId": 23467888037
+      },
+      {
+        "date": "2026-07-02",
+        "distanceKm": 3.0,
+        "durationSeconds": 817,
+        "paceSecondsPerKm": 272,
+        "garminActivityId": 23451496645
+      },
+      {
+        "date": "2026-07-02",
+        "distanceKm": 3.01,
+        "durationSeconds": 1039,
+        "paceSecondsPerKm": 345,
+        "garminActivityId": 23451357150
+      },
+      {
+        "date": "2026-07-01",
+        "distanceKm": 3.934,
+        "durationSeconds": 1376,
+        "paceSecondsPerKm": 350,
+        "garminActivityId": 23445852427
+      },
+      {
+        "date": "2026-07-01",
+        "distanceKm": 6.008,
+        "durationSeconds": 1936,
+        "paceSecondsPerKm": 322,
+        "garminActivityId": 23440330592
+      },
+      {
+        "date": "2026-06-30",
+        "distanceKm": 7.507,
+        "durationSeconds": 2443,
+        "paceSecondsPerKm": 325,
+        "garminActivityId": 23432668238
+      },
+      {
+        "date": "2026-06-29",
+        "distanceKm": 0.416,
+        "durationSeconds": 177,
+        "paceSecondsPerKm": 426,
+        "garminActivityId": 23422336495
+      },
+      {
+        "date": "2026-06-29",
+        "distanceKm": 0.495,
+        "durationSeconds": 214,
+        "paceSecondsPerKm": 432,
+        "garminActivityId": 23422336021
+      },
+      {
+        "date": "2026-06-29",
+        "distanceKm": 0.389,
+        "durationSeconds": 173,
+        "paceSecondsPerKm": 445,
+        "garminActivityId": 23422335494
+      },
+      {
+        "date": "2026-06-29",
+        "distanceKm": 0.347,
+        "durationSeconds": 148,
+        "paceSecondsPerKm": 427,
+        "garminActivityId": 23422335033
+      },
+      {
+        "date": "2026-06-29",
+        "distanceKm": 2.485,
+        "durationSeconds": 980,
+        "paceSecondsPerKm": 394,
+        "garminActivityId": 23419474429
+      },
+      {
+        "date": "2026-06-29",
+        "distanceKm": 6.0,
+        "durationSeconds": 1928,
+        "paceSecondsPerKm": 321,
+        "garminActivityId": 23416792727
+      },
+      {
+        "date": "2026-06-28",
+        "distanceKm": 1.511,
+        "durationSeconds": 586,
+        "paceSecondsPerKm": 388,
+        "garminActivityId": 23403415313
+      },
+      {
+        "date": "2026-06-28",
+        "distanceKm": 18.0,
+        "durationSeconds": 5397,
+        "paceSecondsPerKm": 300,
+        "garminActivityId": 23403288253
+      },
+      {
+        "date": "2026-06-27",
+        "distanceKm": 10.034,
+        "durationSeconds": 3666,
+        "paceSecondsPerKm": 365,
+        "garminActivityId": 23392220947
+      },
+      {
+        "date": "2026-06-15",
+        "distanceKm": 0.812,
+        "durationSeconds": 335,
+        "paceSecondsPerKm": 412,
+        "garminActivityId": 23259467976
+      },
+      {
+        "date": "2026-06-15",
+        "distanceKm": 2.507,
+        "durationSeconds": 942,
+        "paceSecondsPerKm": 376,
+        "garminActivityId": 23258675905
+      },
+      {
+        "date": "2026-06-15",
+        "distanceKm": 6.001,
+        "durationSeconds": 2097,
+        "paceSecondsPerKm": 349,
+        "garminActivityId": 23256212241
+      },
+      {
+        "date": "2026-06-14",
+        "distanceKm": 20.003,
+        "durationSeconds": 8107,
+        "paceSecondsPerKm": 405,
+        "garminActivityId": 23242534716
+      },
+      {
+        "date": "2026-06-13",
+        "distanceKm": 4.968,
+        "durationSeconds": 1340,
+        "paceSecondsPerKm": 270,
+        "garminActivityId": 23230296631
+      },
+      {
+        "date": "2026-06-13",
+        "distanceKm": 8.312,
+        "durationSeconds": 3137,
+        "paceSecondsPerKm": 377,
+        "garminActivityId": 23230295756
+      },
+      {
+        "date": "2026-06-12",
+        "distanceKm": 0.329,
+        "durationSeconds": 119,
+        "paceSecondsPerKm": 362,
+        "garminActivityId": 23221246798
+      },
+      {
+        "date": "2026-06-12",
+        "distanceKm": 5.004,
+        "durationSeconds": 1714,
+        "paceSecondsPerKm": 342,
+        "garminActivityId": 23221209100
+      },
+      {
+        "date": "2026-06-12",
+        "distanceKm": 3.007,
+        "durationSeconds": 1242,
+        "paceSecondsPerKm": 413,
+        "garminActivityId": 23219489671
+      },
+      {
+        "date": "2026-06-11",
+        "distanceKm": 2.999,
+        "durationSeconds": 1154,
+        "paceSecondsPerKm": 385,
+        "garminActivityId": 23210622190
+      },
+      {
+        "date": "2026-06-11",
+        "distanceKm": 10.603,
+        "durationSeconds": 3426,
+        "paceSecondsPerKm": 323,
+        "garminActivityId": 23207514447
+      },
+      {
+        "date": "2026-06-09",
+        "distanceKm": 6.004,
+        "durationSeconds": 2240,
+        "paceSecondsPerKm": 373,
+        "garminActivityId": 23184950196
+      },
+      {
+        "date": "2026-06-08",
+        "distanceKm": 0.397,
+        "durationSeconds": 172,
+        "paceSecondsPerKm": 434,
+        "garminActivityId": 23177405613
+      },
+      {
+        "date": "2026-06-08",
+        "distanceKm": 0.389,
+        "durationSeconds": 167,
+        "paceSecondsPerKm": 429,
+        "garminActivityId": 23177212976
+      },
+      {
+        "date": "2026-06-08",
+        "distanceKm": 0.384,
+        "durationSeconds": 165,
+        "paceSecondsPerKm": 428,
+        "garminActivityId": 23177038855
+      },
+      {
+        "date": "2026-06-08",
+        "distanceKm": 0.433,
+        "durationSeconds": 172,
+        "paceSecondsPerKm": 397,
+        "garminActivityId": 23176818644
+      },
+      {
+        "date": "2026-06-08",
+        "distanceKm": 2.146,
+        "durationSeconds": 843,
+        "paceSecondsPerKm": 393,
+        "garminActivityId": 23176587735
+      },
+      {
+        "date": "2026-06-08",
+        "distanceKm": 6.004,
+        "durationSeconds": 2073,
+        "paceSecondsPerKm": 345,
+        "garminActivityId": 23172833037
+      },
+      {
+        "date": "2026-06-07",
+        "distanceKm": 2.004,
+        "durationSeconds": 785,
+        "paceSecondsPerKm": 392,
+        "garminActivityId": 23159032822
+      },
+      {
+        "date": "2026-06-07",
+        "distanceKm": 18.001,
+        "durationSeconds": 5408,
+        "paceSecondsPerKm": 300,
+        "garminActivityId": 23158859904
+      },
+      {
+        "date": "2026-06-06",
+        "distanceKm": 10.009,
+        "durationSeconds": 3903,
+        "paceSecondsPerKm": 390,
+        "garminActivityId": 23147787158
+      },
+      {
+        "date": "2026-06-06",
+        "distanceKm": 4.961,
+        "durationSeconds": 1779,
+        "paceSecondsPerKm": 359,
+        "garminActivityId": 23147173940
+      },
+      {
+        "date": "2026-06-04",
+        "distanceKm": 2.004,
+        "durationSeconds": 783,
+        "paceSecondsPerKm": 391,
+        "garminActivityId": 23129664533
+      },
+      {
+        "date": "2026-06-04",
+        "distanceKm": 5.008,
+        "durationSeconds": 1287,
+        "paceSecondsPerKm": 257,
+        "garminActivityId": 23129505196
+      },
+      {
+        "date": "2026-06-04",
+        "distanceKm": 3.009,
+        "durationSeconds": 1166,
+        "paceSecondsPerKm": 387,
+        "garminActivityId": 23129188369
+      },
+      {
+        "date": "2026-06-03",
+        "distanceKm": 12.001,
+        "durationSeconds": 4303,
+        "paceSecondsPerKm": 359,
+        "garminActivityId": 23118159398
+      },
+      {
+        "date": "2026-06-03",
+        "distanceKm": 0.339,
+        "durationSeconds": 251,
+        "paceSecondsPerKm": 742,
+        "garminActivityId": 23117153517
+      },
+      {
+        "date": "2026-06-02",
+        "distanceKm": 1.004,
+        "durationSeconds": 539,
+        "paceSecondsPerKm": 537,
+        "garminActivityId": 23105083158
+      },
+      {
+        "date": "2026-06-02",
+        "distanceKm": 4.752,
+        "durationSeconds": 1273,
+        "paceSecondsPerKm": 268,
+        "garminActivityId": 23104982284
+      },
+      {
+        "date": "2026-06-02",
+        "distanceKm": 3.189,
+        "durationSeconds": 1141,
+        "paceSecondsPerKm": 358,
+        "garminActivityId": 23104586969
+      },
+      {
+        "date": "2026-06-01",
+        "distanceKm": 0.407,
+        "durationSeconds": 164,
+        "paceSecondsPerKm": 403,
+        "garminActivityId": 23093128359
+      },
+      {
+        "date": "2026-06-01",
+        "distanceKm": 0.376,
+        "durationSeconds": 157,
+        "paceSecondsPerKm": 418,
+        "garminActivityId": 23093127721
+      },
+      {
+        "date": "2026-06-01",
+        "distanceKm": 0.348,
+        "durationSeconds": 156,
+        "paceSecondsPerKm": 448,
+        "garminActivityId": 23093127055
+      },
+      {
+        "date": "2026-06-01",
+        "distanceKm": 2.218,
+        "durationSeconds": 878,
+        "paceSecondsPerKm": 396,
+        "garminActivityId": 23093126203
+      },
+      {
+        "date": "2026-05-31",
+        "distanceKm": 20.002,
+        "durationSeconds": 6242,
+        "paceSecondsPerKm": 312,
+        "garminActivityId": 23075048141
+      },
+      {
+        "date": "2026-05-30",
+        "distanceKm": 15.003,
+        "durationSeconds": 5966,
+        "paceSecondsPerKm": 398,
+        "garminActivityId": 23063296318
+      },
+      {
+        "date": "2026-05-28",
+        "distanceKm": 6.552,
+        "durationSeconds": 2588,
+        "paceSecondsPerKm": 395,
+        "garminActivityId": 23042113379
+      },
+      {
+        "date": "2026-05-27",
+        "distanceKm": 10.01,
+        "durationSeconds": 2978,
+        "paceSecondsPerKm": 297,
+        "garminActivityId": 23028108356
+      },
+      {
+        "date": "2026-05-26",
+        "distanceKm": 1.004,
+        "durationSeconds": 405,
+        "paceSecondsPerKm": 403,
+        "garminActivityId": 23020140334
+      },
+      {
+        "date": "2026-05-26",
+        "distanceKm": 4.837,
+        "durationSeconds": 1328,
+        "paceSecondsPerKm": 275,
+        "garminActivityId": 23020061068
+      },
+      {
+        "date": "2026-05-26",
+        "distanceKm": 3.006,
+        "durationSeconds": 1083,
+        "paceSecondsPerKm": 360,
+        "garminActivityId": 23019703669
+      },
+      {
+        "date": "2026-05-24",
+        "distanceKm": 20.01,
+        "durationSeconds": 6244,
+        "paceSecondsPerKm": 312,
+        "garminActivityId": 22990705461
+      },
+      {
+        "date": "2026-05-22",
+        "distanceKm": 6.003,
+        "durationSeconds": 2140,
+        "paceSecondsPerKm": 356,
+        "garminActivityId": 22969573001
+      },
+      {
+        "date": "2026-05-21",
+        "distanceKm": 2.006,
+        "durationSeconds": 737,
+        "paceSecondsPerKm": 367,
+        "garminActivityId": 22958058386
+      },
+      {
+        "date": "2026-05-21",
+        "distanceKm": 10.004,
+        "durationSeconds": 3049,
+        "paceSecondsPerKm": 305,
+        "garminActivityId": 22957919386
+      },
+      {
+        "date": "2026-05-20",
+        "distanceKm": 0.936,
+        "durationSeconds": 673,
+        "paceSecondsPerKm": 720,
+        "garminActivityId": 22949606235
+      },
+      {
+        "date": "2026-05-20",
+        "distanceKm": 2.019,
+        "durationSeconds": 924,
+        "paceSecondsPerKm": 458,
+        "garminActivityId": 22949159427
+      },
+      {
+        "date": "2026-05-19",
+        "distanceKm": 11.004,
+        "durationSeconds": 3757,
+        "paceSecondsPerKm": 341,
+        "garminActivityId": 22935011871
+      },
+      {
+        "date": "2026-05-17",
+        "distanceKm": 17.548,
+        "durationSeconds": 5922,
+        "paceSecondsPerKm": 337,
+        "garminActivityId": 22909725483
+      },
+      {
+        "date": "2026-05-16",
+        "distanceKm": 13.475,
+        "durationSeconds": 5329,
+        "paceSecondsPerKm": 395,
+        "garminActivityId": 22896634239
+      },
+      {
+        "date": "2026-05-15",
+        "distanceKm": 0.865,
+        "durationSeconds": 340,
+        "paceSecondsPerKm": 394,
+        "garminActivityId": 22890291548
+      },
+      {
+        "date": "2026-05-15",
+        "distanceKm": 2.263,
+        "durationSeconds": 1167,
+        "paceSecondsPerKm": 516,
+        "garminActivityId": 22890071258
+      },
+      {
+        "date": "2026-05-13",
+        "distanceKm": 4.003,
+        "durationSeconds": 2112,
+        "paceSecondsPerKm": 528,
+        "garminActivityId": 22870258059
+      },
+      {
+        "date": "2026-05-06",
+        "distanceKm": 5.0,
+        "durationSeconds": 2061,
+        "paceSecondsPerKm": 412,
+        "garminActivityId": 22780682593
+      },
+      {
+        "date": "2026-05-06",
+        "distanceKm": 0.07,
+        "durationSeconds": 99,
+        "paceSecondsPerKm": 1417,
+        "garminActivityId": 22780527213
+      },
+      {
+        "date": "2026-05-03",
+        "distanceKm": 21.189,
+        "durationSeconds": 5757,
+        "paceSecondsPerKm": 272,
+        "garminActivityId": 22745093166
+      },
+      {
+        "date": "2026-05-02",
+        "distanceKm": 2.852,
+        "durationSeconds": 648,
+        "paceSecondsPerKm": 227,
+        "garminActivityId": 22735387842
+      },
+      {
+        "date": "2026-05-02",
+        "distanceKm": 0.722,
+        "durationSeconds": 255,
+        "paceSecondsPerKm": 353,
+        "garminActivityId": 22735386826
+      },
+      {
+        "date": "2026-05-02",
+        "distanceKm": 0.894,
+        "durationSeconds": 374,
+        "paceSecondsPerKm": 418,
+        "garminActivityId": 22735386032
+      },
+      {
+        "date": "2026-05-02",
+        "distanceKm": 0.367,
+        "durationSeconds": 98,
+        "paceSecondsPerKm": 267,
+        "garminActivityId": 22735385294
+      },
+      {
+        "date": "2026-05-01",
+        "distanceKm": 0.317,
+        "durationSeconds": 154,
+        "paceSecondsPerKm": 486,
+        "garminActivityId": 22724541758
+      },
+      {
+        "date": "2026-05-01",
+        "distanceKm": 1.013,
+        "durationSeconds": 220,
+        "paceSecondsPerKm": 217,
+        "garminActivityId": 22724489088
+      },
+      {
+        "date": "2026-05-01",
+        "distanceKm": 2.251,
+        "durationSeconds": 786,
+        "paceSecondsPerKm": 349,
+        "garminActivityId": 22724361408
+      },
+      {
+        "date": "2026-04-24",
+        "distanceKm": 6.056,
+        "durationSeconds": 2200,
+        "paceSecondsPerKm": 363,
+        "garminActivityId": 22642112478
+      },
+      {
+        "date": "2026-04-23",
+        "distanceKm": 4.719,
+        "durationSeconds": 2009,
+        "paceSecondsPerKm": 426,
+        "garminActivityId": 22628564774
+      },
+      {
+        "date": "2026-04-23",
+        "distanceKm": 11.499,
+        "durationSeconds": 3575,
+        "paceSecondsPerKm": 311,
+        "garminActivityId": 22626123360
+      },
+      {
+        "date": "2026-04-22",
+        "distanceKm": 10.011,
+        "durationSeconds": 3972,
+        "paceSecondsPerKm": 397,
+        "garminActivityId": 22621936321
+      },
+      {
+        "date": "2026-04-19",
+        "distanceKm": 20.004,
+        "durationSeconds": 8583,
+        "paceSecondsPerKm": 429,
+        "garminActivityId": 22578366143
+      },
+      {
+        "date": "2026-04-11",
+        "distanceKm": 20.353,
+        "durationSeconds": 7873,
+        "paceSecondsPerKm": 387,
+        "garminActivityId": 22487408228
+      },
+      {
+        "date": "2026-04-08",
+        "distanceKm": 0.193,
+        "durationSeconds": 100,
+        "paceSecondsPerKm": 520,
+        "garminActivityId": 22456215006
+      },
+      {
+        "date": "2026-04-08",
+        "distanceKm": 5.009,
+        "durationSeconds": 1499,
+        "paceSecondsPerKm": 299,
+        "garminActivityId": 22456145532
+      },
+      {
+        "date": "2026-04-08",
+        "distanceKm": 1.489,
+        "durationSeconds": 513,
+        "paceSecondsPerKm": 344,
+        "garminActivityId": 22452279420
+      },
+      {
+        "date": "2026-04-08",
+        "distanceKm": 4.012,
+        "durationSeconds": 948,
+        "paceSecondsPerKm": 236,
+        "garminActivityId": 22452151113
+      },
+      {
+        "date": "2026-04-08",
+        "distanceKm": 3.329,
+        "durationSeconds": 1066,
+        "paceSecondsPerKm": 320,
+        "garminActivityId": 22451791305
+      },
+      {
+        "date": "2026-04-05",
+        "distanceKm": 20.0,
+        "durationSeconds": 7493,
+        "paceSecondsPerKm": 375,
+        "garminActivityId": 22412919493
+      },
+      {
+        "date": "2026-04-04",
+        "distanceKm": 8.149,
+        "durationSeconds": 2633,
+        "paceSecondsPerKm": 323,
+        "garminActivityId": 22405956662
+      },
+      {
+        "date": "2026-04-04",
+        "distanceKm": 5.005,
+        "durationSeconds": 1273,
+        "paceSecondsPerKm": 254,
+        "garminActivityId": 22400680686
+      },
+      {
+        "date": "2026-04-04",
+        "distanceKm": 2.355,
+        "durationSeconds": 1607,
+        "paceSecondsPerKm": 682,
+        "garminActivityId": 22400578530
+      },
+      {
+        "date": "2026-03-31",
+        "distanceKm": 5.476,
+        "durationSeconds": 1774,
+        "paceSecondsPerKm": 324,
+        "garminActivityId": 22357975242
+      },
+      {
+        "date": "2026-03-30",
+        "distanceKm": 3.558,
+        "durationSeconds": 1081,
+        "paceSecondsPerKm": 304,
+        "garminActivityId": 22349739073
+      },
+      {
+        "date": "2026-03-30",
+        "distanceKm": 10.009,
+        "durationSeconds": 3027,
+        "paceSecondsPerKm": 302,
+        "garminActivityId": 22347618453
+      },
+      {
+        "date": "2026-03-25",
+        "distanceKm": 7.814,
+        "durationSeconds": 2489,
+        "paceSecondsPerKm": 319,
+        "garminActivityId": 22292888096
+      },
+      {
+        "date": "2026-03-22",
+        "distanceKm": 10.014,
+        "durationSeconds": 2837,
+        "paceSecondsPerKm": 283,
+        "garminActivityId": 22255833979
+      },
+      {
+        "date": "2026-03-21",
+        "distanceKm": 20.004,
+        "durationSeconds": 6885,
+        "paceSecondsPerKm": 344,
+        "garminActivityId": 22244669085
+      },
+      {
+        "date": "2026-03-21",
+        "distanceKm": 0.099,
+        "durationSeconds": 51,
+        "paceSecondsPerKm": 510,
+        "garminActivityId": 22244666705
+      },
+      {
+        "date": "2026-03-16",
+        "distanceKm": 1.655,
+        "durationSeconds": 622,
+        "paceSecondsPerKm": 376,
+        "garminActivityId": 22193051223
+      },
+      {
+        "date": "2026-03-16",
+        "distanceKm": 3.005,
+        "durationSeconds": 665,
+        "paceSecondsPerKm": 221,
+        "garminActivityId": 22192912684
+      },
+      {
+        "date": "2026-03-16",
+        "distanceKm": 2.002,
+        "durationSeconds": 640,
+        "paceSecondsPerKm": 319,
+        "garminActivityId": 22192655395
+      },
+      {
+        "date": "2026-03-15",
+        "distanceKm": 15.002,
+        "durationSeconds": 4574,
+        "paceSecondsPerKm": 305,
+        "garminActivityId": 22177335201
+      },
+      {
+        "date": "2026-03-14",
+        "distanceKm": 5.007,
+        "durationSeconds": 1580,
+        "paceSecondsPerKm": 315,
+        "garminActivityId": 22166320705
+      },
+      {
+        "date": "2026-03-13",
+        "distanceKm": 5.572,
+        "durationSeconds": 1740,
+        "paceSecondsPerKm": 312,
+        "garminActivityId": 22158723818
+      },
+      {
+        "date": "2026-03-12",
+        "distanceKm": 9.003,
+        "durationSeconds": 2831,
+        "paceSecondsPerKm": 314,
+        "garminActivityId": 22147459565
+      },
+      {
+        "date": "2026-02-28",
+        "distanceKm": 6.356,
+        "durationSeconds": 1641,
+        "paceSecondsPerKm": 258,
+        "garminActivityId": 22009705939
+      },
+      {
+        "date": "2026-02-26",
+        "distanceKm": 16.054,
+        "durationSeconds": 5493,
+        "paceSecondsPerKm": 342,
+        "garminActivityId": 21988459588
+      },
+      {
+        "date": "2026-02-24",
+        "distanceKm": 9.006,
+        "durationSeconds": 2851,
+        "paceSecondsPerKm": 317,
+        "garminActivityId": 21970660487
+      },
+      {
+        "date": "2026-02-23",
+        "distanceKm": 11.068,
+        "durationSeconds": 3601,
+        "paceSecondsPerKm": 325,
+        "garminActivityId": 21956999693
+      },
+      {
+        "date": "2026-02-18",
+        "distanceKm": 0.498,
+        "durationSeconds": 221,
+        "paceSecondsPerKm": 443,
+        "garminActivityId": 21908093996
+      },
+      {
+        "date": "2026-02-18",
+        "distanceKm": 6.002,
+        "durationSeconds": 1738,
+        "paceSecondsPerKm": 290,
+        "garminActivityId": 21908055868
+      },
+      {
+        "date": "2026-02-17",
+        "distanceKm": 5.999,
+        "durationSeconds": 1948,
+        "paceSecondsPerKm": 325,
+        "garminActivityId": 21898762406
+      },
+      {
+        "date": "2026-02-08",
+        "distanceKm": 20.006,
+        "durationSeconds": 7563,
+        "paceSecondsPerKm": 378,
+        "garminActivityId": 21799304947
+      },
+      {
+        "date": "2026-02-03",
+        "distanceKm": 9.814,
+        "durationSeconds": 3051,
+        "paceSecondsPerKm": 311,
+        "garminActivityId": 21752428780
+      },
+      {
+        "date": "2026-01-25",
+        "distanceKm": 20.049,
+        "durationSeconds": 6805,
+        "paceSecondsPerKm": 339,
+        "garminActivityId": 21656611556
+      },
+      {
+        "date": "2026-01-24",
+        "distanceKm": 6.683,
+        "durationSeconds": 2303,
+        "paceSecondsPerKm": 345,
+        "garminActivityId": 21647561725
+      },
+      {
+        "date": "2026-01-23",
+        "distanceKm": 11.014,
+        "durationSeconds": 3621,
+        "paceSecondsPerKm": 329,
+        "garminActivityId": 21638528907
+      },
+      {
+        "date": "2026-01-22",
+        "distanceKm": 9.999,
+        "durationSeconds": 3418,
+        "paceSecondsPerKm": 342,
+        "garminActivityId": 21628323977
+      },
+      {
+        "date": "2026-01-21",
+        "distanceKm": 11.014,
+        "durationSeconds": 3728,
+        "paceSecondsPerKm": 339,
+        "garminActivityId": 21617557150
+      },
+      {
+        "date": "2026-01-18",
+        "distanceKm": 11.004,
+        "durationSeconds": 3781,
+        "paceSecondsPerKm": 344,
+        "garminActivityId": 21582580858
+      },
+      {
+        "date": "2026-01-15",
+        "distanceKm": 10.007,
+        "durationSeconds": 3287,
+        "paceSecondsPerKm": 328,
+        "garminActivityId": 21553527462
+      },
+      {
+        "date": "2026-01-13",
+        "distanceKm": 7.0,
+        "durationSeconds": 2374,
+        "paceSecondsPerKm": 339,
+        "garminActivityId": 21533607030
+      },
+      {
+        "date": "2026-01-09",
+        "distanceKm": 1.445,
+        "durationSeconds": 783,
+        "paceSecondsPerKm": 542,
+        "garminActivityId": 21489319758
+      },
+      {
+        "date": "2026-01-09",
+        "distanceKm": 4.439,
+        "durationSeconds": 2239,
+        "paceSecondsPerKm": 504,
+        "garminActivityId": 21489212555
+      },
+      {
+        "date": "2026-01-09",
+        "distanceKm": 6.612,
+        "durationSeconds": 2559,
+        "paceSecondsPerKm": 387,
+        "garminActivityId": 21489211537
+      },
+      {
+        "date": "2026-01-08",
+        "distanceKm": 8.998,
+        "durationSeconds": 3209,
+        "paceSecondsPerKm": 357,
+        "garminActivityId": 21478994621
+      },
+      {
+        "date": "2026-01-07",
+        "distanceKm": 2.004,
+        "durationSeconds": 1134,
+        "paceSecondsPerKm": 566,
+        "garminActivityId": 21468327683
+      },
+      {
+        "date": "2026-01-06",
+        "distanceKm": 5.452,
+        "durationSeconds": 2076,
+        "paceSecondsPerKm": 381,
+        "garminActivityId": 21460468133
+      },
+      {
+        "date": "2026-01-05",
+        "distanceKm": 10.329,
+        "durationSeconds": 3761,
+        "paceSecondsPerKm": 364,
+        "garminActivityId": 21447089332
+      },
+      {
+        "date": "2026-01-03",
+        "distanceKm": 5.117,
+        "durationSeconds": 1504,
+        "paceSecondsPerKm": 294,
+        "garminActivityId": 21426436541
+      },
+      {
+        "date": "2026-01-01",
+        "distanceKm": 9.705,
+        "durationSeconds": 3496,
+        "paceSecondsPerKm": 360,
+        "garminActivityId": 21409313804
+      },
+      {
+        "date": "2026-01-01",
+        "distanceKm": 0.889,
+        "durationSeconds": 257,
+        "paceSecondsPerKm": 289,
+        "garminActivityId": 21408840567
+      },
+      {
+        "date": "2026-01-01",
+        "distanceKm": 1.954,
+        "durationSeconds": 627,
+        "paceSecondsPerKm": 321,
+        "garminActivityId": 21408817957
+      },
+      {
+        "date": "2025-12-31",
+        "distanceKm": 8.131,
+        "durationSeconds": 3184,
+        "paceSecondsPerKm": 392,
+        "garminActivityId": 21399901470
+      },
+      {
+        "date": "2025-12-29",
+        "distanceKm": 9.195,
+        "durationSeconds": 3346,
+        "paceSecondsPerKm": 364,
+        "garminActivityId": 21385671727
+      },
+      {
+        "date": "2025-12-29",
+        "distanceKm": 8.603,
+        "durationSeconds": 2734,
+        "paceSecondsPerKm": 318,
+        "garminActivityId": 21380874345
+      },
+      {
+        "date": "2025-12-28",
+        "distanceKm": 14.33,
+        "durationSeconds": 5461,
+        "paceSecondsPerKm": 381,
+        "garminActivityId": 21370223038
+      },
+      {
+        "date": "2025-12-27",
+        "distanceKm": 5.145,
+        "durationSeconds": 1615,
+        "paceSecondsPerKm": 314,
+        "garminActivityId": 21360804468
+      },
+      {
+        "date": "2025-12-25",
+        "distanceKm": 14.006,
+        "durationSeconds": 4860,
+        "paceSecondsPerKm": 347,
+        "garminActivityId": 21344776444
+      },
+      {
+        "date": "2025-12-23",
+        "distanceKm": 10.306,
+        "durationSeconds": 3489,
+        "paceSecondsPerKm": 339,
+        "garminActivityId": 21333209505
+      },
+      {
+        "date": "2025-12-23",
+        "distanceKm": 6.42,
+        "durationSeconds": 2139,
+        "paceSecondsPerKm": 333,
+        "garminActivityId": 21333207409
+      },
+      {
+        "date": "2025-12-21",
+        "distanceKm": 6.077,
+        "durationSeconds": 2180,
+        "paceSecondsPerKm": 359,
+        "garminActivityId": 21317173711
+      },
+      {
+        "date": "2025-12-20",
+        "distanceKm": 5.078,
+        "durationSeconds": 1407,
+        "paceSecondsPerKm": 277,
+        "garminActivityId": 21302880206
+      },
+      {
+        "date": "2025-12-19",
+        "distanceKm": 10.569,
+        "durationSeconds": 3443,
+        "paceSecondsPerKm": 326,
+        "garminActivityId": 21296386895
+      },
+      {
+        "date": "2025-12-17",
+        "distanceKm": 8.188,
+        "durationSeconds": 3405,
+        "paceSecondsPerKm": 416,
+        "garminActivityId": 21281848253
+      },
+      {
+        "date": "2025-12-16",
+        "distanceKm": 6.007,
+        "durationSeconds": 1961,
+        "paceSecondsPerKm": 326,
+        "garminActivityId": 21270493808
+      },
+      {
+        "date": "2025-12-01",
+        "distanceKm": 6.463,
+        "durationSeconds": 2521,
+        "paceSecondsPerKm": 390,
+        "garminActivityId": 21143372471
+      },
+      {
+        "date": "2025-12-01",
+        "distanceKm": 7.009,
+        "durationSeconds": 2585,
+        "paceSecondsPerKm": 369,
+        "garminActivityId": 21140425626
+      },
+      {
+        "date": "2025-11-30",
+        "distanceKm": 5.709,
+        "durationSeconds": 2137,
+        "paceSecondsPerKm": 374,
+        "garminActivityId": 21131340419
+      },
+      {
+        "date": "2025-11-27",
+        "distanceKm": 9.014,
+        "durationSeconds": 3012,
+        "paceSecondsPerKm": 334,
+        "garminActivityId": 21105893262
+      },
+      {
+        "date": "2025-11-25",
+        "distanceKm": 5.707,
+        "durationSeconds": 1790,
+        "paceSecondsPerKm": 314,
+        "garminActivityId": 21087805190
+      },
+      {
+        "date": "2025-11-19",
+        "distanceKm": 6.501,
+        "durationSeconds": 2058,
+        "paceSecondsPerKm": 316,
+        "garminActivityId": 21034925557
+      },
+      {
+        "date": "2025-11-19",
+        "distanceKm": 6.638,
+        "durationSeconds": 2441,
+        "paceSecondsPerKm": 368,
+        "garminActivityId": 21029973483
+      },
+      {
+        "date": "2025-11-18",
+        "distanceKm": 8.007,
+        "durationSeconds": 2634,
+        "paceSecondsPerKm": 329,
+        "garminActivityId": 21024460085
+      },
+      {
+        "date": "2025-11-09",
+        "distanceKm": 10.2,
+        "durationSeconds": 3566,
+        "paceSecondsPerKm": 350,
+        "garminActivityId": 20934514995
+      },
+      {
+        "date": "2025-11-08",
+        "distanceKm": 5.004,
+        "durationSeconds": 1384,
+        "paceSecondsPerKm": 277,
+        "garminActivityId": 20924850935
+      },
+      {
+        "date": "2025-11-06",
+        "distanceKm": 8.452,
+        "durationSeconds": 3072,
+        "paceSecondsPerKm": 363,
+        "garminActivityId": 20906104307
+      },
+      {
+        "date": "2025-11-04",
+        "distanceKm": 8.958,
+        "durationSeconds": 4368,
+        "paceSecondsPerKm": 488,
+        "garminActivityId": 20886010535
+      },
+      {
+        "date": "2025-11-03",
+        "distanceKm": 9.979,
+        "durationSeconds": 3766,
+        "paceSecondsPerKm": 377,
+        "garminActivityId": 20875867273
+      },
+      {
+        "date": "2025-11-02",
+        "distanceKm": 4.922,
+        "durationSeconds": 1314,
+        "paceSecondsPerKm": 267,
+        "garminActivityId": 20865184656
+      },
+      {
+        "date": "2025-10-31",
+        "distanceKm": 10.337,
+        "durationSeconds": 3639,
+        "paceSecondsPerKm": 352,
+        "garminActivityId": 20846604635
+      },
+      {
+        "date": "2025-10-30",
+        "distanceKm": 8.006,
+        "durationSeconds": 2541,
+        "paceSecondsPerKm": 317,
+        "garminActivityId": 20841327898
+      },
+      {
+        "date": "2025-10-26",
+        "distanceKm": 10.003,
+        "durationSeconds": 3654,
+        "paceSecondsPerKm": 365,
+        "garminActivityId": 20798494971
+      },
+      {
+        "date": "2025-10-25",
+        "distanceKm": 5.001,
+        "durationSeconds": 1293,
+        "paceSecondsPerKm": 259,
+        "garminActivityId": 20789255341
+      },
+      {
+        "date": "2025-10-23",
+        "distanceKm": 10.67,
+        "durationSeconds": 3845,
+        "paceSecondsPerKm": 360,
+        "garminActivityId": 20771458821
+      },
+      {
+        "date": "2025-10-22",
+        "distanceKm": 9.808,
+        "durationSeconds": 3205,
+        "paceSecondsPerKm": 327,
+        "garminActivityId": 20761583324
+      },
+      {
+        "date": "2025-10-20",
+        "distanceKm": 8.006,
+        "durationSeconds": 2905,
+        "paceSecondsPerKm": 363,
+        "garminActivityId": 20746073795
+      },
+      {
+        "date": "2025-10-15",
+        "distanceKm": 9.33,
+        "durationSeconds": 3151,
+        "paceSecondsPerKm": 338,
+        "garminActivityId": 20692864175
+      },
+      {
+        "date": "2025-10-13",
+        "distanceKm": 11.0,
+        "durationSeconds": 3789,
+        "paceSecondsPerKm": 344,
+        "garminActivityId": 20672624417
+      },
+      {
+        "date": "2025-10-11",
+        "distanceKm": 5.003,
+        "durationSeconds": 1271,
+        "paceSecondsPerKm": 254,
+        "garminActivityId": 20652298493
+      },
+      {
+        "date": "2025-10-10",
+        "distanceKm": 9.999,
+        "durationSeconds": 2764,
+        "paceSecondsPerKm": 276,
+        "garminActivityId": 20645204171
+      },
+      {
+        "date": "2025-10-08",
+        "distanceKm": 11.554,
+        "durationSeconds": 4028,
+        "paceSecondsPerKm": 349,
+        "garminActivityId": 20622793564
+      },
+      {
+        "date": "2025-10-07",
+        "distanceKm": 7.501,
+        "durationSeconds": 2810,
+        "paceSecondsPerKm": 375,
+        "garminActivityId": 20611994963
+      },
+      {
+        "date": "2025-10-06",
+        "distanceKm": 12.167,
+        "durationSeconds": 3625,
+        "paceSecondsPerKm": 298,
+        "garminActivityId": 20606648220
+      },
+      {
+        "date": "2025-10-04",
+        "distanceKm": 4.81,
+        "durationSeconds": 1270,
+        "paceSecondsPerKm": 264,
+        "garminActivityId": 20582975268
+      },
+      {
+        "date": "2025-10-03",
+        "distanceKm": 2.034,
+        "durationSeconds": 656,
+        "paceSecondsPerKm": 322,
+        "garminActivityId": 20573323910
+      },
+      {
+        "date": "2025-10-02",
+        "distanceKm": 8.008,
+        "durationSeconds": 2901,
+        "paceSecondsPerKm": 362,
+        "garminActivityId": 20563539856
+      },
+      {
+        "date": "2025-09-30",
+        "distanceKm": 7.068,
+        "durationSeconds": 2362,
+        "paceSecondsPerKm": 334,
+        "garminActivityId": 20542302232
+      },
+      {
+        "date": "2025-09-29",
+        "distanceKm": 7.392,
+        "durationSeconds": 1916,
+        "paceSecondsPerKm": 259,
+        "garminActivityId": 20532311133
+      },
+      {
+        "date": "2025-09-28",
+        "distanceKm": 8.251,
+        "durationSeconds": 3295,
+        "paceSecondsPerKm": 399,
+        "garminActivityId": 20522061730
+      },
+      {
+        "date": "2025-09-27",
+        "distanceKm": 5.004,
+        "durationSeconds": 1244,
+        "paceSecondsPerKm": 249,
+        "garminActivityId": 20511978180
+      },
+      {
+        "date": "2025-09-26",
+        "distanceKm": 0.368,
+        "durationSeconds": 175,
+        "paceSecondsPerKm": 475,
+        "garminActivityId": 20507504651
+      },
+      {
+        "date": "2025-09-26",
+        "distanceKm": 5.578,
+        "durationSeconds": 1879,
+        "paceSecondsPerKm": 337,
+        "garminActivityId": 20506905615
+      },
+      {
+        "date": "2025-09-26",
+        "distanceKm": 1.655,
+        "durationSeconds": 549,
+        "paceSecondsPerKm": 331,
+        "garminActivityId": 20506587472
+      },
+      {
+        "date": "2025-09-26",
+        "distanceKm": 7.809,
+        "durationSeconds": 2665,
+        "paceSecondsPerKm": 341,
+        "garminActivityId": 20502492905
+      },
+      {
+        "date": "2025-09-25",
+        "distanceKm": 10.008,
+        "durationSeconds": 3069,
+        "paceSecondsPerKm": 307,
+        "garminActivityId": 20497418143
+      },
+      {
+        "date": "2025-09-24",
+        "distanceKm": 7.461,
+        "durationSeconds": 2649,
+        "paceSecondsPerKm": 355,
+        "garminActivityId": 20483066217
+      },
+      {
+        "date": "2025-09-23",
+        "distanceKm": 6.555,
+        "durationSeconds": 2332,
+        "paceSecondsPerKm": 356,
+        "garminActivityId": 20479998591
+      },
+      {
+        "date": "2025-09-22",
+        "distanceKm": 4.559,
+        "durationSeconds": 1390,
+        "paceSecondsPerKm": 305,
+        "garminActivityId": 20467232038
+      },
+      {
+        "date": "2025-09-22",
+        "distanceKm": 2.183,
+        "durationSeconds": 904,
+        "paceSecondsPerKm": 414,
+        "garminActivityId": 20466760868
+      },
+      {
+        "date": "2025-09-22",
+        "distanceKm": 11.341,
+        "durationSeconds": 3724,
+        "paceSecondsPerKm": 328,
+        "garminActivityId": 20461957593
+      },
+      {
+        "date": "2025-09-20",
+        "distanceKm": 7.259,
+        "durationSeconds": 2254,
+        "paceSecondsPerKm": 310,
+        "garminActivityId": 20440908728
+      },
+      {
+        "date": "2025-09-18",
+        "distanceKm": 6.255,
+        "durationSeconds": 1905,
+        "paceSecondsPerKm": 304,
+        "garminActivityId": 20421009323
+      },
+      {
+        "date": "2025-09-16",
+        "distanceKm": 5.221,
+        "durationSeconds": 1718,
+        "paceSecondsPerKm": 329,
+        "garminActivityId": 20404790254
+      },
+      {
+        "date": "2025-09-15",
+        "distanceKm": 0.819,
+        "durationSeconds": 325,
+        "paceSecondsPerKm": 396,
+        "garminActivityId": 20394861056
+      },
+      {
+        "date": "2025-09-15",
+        "distanceKm": 1.515,
+        "durationSeconds": 877,
+        "paceSecondsPerKm": 579,
+        "garminActivityId": 20394254147
+      },
+      {
+        "date": "2025-09-14",
+        "distanceKm": 1.665,
+        "durationSeconds": 657,
+        "paceSecondsPerKm": 395,
+        "garminActivityId": 20382632146
+      },
+      {
+        "date": "2025-09-14",
+        "distanceKm": 10.132,
+        "durationSeconds": 3766,
+        "paceSecondsPerKm": 372,
+        "garminActivityId": 20378919766
+      },
+      {
+        "date": "2025-09-13",
+        "distanceKm": 10.558,
+        "durationSeconds": 3330,
+        "paceSecondsPerKm": 315,
+        "garminActivityId": 20370980155
+      },
+      {
+        "date": "2025-09-12",
+        "distanceKm": 9.125,
+        "durationSeconds": 2923,
+        "paceSecondsPerKm": 320,
+        "garminActivityId": 20360822873
+      },
+      {
+        "date": "2025-09-11",
+        "distanceKm": 8.505,
+        "durationSeconds": 2532,
+        "paceSecondsPerKm": 298,
+        "garminActivityId": 20353257472
+      },
+      {
+        "date": "2025-09-03",
+        "distanceKm": 5.005,
+        "durationSeconds": 1678,
+        "paceSecondsPerKm": 335,
+        "garminActivityId": 20263478160
+      },
+      {
+        "date": "2025-09-02",
+        "distanceKm": 0.181,
+        "durationSeconds": 20,
+        "paceSecondsPerKm": 113,
+        "garminActivityId": 20258492867
+      },
+      {
+        "date": "2025-09-02",
+        "distanceKm": 2.515,
+        "durationSeconds": 869,
+        "paceSecondsPerKm": 346,
+        "garminActivityId": 20254951420
+      },
+      {
+        "date": "2025-09-01",
+        "distanceKm": 1.011,
+        "durationSeconds": 393,
+        "paceSecondsPerKm": 388,
+        "garminActivityId": 20247102660
+      },
+      {
+        "date": "2025-09-01",
+        "distanceKm": 3.383,
+        "durationSeconds": 866,
+        "paceSecondsPerKm": 256,
+        "garminActivityId": 20246780601
+      },
+      {
+        "date": "2025-08-31",
+        "distanceKm": 10.0,
+        "durationSeconds": 2992,
+        "paceSecondsPerKm": 299,
+        "garminActivityId": 20236257275
+      },
+      {
+        "date": "2025-08-28",
+        "distanceKm": 7.502,
+        "durationSeconds": 2603,
+        "paceSecondsPerKm": 347,
+        "garminActivityId": 20201663613
+      },
+      {
+        "date": "2025-08-27",
+        "distanceKm": 5.01,
+        "durationSeconds": 1491,
+        "paceSecondsPerKm": 298,
+        "garminActivityId": 20197895234
+      },
+      {
+        "date": "2025-08-27",
+        "distanceKm": 0.307,
+        "durationSeconds": 105,
+        "paceSecondsPerKm": 341,
+        "garminActivityId": 20195125581
+      },
+      {
+        "date": "2025-08-25",
+        "distanceKm": 0.874,
+        "durationSeconds": 355,
+        "paceSecondsPerKm": 406,
+        "garminActivityId": 20174455352
+      },
+      {
+        "date": "2025-08-25",
+        "distanceKm": 2.093,
+        "durationSeconds": 871,
+        "paceSecondsPerKm": 416,
+        "garminActivityId": 20173846063
+      },
+      {
+        "date": "2025-08-25",
+        "distanceKm": 6.451,
+        "durationSeconds": 2242,
+        "paceSecondsPerKm": 348,
+        "garminActivityId": 20168508037
+      },
+      {
+        "date": "2025-08-24",
+        "distanceKm": 5.249,
+        "durationSeconds": 1843,
+        "paceSecondsPerKm": 351,
+        "garminActivityId": 20157602947
+      },
+      {
+        "date": "2025-08-23",
+        "distanceKm": 2.522,
+        "durationSeconds": 1553,
+        "paceSecondsPerKm": 616,
+        "garminActivityId": 20150387939
+      },
+      {
+        "date": "2025-08-23",
+        "distanceKm": 0.806,
+        "durationSeconds": 356,
+        "paceSecondsPerKm": 442,
+        "garminActivityId": 20149700670
+      },
+      {
+        "date": "2025-08-23",
+        "distanceKm": 5.005,
+        "durationSeconds": 1372,
+        "paceSecondsPerKm": 274,
+        "garminActivityId": 20149410264
+      },
+      {
+        "date": "2025-08-22",
+        "distanceKm": 3.126,
+        "durationSeconds": 1036,
+        "paceSecondsPerKm": 331,
+        "garminActivityId": 20137466506
+      },
+      {
+        "date": "2025-08-15",
+        "distanceKm": 5.999,
+        "durationSeconds": 1737,
+        "paceSecondsPerKm": 289,
+        "garminActivityId": 20063679947
+      },
+      {
+        "date": "2025-08-14",
+        "distanceKm": 10.004,
+        "durationSeconds": 3474,
+        "paceSecondsPerKm": 347,
+        "garminActivityId": 20054291437
+      },
+      {
+        "date": "2025-08-13",
+        "distanceKm": 6.275,
+        "durationSeconds": 2246,
+        "paceSecondsPerKm": 358,
+        "garminActivityId": 20041080858
+      },
+      {
+        "date": "2025-08-12",
+        "distanceKm": 15.503,
+        "durationSeconds": 5078,
+        "paceSecondsPerKm": 328,
+        "garminActivityId": 20035993312
+      },
+      {
+        "date": "2025-08-11",
+        "distanceKm": 5.087,
+        "durationSeconds": 1733,
+        "paceSecondsPerKm": 341,
+        "garminActivityId": 20018869582
+      },
+      {
+        "date": "2025-08-10",
+        "distanceKm": 10.058,
+        "durationSeconds": 2696,
+        "paceSecondsPerKm": 268,
+        "garminActivityId": 20006748954
+      },
+      {
+        "date": "2025-08-09",
+        "distanceKm": 5.011,
+        "durationSeconds": 1285,
+        "paceSecondsPerKm": 256,
+        "garminActivityId": 19998229539
+      },
+      {
+        "date": "2025-08-08",
+        "distanceKm": 3.218,
+        "durationSeconds": 218,
+        "paceSecondsPerKm": 68,
+        "garminActivityId": 19987816012
+      },
+      {
+        "date": "2025-08-04",
+        "distanceKm": 0.83,
+        "durationSeconds": 323,
+        "paceSecondsPerKm": 390,
+        "garminActivityId": 19949893862
+      },
+      {
+        "date": "2025-08-04",
+        "distanceKm": 2.843,
+        "durationSeconds": 919,
+        "paceSecondsPerKm": 323,
+        "garminActivityId": 19949119753
+      },
+      {
+        "date": "2025-08-04",
+        "distanceKm": 6.208,
+        "durationSeconds": 2116,
+        "paceSecondsPerKm": 341,
+        "garminActivityId": 19942881659
+      },
+      {
+        "date": "2025-08-03",
+        "distanceKm": 6.259,
+        "durationSeconds": 2096,
+        "paceSecondsPerKm": 335,
+        "garminActivityId": 19932632450
+      },
+      {
+        "date": "2025-08-02",
+        "distanceKm": 5.004,
+        "durationSeconds": 1554,
+        "paceSecondsPerKm": 311,
+        "garminActivityId": 19922396264
+      },
+      {
+        "date": "2025-08-01",
+        "distanceKm": 9.008,
+        "durationSeconds": 2913,
+        "paceSecondsPerKm": 323,
+        "garminActivityId": 19916905598
+      },
+      {
+        "date": "2025-07-29",
+        "distanceKm": 0.203,
+        "durationSeconds": 79,
+        "paceSecondsPerKm": 388,
+        "garminActivityId": 19885773743
+      },
+      {
+        "date": "2025-07-29",
+        "distanceKm": 4.641,
+        "durationSeconds": 1516,
+        "paceSecondsPerKm": 327,
+        "garminActivityId": 19885685908
+      },
+      {
+        "date": "2025-07-29",
+        "distanceKm": 0.419,
+        "durationSeconds": 144,
+        "paceSecondsPerKm": 345,
+        "garminActivityId": 19885363808
+      },
+      {
+        "date": "2025-07-29",
+        "distanceKm": 6.013,
+        "durationSeconds": 1965,
+        "paceSecondsPerKm": 327,
+        "garminActivityId": 19882071127
+      },
+      {
+        "date": "2025-07-28",
+        "distanceKm": 2.029,
+        "durationSeconds": 833,
+        "paceSecondsPerKm": 411,
+        "garminActivityId": 19878273088
+      },
+      {
+        "date": "2025-07-28",
+        "distanceKm": 9.007,
+        "durationSeconds": 3046,
+        "paceSecondsPerKm": 338,
+        "garminActivityId": 19872812239
+      },
+      {
+        "date": "2025-07-25",
+        "distanceKm": 7.004,
+        "durationSeconds": 1995,
+        "paceSecondsPerKm": 285,
+        "garminActivityId": 19844891002
+      },
+      {
+        "date": "2025-07-25",
+        "distanceKm": 7.009,
+        "durationSeconds": 2121,
+        "paceSecondsPerKm": 303,
+        "garminActivityId": 19842633741
+      },
+      {
+        "date": "2025-07-24",
+        "distanceKm": 6.006,
+        "durationSeconds": 1771,
+        "paceSecondsPerKm": 295,
+        "garminActivityId": 19837854129
+      },
+      {
+        "date": "2025-07-24",
+        "distanceKm": 6.006,
+        "durationSeconds": 1888,
+        "paceSecondsPerKm": 314,
+        "garminActivityId": 19833319939
+      },
+      {
+        "date": "2025-07-23",
+        "distanceKm": 0.503,
+        "durationSeconds": 167,
+        "paceSecondsPerKm": 333,
+        "garminActivityId": 19827255435
+      },
+      {
+        "date": "2025-07-23",
+        "distanceKm": 5.01,
+        "durationSeconds": 1807,
+        "paceSecondsPerKm": 361,
+        "garminActivityId": 19827225800
+      },
+      {
+        "date": "2025-07-23",
+        "distanceKm": 0.16,
+        "durationSeconds": 65,
+        "paceSecondsPerKm": 404,
+        "garminActivityId": 19823936102
+      },
+      {
+        "date": "2025-07-23",
+        "distanceKm": 5.009,
+        "durationSeconds": 1603,
+        "paceSecondsPerKm": 320,
+        "garminActivityId": 19823906544
+      },
+      {
+        "date": "2025-07-22",
+        "distanceKm": 5.012,
+        "durationSeconds": 1425,
+        "paceSecondsPerKm": 284,
+        "garminActivityId": 19816069253
+      },
+      {
+        "date": "2025-07-21",
+        "distanceKm": 2.261,
+        "durationSeconds": 823,
+        "paceSecondsPerKm": 364,
+        "garminActivityId": 19803383706
+      },
+      {
+        "date": "2025-07-17",
+        "distanceKm": 3.97,
+        "durationSeconds": 5716,
+        "paceSecondsPerKm": 1440,
+        "garminActivityId": 19764401745
+      },
+      {
+        "date": "2025-07-16",
+        "distanceKm": 9.009,
+        "durationSeconds": 3009,
+        "paceSecondsPerKm": 334,
+        "garminActivityId": 19750730128
+      },
+      {
+        "date": "2025-07-15",
+        "distanceKm": 6.854,
+        "durationSeconds": 2324,
+        "paceSecondsPerKm": 339,
+        "garminActivityId": 19739551469
+      },
+      {
+        "date": "2025-07-14",
+        "distanceKm": 2.293,
+        "durationSeconds": 819,
+        "paceSecondsPerKm": 357,
+        "garminActivityId": 19731294664
+      },
+      {
+        "date": "2025-07-14",
+        "distanceKm": 10.291,
+        "durationSeconds": 3339,
+        "paceSecondsPerKm": 324,
+        "garminActivityId": 19728298914
+      },
+      {
+        "date": "2025-07-13",
+        "distanceKm": 0.403,
+        "durationSeconds": 147,
+        "paceSecondsPerKm": 364,
+        "garminActivityId": 19722214662
+      },
+      {
+        "date": "2025-07-13",
+        "distanceKm": 4.62,
+        "durationSeconds": 1548,
+        "paceSecondsPerKm": 335,
+        "garminActivityId": 19722076677
+      },
+      {
+        "date": "2025-07-13",
+        "distanceKm": 1.015,
+        "durationSeconds": 372,
+        "paceSecondsPerKm": 366,
+        "garminActivityId": 19721751802
+      },
+      {
+        "date": "2025-07-13",
+        "distanceKm": 0.841,
+        "durationSeconds": 409,
+        "paceSecondsPerKm": 486,
+        "garminActivityId": 19717147102
+      },
+      {
+        "date": "2025-07-13",
+        "distanceKm": 0.416,
+        "durationSeconds": 240,
+        "paceSecondsPerKm": 577,
+        "garminActivityId": 19716679781
+      },
+      {
+        "date": "2025-07-13",
+        "distanceKm": 0.098,
+        "durationSeconds": 36,
+        "paceSecondsPerKm": 374,
+        "garminActivityId": 19716615134
+      },
+      {
+        "date": "2025-07-13",
+        "distanceKm": 1.59,
+        "durationSeconds": 581,
+        "paceSecondsPerKm": 366,
+        "garminActivityId": 19716451163
+      },
+      {
+        "date": "2025-07-12",
+        "distanceKm": 8.357,
+        "durationSeconds": 8710,
+        "paceSecondsPerKm": 1042,
+        "garminActivityId": 19710017624
+      },
+      {
+        "date": "2025-07-09",
+        "distanceKm": 2.001,
+        "durationSeconds": 1146,
+        "paceSecondsPerKm": 573,
+        "garminActivityId": 19680983558
+      },
+      {
+        "date": "2025-07-08",
+        "distanceKm": 1.562,
+        "durationSeconds": 475,
+        "paceSecondsPerKm": 304,
+        "garminActivityId": 19667870316
+      },
+      {
+        "date": "2025-07-08",
+        "distanceKm": 5.562,
+        "durationSeconds": 1505,
+        "paceSecondsPerKm": 271,
+        "garminActivityId": 19667869321
+      },
+      {
+        "date": "2025-07-08",
+        "distanceKm": 2.424,
+        "durationSeconds": 645,
+        "paceSecondsPerKm": 266,
+        "garminActivityId": 19667255130
+      },
+      {
+        "date": "2025-07-05",
+        "distanceKm": 5.006,
+        "durationSeconds": 1375,
+        "paceSecondsPerKm": 275,
+        "garminActivityId": 19635901801
+      },
+      {
+        "date": "2025-07-04",
+        "distanceKm": 1.008,
+        "durationSeconds": 348,
+        "paceSecondsPerKm": 345,
+        "garminActivityId": 19630453418
+      },
+      {
+        "date": "2025-07-04",
+        "distanceKm": 10.008,
+        "durationSeconds": 2752,
+        "paceSecondsPerKm": 275,
+        "garminActivityId": 19630379579
+      },
+      {
+        "date": "2025-07-01",
+        "distanceKm": 1.597,
+        "durationSeconds": 841,
+        "paceSecondsPerKm": 526,
+        "garminActivityId": 19600867035
+      },
+      {
+        "date": "2025-06-30",
+        "distanceKm": 0.331,
+        "durationSeconds": 182,
+        "paceSecondsPerKm": 550,
+        "garminActivityId": 19591149260
+      },
+      {
+        "date": "2025-06-30",
+        "distanceKm": 3.505,
+        "durationSeconds": 1171,
+        "paceSecondsPerKm": 334,
+        "garminActivityId": 19591121595
+      },
+      {
+        "date": "2025-06-30",
+        "distanceKm": 2.431,
+        "durationSeconds": 844,
+        "paceSecondsPerKm": 347,
+        "garminActivityId": 19591117351
+      },
+      {
+        "date": "2025-06-28",
+        "distanceKm": 4.925,
+        "durationSeconds": 1285,
+        "paceSecondsPerKm": 261,
+        "garminActivityId": 19566257829
+      },
+      {
+        "date": "2025-06-23",
+        "distanceKm": 5.6,
+        "durationSeconds": 1987,
+        "paceSecondsPerKm": 355,
+        "garminActivityId": 19523384615
+      },
+      {
+        "date": "2025-06-23",
+        "distanceKm": 1.667,
+        "durationSeconds": 574,
+        "paceSecondsPerKm": 344,
+        "garminActivityId": 19523383137
+      },
+      {
+        "date": "2025-06-23",
+        "distanceKm": 2.18,
+        "durationSeconds": 815,
+        "paceSecondsPerKm": 374,
+        "garminActivityId": 19521702960
+      },
+      {
+        "date": "2025-06-23",
+        "distanceKm": 0.768,
+        "durationSeconds": 259,
+        "paceSecondsPerKm": 337,
+        "garminActivityId": 19521384835
+      },
+      {
+        "date": "2025-06-22",
+        "distanceKm": 20.32,
+        "durationSeconds": 6642,
+        "paceSecondsPerKm": 327,
+        "garminActivityId": 19511136367
+      },
+      {
+        "date": "2025-06-20",
+        "distanceKm": 6.784,
+        "durationSeconds": 2058,
+        "paceSecondsPerKm": 303,
+        "garminActivityId": 19489972431
+      },
+      {
+        "date": "2025-06-18",
+        "distanceKm": 9.405,
+        "durationSeconds": 3118,
+        "paceSecondsPerKm": 332,
+        "garminActivityId": 19472411110
+      },
+      {
+        "date": "2025-06-16",
+        "distanceKm": 5.323,
+        "durationSeconds": 2019,
+        "paceSecondsPerKm": 379,
+        "garminActivityId": 19451963598
+      },
+      {
+        "date": "2025-06-16",
+        "distanceKm": 1.849,
+        "durationSeconds": 624,
+        "paceSecondsPerKm": 337,
+        "garminActivityId": 19451466607
+      },
+      {
+        "date": "2025-06-16",
+        "distanceKm": 2.602,
+        "durationSeconds": 987,
+        "paceSecondsPerKm": 379,
+        "garminActivityId": 19450855644
+      },
+      {
+        "date": "2025-06-14",
+        "distanceKm": 5.005,
+        "durationSeconds": 1232,
+        "paceSecondsPerKm": 246,
+        "garminActivityId": 19430213630
+      },
+      {
+        "date": "2025-06-14",
+        "distanceKm": 0.766,
+        "durationSeconds": 251,
+        "paceSecondsPerKm": 328,
+        "garminActivityId": 19429648502
+      },
+      {
+        "date": "2025-06-13",
+        "distanceKm": 2.301,
+        "durationSeconds": 684,
+        "paceSecondsPerKm": 297,
+        "garminActivityId": 19419934120
+      },
+      {
+        "date": "2025-06-13",
+        "distanceKm": 1.09,
+        "durationSeconds": 328,
+        "paceSecondsPerKm": 300,
+        "garminActivityId": 19419801544
+      },
+      {
+        "date": "2025-06-12",
+        "distanceKm": 0.377,
+        "durationSeconds": 162,
+        "paceSecondsPerKm": 429,
+        "garminActivityId": 19412918261
+      },
+      {
+        "date": "2025-06-12",
+        "distanceKm": 2.151,
+        "durationSeconds": 676,
+        "paceSecondsPerKm": 314,
+        "garminActivityId": 19412860053
+      },
+      {
+        "date": "2025-06-12",
+        "distanceKm": 1.193,
+        "durationSeconds": 384,
+        "paceSecondsPerKm": 321,
+        "garminActivityId": 19412558561
+      },
+      {
+        "date": "2025-06-10",
+        "distanceKm": 8.004,
+        "durationSeconds": 2674,
+        "paceSecondsPerKm": 334,
+        "garminActivityId": 19387780802
+      },
+      {
+        "date": "2025-06-09",
+        "distanceKm": 0.2,
+        "durationSeconds": 330,
+        "paceSecondsPerKm": 1649,
+        "garminActivityId": 19376963253
+      },
+      {
+        "date": "2025-06-08",
+        "distanceKm": 9.34,
+        "durationSeconds": 3128,
+        "paceSecondsPerKm": 335,
+        "garminActivityId": 19369907434
+      },
+      {
+        "date": "2025-06-07",
+        "distanceKm": 19.262,
+        "durationSeconds": 6621,
+        "paceSecondsPerKm": 344,
+        "garminActivityId": 19359335336
+      },
+      {
+        "date": "2025-06-06",
+        "distanceKm": 1.326,
+        "durationSeconds": 503,
+        "paceSecondsPerKm": 379,
+        "garminActivityId": 19348205671
+      },
+      {
+        "date": "2025-06-06",
+        "distanceKm": 0.285,
+        "durationSeconds": 95,
+        "paceSecondsPerKm": 333,
+        "garminActivityId": 19348076087
+      },
+      {
+        "date": "2025-06-05",
+        "distanceKm": 1.576,
+        "durationSeconds": 551,
+        "paceSecondsPerKm": 349,
+        "garminActivityId": 19341889412
+      },
+      {
+        "date": "2025-06-05",
+        "distanceKm": 10.009,
+        "durationSeconds": 2862,
+        "paceSecondsPerKm": 286,
+        "garminActivityId": 19341793207
+      },
+      {
+        "date": "2025-05-28",
+        "distanceKm": 5.004,
+        "durationSeconds": 1407,
+        "paceSecondsPerKm": 281,
+        "garminActivityId": 19257990010
+      },
+      {
+        "date": "2025-05-22",
+        "distanceKm": 3.281,
+        "durationSeconds": 1192,
+        "paceSecondsPerKm": 363,
+        "garminActivityId": 19203544362
+      },
+      {
+        "date": "2025-05-22",
+        "distanceKm": 2.39,
+        "durationSeconds": 858,
+        "paceSecondsPerKm": 359,
+        "garminActivityId": 19203242843
+      },
+      {
+        "date": "2025-05-19",
+        "distanceKm": 11.199,
+        "durationSeconds": 4372,
+        "paceSecondsPerKm": 390,
+        "garminActivityId": 19173248162
+      },
+      {
+        "date": "2025-05-18",
+        "distanceKm": 11.377,
+        "durationSeconds": 4392,
+        "paceSecondsPerKm": 386,
+        "garminActivityId": 19163704369
+      },
+      {
+        "date": "2025-05-16",
+        "distanceKm": 0.803,
+        "durationSeconds": 332,
+        "paceSecondsPerKm": 413,
+        "garminActivityId": 19143363630
+      },
+      {
+        "date": "2025-05-16",
+        "distanceKm": 2.81,
+        "durationSeconds": 546,
+        "paceSecondsPerKm": 194,
+        "garminActivityId": 19143297365
+      },
+      {
+        "date": "2025-05-16",
+        "distanceKm": 3.279,
+        "durationSeconds": 1082,
+        "paceSecondsPerKm": 330,
+        "garminActivityId": 19142889249
+      },
+      {
+        "date": "2025-05-13",
+        "distanceKm": 16.595,
+        "durationSeconds": 5401,
+        "paceSecondsPerKm": 325,
+        "garminActivityId": 19112839397
+      },
+      {
+        "date": "2025-05-12",
+        "distanceKm": 2.168,
+        "durationSeconds": 855,
+        "paceSecondsPerKm": 395,
+        "garminActivityId": 19111737112
+      },
+      {
+        "date": "2025-05-07",
+        "distanceKm": 5.003,
+        "durationSeconds": 1440,
+        "paceSecondsPerKm": 288,
+        "garminActivityId": 19050835011
+      },
+      {
+        "date": "2025-05-05",
+        "distanceKm": 10.523,
+        "durationSeconds": 4574,
+        "paceSecondsPerKm": 435,
+        "garminActivityId": 19033750435
+      },
+      {
+        "date": "2025-05-04",
+        "distanceKm": 21.311,
+        "durationSeconds": 5654,
+        "paceSecondsPerKm": 265,
+        "garminActivityId": 19018926054
+      },
+      {
+        "date": "2025-04-30",
+        "distanceKm": 9.008,
+        "durationSeconds": 2663,
+        "paceSecondsPerKm": 296,
+        "garminActivityId": 18982070879
+      },
+      {
+        "date": "2025-04-29",
+        "distanceKm": 0.809,
+        "durationSeconds": 289,
+        "paceSecondsPerKm": 357,
+        "garminActivityId": 18972031796
+      },
+      {
+        "date": "2025-04-29",
+        "distanceKm": 5.0,
+        "durationSeconds": 1142,
+        "paceSecondsPerKm": 228,
+        "garminActivityId": 18971941306
+      },
+      {
+        "date": "2025-04-29",
+        "distanceKm": 2.135,
+        "durationSeconds": 706,
+        "paceSecondsPerKm": 331,
+        "garminActivityId": 18971404418
+      },
+      {
+        "date": "2025-04-28",
+        "distanceKm": 6.23,
+        "durationSeconds": 1736,
+        "paceSecondsPerKm": 279,
+        "garminActivityId": 18961511983
+      },
+      {
+        "date": "2025-04-24",
+        "distanceKm": 12.324,
+        "durationSeconds": 4146,
+        "paceSecondsPerKm": 336,
+        "garminActivityId": 18922789755
+      },
+      {
+        "date": "2025-04-22",
+        "distanceKm": 4.01,
+        "durationSeconds": 832,
+        "paceSecondsPerKm": 207,
+        "garminActivityId": 18900667384
+      },
+      {
+        "date": "2025-04-22",
+        "distanceKm": 2.016,
+        "durationSeconds": 669,
+        "paceSecondsPerKm": 332,
+        "garminActivityId": 18900040166
+      },
+      {
+        "date": "2025-04-21",
+        "distanceKm": 0.813,
+        "durationSeconds": 362,
+        "paceSecondsPerKm": 446,
+        "garminActivityId": 18894199855
+      },
+      {
+        "date": "2025-04-21",
+        "distanceKm": 2.114,
+        "durationSeconds": 857,
+        "paceSecondsPerKm": 405,
+        "garminActivityId": 18893601739
+      },
+      {
+        "date": "2025-04-19",
+        "distanceKm": 5.005,
+        "durationSeconds": 1350,
+        "paceSecondsPerKm": 270,
+        "garminActivityId": 18869324052
+      },
+      {
+        "date": "2025-04-15",
+        "distanceKm": 20.004,
+        "durationSeconds": 6688,
+        "paceSecondsPerKm": 334,
+        "garminActivityId": 18836501617
+      },
+      {
+        "date": "2025-04-14",
+        "distanceKm": 1.751,
+        "durationSeconds": 702,
+        "paceSecondsPerKm": 401,
+        "garminActivityId": 18831665131
+      },
+      {
+        "date": "2025-04-14",
+        "distanceKm": 2.55,
+        "durationSeconds": 954,
+        "paceSecondsPerKm": 374,
+        "garminActivityId": 18831664630
+      },
+      {
+        "date": "2025-04-11",
+        "distanceKm": 0.858,
+        "durationSeconds": 296,
+        "paceSecondsPerKm": 345,
+        "garminActivityId": 18797324883
+      },
+      {
+        "date": "2025-04-11",
+        "distanceKm": 5.62,
+        "durationSeconds": 1325,
+        "paceSecondsPerKm": 236,
+        "garminActivityId": 18797272664
+      },
+      {
+        "date": "2025-04-11",
+        "distanceKm": 2.207,
+        "durationSeconds": 741,
+        "paceSecondsPerKm": 336,
+        "garminActivityId": 18796848926
+      },
+      {
+        "date": "2025-04-10",
+        "distanceKm": 12.077,
+        "durationSeconds": 3601,
+        "paceSecondsPerKm": 298,
+        "garminActivityId": 18788109751
+      },
+      {
+        "date": "2025-04-07",
+        "distanceKm": 1.672,
+        "durationSeconds": 540,
+        "paceSecondsPerKm": 323,
+        "garminActivityId": 18758982044
+      },
+      {
+        "date": "2025-04-07",
+        "distanceKm": 2.467,
+        "durationSeconds": 827,
+        "paceSecondsPerKm": 335,
+        "garminActivityId": 18758617235
+      },
+      {
+        "date": "2025-04-05",
+        "distanceKm": 4.983,
+        "durationSeconds": 1258,
+        "paceSecondsPerKm": 252,
+        "garminActivityId": 18734557387
+      },
+      {
+        "date": "2025-04-05",
+        "distanceKm": 1.002,
+        "durationSeconds": 356,
+        "paceSecondsPerKm": 356,
+        "garminActivityId": 18734406250
+      },
+      {
+        "date": "2025-04-04",
+        "distanceKm": 1.686,
+        "durationSeconds": 525,
+        "paceSecondsPerKm": 311,
+        "garminActivityId": 18729215431
+      },
+      {
+        "date": "2025-04-04",
+        "distanceKm": 1.968,
+        "durationSeconds": 576,
+        "paceSecondsPerKm": 293,
+        "garminActivityId": 18728834034
+      },
+      {
+        "date": "2025-04-03",
+        "distanceKm": 3.799,
+        "durationSeconds": 1324,
+        "paceSecondsPerKm": 348,
+        "garminActivityId": 18718269655
+      },
+      {
+        "date": "2025-03-31",
+        "distanceKm": 8.391,
+        "durationSeconds": 2307,
+        "paceSecondsPerKm": 275,
+        "garminActivityId": 18689990275
+      },
+      {
+        "date": "2025-03-30",
+        "distanceKm": 7.316,
+        "durationSeconds": 2592,
+        "paceSecondsPerKm": 354,
+        "garminActivityId": 18678735138
+      },
+      {
+        "date": "2025-03-28",
+        "distanceKm": 3.88,
+        "durationSeconds": 1127,
+        "paceSecondsPerKm": 290,
+        "garminActivityId": 18662288809
+      },
+      {
+        "date": "2025-03-27",
+        "distanceKm": 2.679,
+        "durationSeconds": 967,
+        "paceSecondsPerKm": 361,
+        "garminActivityId": 18653191556
+      },
+      {
+        "date": "2025-03-27",
+        "distanceKm": 5.041,
+        "durationSeconds": 1561,
+        "paceSecondsPerKm": 310,
+        "garminActivityId": 18653034256
+      },
+      {
+        "date": "2025-03-27",
+        "distanceKm": 1.923,
+        "durationSeconds": 576,
+        "paceSecondsPerKm": 300,
+        "garminActivityId": 18652689366
+      },
+      {
+        "date": "2025-03-25",
+        "distanceKm": 5.003,
+        "durationSeconds": 1594,
+        "paceSecondsPerKm": 319,
+        "garminActivityId": 18635332350
+      },
+      {
+        "date": "2025-03-25",
+        "distanceKm": 1.547,
+        "durationSeconds": 160,
+        "paceSecondsPerKm": 103,
+        "garminActivityId": 18634974029
+      },
+      {
+        "date": "2025-03-24",
+        "distanceKm": 12.005,
+        "durationSeconds": 3334,
+        "paceSecondsPerKm": 278,
+        "garminActivityId": 18621249293
+      },
+      {
+        "date": "2025-03-23",
+        "distanceKm": 5.19,
+        "durationSeconds": 1722,
+        "paceSecondsPerKm": 332,
+        "garminActivityId": 18610834988
+      },
+      {
+        "date": "2025-03-22",
+        "distanceKm": 4.953,
+        "durationSeconds": 1531,
+        "paceSecondsPerKm": 309,
+        "garminActivityId": 18600721991
+      },
+      {
+        "date": "2025-03-22",
+        "distanceKm": 1.597,
+        "durationSeconds": 544,
+        "paceSecondsPerKm": 341,
+        "garminActivityId": 18600582054
+      },
+      {
+        "date": "2025-03-19",
+        "distanceKm": 0.227,
+        "durationSeconds": 96,
+        "paceSecondsPerKm": 424,
+        "garminActivityId": 18574666691
+      },
+      {
+        "date": "2025-03-19",
+        "distanceKm": 3.21,
+        "durationSeconds": 664,
+        "paceSecondsPerKm": 207,
+        "garminActivityId": 18574014259
+      },
+      {
+        "date": "2025-03-19",
+        "distanceKm": 2.379,
+        "durationSeconds": 794,
+        "paceSecondsPerKm": 334,
+        "garminActivityId": 18573747375
+      },
+      {
+        "date": "2025-03-16",
+        "distanceKm": 7.877,
+        "durationSeconds": 2349,
+        "paceSecondsPerKm": 298,
+        "garminActivityId": 18546686995
+      },
+      {
+        "date": "2025-03-15",
+        "distanceKm": 5.799,
+        "durationSeconds": 1813,
+        "paceSecondsPerKm": 313,
+        "garminActivityId": 18537222622
+      },
+      {
+        "date": "2025-03-14",
+        "distanceKm": 10.017,
+        "durationSeconds": 3104,
+        "paceSecondsPerKm": 310,
+        "garminActivityId": 18528369353
+      },
+      {
+        "date": "2025-03-14",
+        "distanceKm": 1.862,
+        "durationSeconds": 82,
+        "paceSecondsPerKm": 44,
+        "garminActivityId": 18528054482
+      },
+      {
+        "date": "2025-03-12",
+        "distanceKm": 11.01,
+        "durationSeconds": 3377,
+        "paceSecondsPerKm": 307,
+        "garminActivityId": 18513197088
+      },
+      {
+        "date": "2025-03-09",
+        "distanceKm": 9.604,
+        "durationSeconds": 2911,
+        "paceSecondsPerKm": 303,
+        "garminActivityId": 18483821230
+      },
+      {
+        "date": "2025-03-02",
+        "distanceKm": 5.005,
+        "durationSeconds": 1500,
+        "paceSecondsPerKm": 300,
+        "garminActivityId": 18416571272
+      },
+      {
+        "date": "2025-03-01",
+        "distanceKm": 5.062,
+        "durationSeconds": 1483,
+        "paceSecondsPerKm": 293,
+        "garminActivityId": 18416172633
+      },
+      {
+        "date": "2025-02-26",
+        "distanceKm": 5.445,
+        "durationSeconds": 1709,
+        "paceSecondsPerKm": 314,
+        "garminActivityId": 18383076553
+      },
+      {
+        "date": "2025-02-14",
+        "distanceKm": 5.078,
+        "durationSeconds": 1520,
+        "paceSecondsPerKm": 299,
+        "garminActivityId": 18275131817
+      },
+      {
+        "date": "2025-02-13",
+        "distanceKm": 7.334,
+        "durationSeconds": 2288,
+        "paceSecondsPerKm": 312,
+        "garminActivityId": 18267338518
+      },
+      {
+        "date": "2025-02-11",
+        "distanceKm": 5.281,
+        "durationSeconds": 1664,
+        "paceSecondsPerKm": 315,
+        "garminActivityId": 18249735684
+      },
+      {
+        "date": "2025-02-10",
+        "distanceKm": 7.821,
+        "durationSeconds": 2531,
+        "paceSecondsPerKm": 324,
+        "garminActivityId": 18242848378
+      },
+      {
+        "date": "2025-02-06",
+        "distanceKm": 5.005,
+        "durationSeconds": 1486,
+        "paceSecondsPerKm": 297,
+        "garminActivityId": 18206176148
+      },
+      {
+        "date": "2025-02-06",
+        "distanceKm": 0.253,
+        "durationSeconds": 88,
+        "paceSecondsPerKm": 347,
+        "garminActivityId": 18205960010
+      },
+      {
+        "date": "2025-02-05",
+        "distanceKm": 5.239,
+        "durationSeconds": 1583,
+        "paceSecondsPerKm": 302,
+        "garminActivityId": 18196653233
+      },
+      {
+        "date": "2025-02-04",
+        "distanceKm": 5.267,
+        "durationSeconds": 1776,
+        "paceSecondsPerKm": 337,
+        "garminActivityId": 18187450319
+      },
+      {
+        "date": "2025-01-14",
+        "distanceKm": 5.966,
+        "durationSeconds": 2176,
+        "paceSecondsPerKm": 365,
+        "garminActivityId": 17996907659
+      },
+      {
+        "date": "2025-01-13",
+        "distanceKm": 5.263,
+        "durationSeconds": 1840,
+        "paceSecondsPerKm": 350,
+        "garminActivityId": 17989084705
+      },
+      {
+        "date": "2025-01-12",
+        "distanceKm": 6.83,
+        "durationSeconds": 2290,
+        "paceSecondsPerKm": 335,
+        "garminActivityId": 17978784111
+      },
+      {
+        "date": "2025-01-05",
+        "distanceKm": 7.939,
+        "durationSeconds": 2812,
+        "paceSecondsPerKm": 354,
+        "garminActivityId": 17924246705
+      },
+      {
+        "date": "2024-12-30",
+        "distanceKm": 7.224,
+        "durationSeconds": 2402,
+        "paceSecondsPerKm": 333,
+        "garminActivityId": 17871191079
+      },
+      {
+        "date": "2024-12-26",
+        "distanceKm": 5.004,
+        "durationSeconds": 1627,
+        "paceSecondsPerKm": 325,
+        "garminActivityId": 17841883124
+      },
+      {
+        "date": "2024-12-25",
+        "distanceKm": 5.795,
+        "durationSeconds": 1849,
+        "paceSecondsPerKm": 319,
+        "garminActivityId": 17835185264
+      },
+      {
+        "date": "2024-12-23",
+        "distanceKm": 4.998,
+        "durationSeconds": 1626,
+        "paceSecondsPerKm": 325,
+        "garminActivityId": 17822709372
+      },
+      {
+        "date": "2024-12-15",
+        "distanceKm": 5.011,
+        "durationSeconds": 1587,
+        "paceSecondsPerKm": 317,
+        "garminActivityId": 17762632306
+      },
+      {
+        "date": "2024-12-14",
+        "distanceKm": 5.017,
+        "durationSeconds": 1432,
+        "paceSecondsPerKm": 285,
+        "garminActivityId": 17755569330
+      },
+      {
+        "date": "2024-12-13",
+        "distanceKm": 5.203,
+        "durationSeconds": 1687,
+        "paceSecondsPerKm": 324,
+        "garminActivityId": 17752452535
+      },
+      {
+        "date": "2024-12-11",
+        "distanceKm": 7.049,
+        "durationSeconds": 2290,
+        "paceSecondsPerKm": 325,
+        "garminActivityId": 17737996560
+      },
+      {
+        "date": "2024-11-23",
+        "distanceKm": 4.945,
+        "durationSeconds": 1370,
+        "paceSecondsPerKm": 277,
+        "garminActivityId": 17601308251
+      },
+      {
+        "date": "2024-11-15",
+        "distanceKm": 5.004,
+        "durationSeconds": 1619,
+        "paceSecondsPerKm": 324,
+        "garminActivityId": 17545846844
+      },
+      {
+        "date": "2024-11-14",
+        "distanceKm": 5.007,
+        "durationSeconds": 1480,
+        "paceSecondsPerKm": 296,
+        "garminActivityId": 17536995991
+      },
+      {
+        "date": "2024-11-11",
+        "distanceKm": 6.939,
+        "durationSeconds": 2351,
+        "paceSecondsPerKm": 339,
+        "garminActivityId": 17511274968
+      },
+      {
+        "date": "2024-11-10",
+        "distanceKm": 10.007,
+        "durationSeconds": 2777,
+        "paceSecondsPerKm": 278,
+        "garminActivityId": 17503655928
+      },
+      {
+        "date": "2024-11-03",
+        "distanceKm": 10.231,
+        "durationSeconds": 4050,
+        "paceSecondsPerKm": 396,
+        "garminActivityId": 17444549190
+      },
+      {
+        "date": "2024-10-30",
+        "distanceKm": 2.996,
+        "durationSeconds": 935,
+        "paceSecondsPerKm": 312,
+        "garminActivityId": 17416932093
+      },
+      {
+        "date": "2024-10-29",
+        "distanceKm": 5.002,
+        "durationSeconds": 1578,
+        "paceSecondsPerKm": 315,
+        "garminActivityId": 17408363098
+      },
+      {
+        "date": "2024-10-28",
+        "distanceKm": 4.343,
+        "durationSeconds": 1401,
+        "paceSecondsPerKm": 323,
+        "garminActivityId": 17399799911
+      },
+      {
+        "date": "2024-10-27",
+        "distanceKm": 14.005,
+        "durationSeconds": 5610,
+        "paceSecondsPerKm": 401,
+        "garminActivityId": 17387294640
+      },
+      {
+        "date": "2024-10-26",
+        "distanceKm": 4.416,
+        "durationSeconds": 1391,
+        "paceSecondsPerKm": 315,
+        "garminActivityId": 17383151789
+      },
+      {
+        "date": "2024-10-25",
+        "distanceKm": 9.091,
+        "durationSeconds": 3295,
+        "paceSecondsPerKm": 362,
+        "garminActivityId": 17373455567
+      },
+      {
+        "date": "2024-10-23",
+        "distanceKm": 6.497,
+        "durationSeconds": 2305,
+        "paceSecondsPerKm": 355,
+        "garminActivityId": 17357761264
+      },
+      {
+        "date": "2024-10-22",
+        "distanceKm": 4.839,
+        "durationSeconds": 2166,
+        "paceSecondsPerKm": 448,
+        "garminActivityId": 17345266309
+      },
+      {
+        "date": "2024-10-21",
+        "distanceKm": 5.556,
+        "durationSeconds": 2272,
+        "paceSecondsPerKm": 409,
+        "garminActivityId": 17336936586
+      },
+      {
+        "date": "2024-10-20",
+        "distanceKm": 11.109,
+        "durationSeconds": 5424,
+        "paceSecondsPerKm": 488,
+        "garminActivityId": 17329050800
+      },
+      {
+        "date": "2024-10-19",
+        "distanceKm": 6.891,
+        "durationSeconds": 2885,
+        "paceSecondsPerKm": 419,
+        "garminActivityId": 17324018954
+      },
+      {
+        "date": "2024-10-19",
+        "distanceKm": 5.705,
+        "durationSeconds": 2119,
+        "paceSecondsPerKm": 371,
+        "garminActivityId": 17323480028
+      },
+      {
+        "date": "2024-10-18",
+        "distanceKm": 6.416,
+        "durationSeconds": 2541,
+        "paceSecondsPerKm": 396,
+        "garminActivityId": 17315891806
+      },
+      {
+        "date": "2024-10-17",
+        "distanceKm": 4.611,
+        "durationSeconds": 1491,
+        "paceSecondsPerKm": 323,
+        "garminActivityId": 17309190532
+      },
+      {
+        "date": "2024-10-13",
+        "distanceKm": 3.053,
+        "durationSeconds": 992,
+        "paceSecondsPerKm": 325,
+        "garminActivityId": 17271938163
+      },
+      {
+        "date": "2024-09-07",
+        "distanceKm": 4.603,
+        "durationSeconds": 1385,
+        "paceSecondsPerKm": 301,
+        "garminActivityId": 16968458844
+      },
+      {
+        "date": "2024-09-04",
+        "distanceKm": 11.008,
+        "durationSeconds": 3172,
+        "paceSecondsPerKm": 288,
+        "garminActivityId": 16946572720
+      },
+      {
+        "date": "2024-09-02",
+        "distanceKm": 7.006,
+        "durationSeconds": 2002,
+        "paceSecondsPerKm": 286,
+        "garminActivityId": 16927878087
+      },
+      {
+        "date": "2024-09-01",
+        "distanceKm": 1.21,
+        "durationSeconds": 243,
+        "paceSecondsPerKm": 201,
+        "garminActivityId": 16917201378
+      },
+      {
+        "date": "2024-09-01",
+        "distanceKm": 0.03,
+        "durationSeconds": 31,
+        "paceSecondsPerKm": 1038,
+        "garminActivityId": 16917013792
+      },
+      {
+        "date": "2024-09-01",
+        "distanceKm": 9.633,
+        "durationSeconds": 3668,
+        "paceSecondsPerKm": 381,
+        "garminActivityId": 16915385710
+      },
+      {
+        "date": "2024-08-17",
+        "distanceKm": 3.22,
+        "durationSeconds": 1221,
+        "paceSecondsPerKm": 379,
+        "garminActivityId": 16784239773
+      },
+      {
+        "date": "2024-08-14",
+        "distanceKm": 2.552,
+        "durationSeconds": 688,
+        "paceSecondsPerKm": 270,
+        "garminActivityId": 16761815165
+      },
+      {
+        "date": "2024-08-14",
+        "distanceKm": 2.716,
+        "durationSeconds": 733,
+        "paceSecondsPerKm": 270,
+        "garminActivityId": 16761570901
+      },
+      {
+        "date": "2024-08-11",
+        "distanceKm": 10.081,
+        "durationSeconds": 3688,
+        "paceSecondsPerKm": 366,
+        "garminActivityId": 16730903712
+      },
+      {
+        "date": "2024-08-06",
+        "distanceKm": 0.661,
+        "durationSeconds": 484,
+        "paceSecondsPerKm": 733,
+        "garminActivityId": 16707747728
+      },
+      {
+        "date": "2024-08-05",
+        "distanceKm": 3.116,
+        "durationSeconds": 690,
+        "paceSecondsPerKm": 221,
+        "garminActivityId": 16682571121
+      },
+      {
+        "date": "2024-08-05",
+        "distanceKm": 1.626,
+        "durationSeconds": 537,
+        "paceSecondsPerKm": 330,
+        "garminActivityId": 16681944115
+      },
+      {
+        "date": "2024-07-31",
+        "distanceKm": 1.61,
+        "durationSeconds": 327,
+        "paceSecondsPerKm": 203,
+        "garminActivityId": 16639165931
+      },
+      {
+        "date": "2024-07-31",
+        "distanceKm": 1.22,
+        "durationSeconds": 378,
+        "paceSecondsPerKm": 310,
+        "garminActivityId": 16639027270
+      },
+      {
+        "date": "2024-07-29",
+        "distanceKm": 2.459,
+        "durationSeconds": 679,
+        "paceSecondsPerKm": 276,
+        "garminActivityId": 16621351895
+      },
+      {
+        "date": "2024-07-29",
+        "distanceKm": 2.522,
+        "durationSeconds": 704,
+        "paceSecondsPerKm": 279,
+        "garminActivityId": 16620967775
+      },
+      {
+        "date": "2024-07-27",
+        "distanceKm": 7.855,
+        "durationSeconds": 9351,
+        "paceSecondsPerKm": 1190,
+        "garminActivityId": 16602810301
+      },
+      {
+        "date": "2024-07-27",
+        "distanceKm": 4.931,
+        "durationSeconds": 1502,
+        "paceSecondsPerKm": 305,
+        "garminActivityId": 16600382338
+      },
+      {
+        "date": "2024-07-25",
+        "distanceKm": 1.934,
+        "durationSeconds": 513,
+        "paceSecondsPerKm": 265,
+        "garminActivityId": 16588042974
+      },
+      {
+        "date": "2024-07-24",
+        "distanceKm": 2.557,
+        "durationSeconds": 742,
+        "paceSecondsPerKm": 290,
+        "garminActivityId": 16578936439
+      },
+      {
+        "date": "2024-07-24",
+        "distanceKm": 2.033,
+        "durationSeconds": 526,
+        "paceSecondsPerKm": 259,
+        "garminActivityId": 16578651165
+      },
+      {
+        "date": "2024-07-23",
+        "distanceKm": 2.589,
+        "durationSeconds": 708,
+        "paceSecondsPerKm": 273,
+        "garminActivityId": 16561463250
+      },
+      {
+        "date": "2024-07-23",
+        "distanceKm": 1.993,
+        "durationSeconds": 562,
+        "paceSecondsPerKm": 282,
+        "garminActivityId": 16560985390
+      },
+      {
+        "date": "2024-07-19",
+        "distanceKm": 6.667,
+        "durationSeconds": 2007,
+        "paceSecondsPerKm": 301,
+        "garminActivityId": 16489470316
+      },
+      {
+        "date": "2024-07-17",
+        "distanceKm": 7.009,
+        "durationSeconds": 2023,
+        "paceSecondsPerKm": 289,
+        "garminActivityId": 16454822833
+      },
+      {
+        "date": "2024-07-16",
+        "distanceKm": 6.501,
+        "durationSeconds": 1854,
+        "paceSecondsPerKm": 285,
+        "garminActivityId": 16441656889
+      },
+      {
+        "date": "2024-07-13",
+        "distanceKm": 19.003,
+        "durationSeconds": 6163,
+        "paceSecondsPerKm": 324,
+        "garminActivityId": 16385578850
+      },
+      {
+        "date": "2024-07-12",
+        "distanceKm": 5.008,
+        "durationSeconds": 1423,
+        "paceSecondsPerKm": 284,
+        "garminActivityId": 16374094398
+      },
+      {
+        "date": "2024-07-11",
+        "distanceKm": 8.004,
+        "durationSeconds": 2296,
+        "paceSecondsPerKm": 287,
+        "garminActivityId": 16359804858
+      },
+      {
+        "date": "2024-07-08",
+        "distanceKm": 2.008,
+        "durationSeconds": 483,
+        "paceSecondsPerKm": 241,
+        "garminActivityId": 16357649181
+      },
+      {
+        "date": "2024-07-08",
+        "distanceKm": 1.659,
+        "durationSeconds": 602,
+        "paceSecondsPerKm": 363,
+        "garminActivityId": 16357646529
+      },
+      {
+        "date": "2024-07-06",
+        "distanceKm": 4.981,
+        "durationSeconds": 1365,
+        "paceSecondsPerKm": 274,
+        "garminActivityId": 16265778742
+      },
+      {
+        "date": "2024-07-04",
+        "distanceKm": 5.028,
+        "durationSeconds": 1494,
+        "paceSecondsPerKm": 297,
+        "garminActivityId": 16245648827
+      },
+      {
+        "date": "2024-07-01",
+        "distanceKm": 1.575,
+        "durationSeconds": 913,
+        "paceSecondsPerKm": 580,
+        "garminActivityId": 16190804112
+      },
+      {
+        "date": "2024-07-01",
+        "distanceKm": 5.626,
+        "durationSeconds": 1779,
+        "paceSecondsPerKm": 316,
+        "garminActivityId": 16186441253
+      },
+      {
+        "date": "2024-07-01",
+        "distanceKm": 0.074,
+        "durationSeconds": 59,
+        "paceSecondsPerKm": 789,
+        "garminActivityId": 16185958520
+      },
+      {
+        "date": "2024-06-30",
+        "distanceKm": 5.804,
+        "durationSeconds": 1709,
+        "paceSecondsPerKm": 294,
+        "garminActivityId": 16167199879
+      },
+      {
+        "date": "2024-06-20",
+        "distanceKm": 10.652,
+        "durationSeconds": 3152,
+        "paceSecondsPerKm": 296,
+        "garminActivityId": 16009551365
+      },
+      {
+        "date": "2024-06-17",
+        "distanceKm": 2.427,
+        "durationSeconds": 644,
+        "paceSecondsPerKm": 265,
+        "garminActivityId": 15969268852
+      },
+      {
+        "date": "2024-06-13",
+        "distanceKm": 9.563,
+        "durationSeconds": 2660,
+        "paceSecondsPerKm": 278,
+        "garminActivityId": 15892920061
+      },
+      {
+        "date": "2024-06-11",
+        "distanceKm": 9.678,
+        "durationSeconds": 2927,
+        "paceSecondsPerKm": 302,
+        "garminActivityId": 15857607385
+      },
+      {
+        "date": "2024-06-10",
+        "distanceKm": 1.58,
+        "durationSeconds": 485,
+        "paceSecondsPerKm": 307,
+        "garminActivityId": 15842237252
+      },
+      {
+        "date": "2024-06-10",
+        "distanceKm": 2.05,
+        "durationSeconds": 570,
+        "paceSecondsPerKm": 278,
+        "garminActivityId": 15842003447
+      },
+      {
+        "date": "2024-06-10",
+        "distanceKm": 1.686,
+        "durationSeconds": 584,
+        "paceSecondsPerKm": 347,
+        "garminActivityId": 15841832149
+      },
+      {
+        "date": "2024-06-05",
+        "distanceKm": 11.256,
+        "durationSeconds": 3297,
+        "paceSecondsPerKm": 293,
+        "garminActivityId": 15749555682
+      },
+      {
+        "date": "2024-06-04",
+        "distanceKm": 4.05,
+        "durationSeconds": 1338,
+        "paceSecondsPerKm": 330,
+        "garminActivityId": 15731272569
+      },
+      {
+        "date": "2024-06-02",
+        "distanceKm": 9.007,
+        "durationSeconds": 2643,
+        "paceSecondsPerKm": 293,
+        "garminActivityId": 15710864742
+      },
+      {
+        "date": "2024-05-29",
+        "distanceKm": 8.87,
+        "durationSeconds": 2652,
+        "paceSecondsPerKm": 299,
+        "garminActivityId": 15641803375
+      },
+      {
+        "date": "2024-05-21",
+        "distanceKm": 0.401,
+        "durationSeconds": 143,
+        "paceSecondsPerKm": 355,
+        "garminActivityId": 15507952887
+      },
+      {
+        "date": "2024-05-21",
+        "distanceKm": 10.654,
+        "durationSeconds": 3087,
+        "paceSecondsPerKm": 290,
+        "garminActivityId": 15507916839
+      },
+      {
+        "date": "2024-05-17",
+        "distanceKm": 6.368,
+        "durationSeconds": 2075,
+        "paceSecondsPerKm": 326,
+        "garminActivityId": 15439655295
+      },
+      {
+        "date": "2024-05-14",
+        "distanceKm": 8.435,
+        "durationSeconds": 2731,
+        "paceSecondsPerKm": 324,
+        "garminActivityId": 15390159717
+      },
+      {
+        "date": "2024-05-12",
+        "distanceKm": 21.241,
+        "durationSeconds": 5579,
+        "paceSecondsPerKm": 263,
+        "garminActivityId": 15349020836
+      },
+      {
+        "date": "2024-05-11",
+        "distanceKm": 2.854,
+        "durationSeconds": 654,
+        "paceSecondsPerKm": 229,
+        "garminActivityId": 15332235207
+      },
+      {
+        "date": "2024-05-11",
+        "distanceKm": 1.781,
+        "durationSeconds": 626,
+        "paceSecondsPerKm": 352,
+        "garminActivityId": 15331536167
+      },
+      {
+        "date": "2024-05-04",
+        "distanceKm": 5.007,
+        "durationSeconds": 1236,
+        "paceSecondsPerKm": 247,
+        "garminActivityId": 15213405966
+      },
+      {
+        "date": "2024-05-04",
+        "distanceKm": 3.005,
+        "durationSeconds": 713,
+        "paceSecondsPerKm": 237,
+        "garminActivityId": 15213404593
+      },
+      {
+        "date": "2024-05-03",
+        "distanceKm": 10.008,
+        "durationSeconds": 3556,
+        "paceSecondsPerKm": 355,
+        "garminActivityId": 15205553160
+      },
+      {
+        "date": "2024-05-01",
+        "distanceKm": 7.453,
+        "durationSeconds": 2472,
+        "paceSecondsPerKm": 332,
+        "garminActivityId": 15173524676
+      },
+      {
+        "date": "2024-04-29",
+        "distanceKm": 1.005,
+        "durationSeconds": 323,
+        "paceSecondsPerKm": 321,
+        "garminActivityId": 15133304228
+      },
+      {
+        "date": "2024-04-29",
+        "distanceKm": 2.22,
+        "durationSeconds": 726,
+        "paceSecondsPerKm": 327,
+        "garminActivityId": 15133221073
+      },
+      {
+        "date": "2024-04-29",
+        "distanceKm": 2.003,
+        "durationSeconds": 628,
+        "paceSecondsPerKm": 314,
+        "garminActivityId": 15132876688
+      },
+      {
+        "date": "2024-04-28",
+        "distanceKm": 2.886,
+        "durationSeconds": 920,
+        "paceSecondsPerKm": 319,
+        "garminActivityId": 15120534240
+      },
+      {
+        "date": "2024-04-28",
+        "distanceKm": 1.523,
+        "durationSeconds": 525,
+        "paceSecondsPerKm": 345,
+        "garminActivityId": 15120133009
+      },
+      {
+        "date": "2024-04-28",
+        "distanceKm": 1.004,
+        "durationSeconds": 338,
+        "paceSecondsPerKm": 336,
+        "garminActivityId": 15119940359
+      },
+      {
+        "date": "2024-04-28",
+        "distanceKm": 1.655,
+        "durationSeconds": 519,
+        "paceSecondsPerKm": 313,
+        "garminActivityId": 15119830601
+      },
+      {
+        "date": "2024-04-28",
+        "distanceKm": 2.793,
+        "durationSeconds": 832,
+        "paceSecondsPerKm": 298,
+        "garminActivityId": 15119575184
+      },
+      {
+        "date": "2024-04-27",
+        "distanceKm": 0.67,
+        "durationSeconds": 244,
+        "paceSecondsPerKm": 365,
+        "garminActivityId": 15105167058
+      },
+      {
+        "date": "2024-04-27",
+        "distanceKm": 0.49,
+        "durationSeconds": 82,
+        "paceSecondsPerKm": 166,
+        "garminActivityId": 15105095583
+      },
+      {
+        "date": "2024-04-27",
+        "distanceKm": 3.011,
+        "durationSeconds": 720,
+        "paceSecondsPerKm": 239,
+        "garminActivityId": 15104919077
+      },
+      {
+        "date": "2024-04-27",
+        "distanceKm": 2.16,
+        "durationSeconds": 701,
+        "paceSecondsPerKm": 324,
+        "garminActivityId": 15104209254
+      },
+      {
+        "date": "2024-04-25",
+        "distanceKm": 0.37,
+        "durationSeconds": 129,
+        "paceSecondsPerKm": 349,
+        "garminActivityId": 15073849558
+      },
+      {
+        "date": "2024-04-25",
+        "distanceKm": 1.378,
+        "durationSeconds": 409,
+        "paceSecondsPerKm": 297,
+        "garminActivityId": 15073485988
+      },
+      {
+        "date": "2024-04-25",
+        "distanceKm": 1.095,
+        "durationSeconds": 360,
+        "paceSecondsPerKm": 329,
+        "garminActivityId": 15073357819
+      },
+      {
+        "date": "2024-04-24",
+        "distanceKm": 3.01,
+        "durationSeconds": 689,
+        "paceSecondsPerKm": 229,
+        "garminActivityId": 15055876379
+      },
+      {
+        "date": "2024-04-24",
+        "distanceKm": 0.61,
+        "durationSeconds": 139,
+        "paceSecondsPerKm": 228,
+        "garminActivityId": 15055551354
+      },
+      {
+        "date": "2024-04-24",
+        "distanceKm": 0.581,
+        "durationSeconds": 210,
+        "paceSecondsPerKm": 361,
+        "garminActivityId": 15055500252
+      },
+      {
+        "date": "2024-04-24",
+        "distanceKm": 2.453,
+        "durationSeconds": 760,
+        "paceSecondsPerKm": 310,
+        "garminActivityId": 15055444519
+      },
+      {
+        "date": "2024-04-22",
+        "distanceKm": 3.596,
+        "durationSeconds": 1189,
+        "paceSecondsPerKm": 330,
+        "garminActivityId": 15024380125
+      },
+      {
+        "date": "2024-04-22",
+        "distanceKm": 2.485,
+        "durationSeconds": 914,
+        "paceSecondsPerKm": 368,
+        "garminActivityId": 15023523663
+      },
+      {
+        "date": "2024-04-21",
+        "distanceKm": 21.102,
+        "durationSeconds": 6587,
+        "paceSecondsPerKm": 312,
+        "garminActivityId": 15006470707
+      },
+      {
+        "date": "2024-04-20",
+        "distanceKm": 4.926,
+        "durationSeconds": 1255,
+        "paceSecondsPerKm": 255,
+        "garminActivityId": 14984565078
+      },
+      {
+        "date": "2024-04-20",
+        "distanceKm": 2.141,
+        "durationSeconds": 669,
+        "paceSecondsPerKm": 312,
+        "garminActivityId": 14984309213
+      },
+      {
+        "date": "2024-04-18",
+        "distanceKm": 7.996,
+        "durationSeconds": 2421,
+        "paceSecondsPerKm": 303,
+        "garminActivityId": 14965796050
+      },
+      {
+        "date": "2024-04-17",
+        "distanceKm": 1.072,
+        "durationSeconds": 377,
+        "paceSecondsPerKm": 351,
+        "garminActivityId": 14950499112
+      },
+      {
+        "date": "2024-04-17",
+        "distanceKm": 6.01,
+        "durationSeconds": 1864,
+        "paceSecondsPerKm": 310,
+        "garminActivityId": 14950424941
+      },
+      {
+        "date": "2024-04-17",
+        "distanceKm": 1.827,
+        "durationSeconds": 537,
+        "paceSecondsPerKm": 294,
+        "garminActivityId": 14949911792
+      },
+      {
+        "date": "2024-04-16",
+        "distanceKm": 15.823,
+        "durationSeconds": 5271,
+        "paceSecondsPerKm": 333,
+        "garminActivityId": 14930738438
+      },
+      {
+        "date": "2024-04-13",
+        "distanceKm": 4.93,
+        "durationSeconds": 1353,
+        "paceSecondsPerKm": 274,
+        "garminActivityId": 14871390650
+      },
+      {
+        "date": "2024-04-10",
+        "distanceKm": 12.877,
+        "durationSeconds": 4081,
+        "paceSecondsPerKm": 317,
+        "garminActivityId": 14826870286
+      },
+      {
+        "date": "2024-04-09",
+        "distanceKm": 0.551,
+        "durationSeconds": 177,
+        "paceSecondsPerKm": 321,
+        "garminActivityId": 14813930792
+      },
+      {
+        "date": "2024-04-09",
+        "distanceKm": 11.009,
+        "durationSeconds": 3078,
+        "paceSecondsPerKm": 280,
+        "garminActivityId": 14813929293
+      },
+      {
+        "date": "2024-04-08",
+        "distanceKm": 9.703,
+        "durationSeconds": 2985,
+        "paceSecondsPerKm": 308,
+        "garminActivityId": 14797897608
+      },
+      {
+        "date": "2024-04-06",
+        "distanceKm": 4.905,
+        "durationSeconds": 1279,
+        "paceSecondsPerKm": 261,
+        "garminActivityId": 14755221270
+      },
+      {
+        "date": "2024-04-06",
+        "distanceKm": 1.768,
+        "durationSeconds": 558,
+        "paceSecondsPerKm": 316,
+        "garminActivityId": 14754929911
+      },
+      {
+        "date": "2024-04-01",
+        "distanceKm": 8.015,
+        "durationSeconds": 2326,
+        "paceSecondsPerKm": 290,
+        "garminActivityId": 14685486636
+      },
+      {
+        "date": "2024-03-31",
+        "distanceKm": 8.011,
+        "durationSeconds": 2413,
+        "paceSecondsPerKm": 301,
+        "garminActivityId": 14668185655
+      },
+      {
+        "date": "2024-03-30",
+        "distanceKm": 8.015,
+        "durationSeconds": 2494,
+        "paceSecondsPerKm": 311,
+        "garminActivityId": 14652845940
+      },
+      {
+        "date": "2024-03-29",
+        "distanceKm": 7.28,
+        "durationSeconds": 2087,
+        "paceSecondsPerKm": 287,
+        "garminActivityId": 14636764573
+      },
+      {
+        "date": "2024-03-26",
+        "distanceKm": 8.011,
+        "durationSeconds": 2380,
+        "paceSecondsPerKm": 297,
+        "garminActivityId": 14592758335
+      },
+      {
+        "date": "2024-03-23",
+        "distanceKm": 6.732,
+        "durationSeconds": 1953,
+        "paceSecondsPerKm": 290,
+        "garminActivityId": 14538940480
+      },
+      {
+        "date": "2024-03-20",
+        "distanceKm": 10.735,
+        "durationSeconds": 3339,
+        "paceSecondsPerKm": 311,
+        "garminActivityId": 14495979997
+      },
+      {
+        "date": "2024-03-17",
+        "distanceKm": 8.343,
+        "durationSeconds": 2715,
+        "paceSecondsPerKm": 325,
+        "garminActivityId": 14456956088
+      },
+      {
+        "date": "2024-03-04",
+        "distanceKm": 5.556,
+        "durationSeconds": 1769,
+        "paceSecondsPerKm": 318,
+        "garminActivityId": 14249579752
+      },
+      {
+        "date": "2024-03-03",
+        "distanceKm": 9.678,
+        "durationSeconds": 2913,
+        "paceSecondsPerKm": 301,
+        "garminActivityId": 14233552201
+      },
+      {
+        "date": "2024-03-01",
+        "distanceKm": 7.871,
+        "durationSeconds": 2434,
+        "paceSecondsPerKm": 309,
+        "garminActivityId": 14203026294
+      },
+      {
+        "date": "2024-02-28",
+        "distanceKm": 8.016,
+        "durationSeconds": 2289,
+        "paceSecondsPerKm": 286,
+        "garminActivityId": 14172735594
+      },
+      {
+        "date": "2024-02-27",
+        "distanceKm": 3.107,
+        "durationSeconds": 1095,
+        "paceSecondsPerKm": 353,
+        "garminActivityId": 14158241142
+      },
+      {
+        "date": "2024-02-25",
+        "distanceKm": 2.315,
+        "durationSeconds": 742,
+        "paceSecondsPerKm": 320,
+        "garminActivityId": 14126554344
+      },
+      {
+        "date": "2024-02-25",
+        "distanceKm": 7.74,
+        "durationSeconds": 2414,
+        "paceSecondsPerKm": 312,
+        "garminActivityId": 14119708415
+      },
+      {
+        "date": "2024-02-21",
+        "distanceKm": 6.881,
+        "durationSeconds": 2278,
+        "paceSecondsPerKm": 331,
+        "garminActivityId": 14066879396
+      },
+      {
+        "date": "2024-02-20",
+        "distanceKm": 5.233,
+        "durationSeconds": 1602,
+        "paceSecondsPerKm": 306,
+        "garminActivityId": 14052073457
+      },
+      {
+        "date": "2024-02-19",
+        "distanceKm": 14.04,
+        "durationSeconds": 4542,
+        "paceSecondsPerKm": 324,
+        "garminActivityId": 14036466884
+      },
+      {
+        "date": "2024-02-12",
+        "distanceKm": 5.583,
+        "durationSeconds": 2372,
+        "paceSecondsPerKm": 425,
+        "garminActivityId": 13931374835
+      },
+      {
+        "date": "2024-02-08",
+        "distanceKm": 4.898,
+        "durationSeconds": 1682,
+        "paceSecondsPerKm": 343,
+        "garminActivityId": 13874336246
+      },
+      {
+        "date": "2024-02-06",
+        "distanceKm": 4.585,
+        "durationSeconds": 1583,
+        "paceSecondsPerKm": 345,
+        "garminActivityId": 13843026806
+      },
+      {
+        "date": "2024-02-05",
+        "distanceKm": 5.0,
+        "durationSeconds": 1800,
+        "paceSecondsPerKm": 360,
+        "garminActivityId": 13828422014
+      },
+      {
+        "date": "2024-02-03",
+        "distanceKm": 5.773,
+        "durationSeconds": 2012,
+        "paceSecondsPerKm": 349,
+        "garminActivityId": 13798670847
+      },
+      {
+        "date": "2024-02-01",
+        "distanceKm": 4.647,
+        "durationSeconds": 1660,
+        "paceSecondsPerKm": 357,
+        "garminActivityId": 13767941541
+      },
+      {
+        "date": "2024-01-29",
+        "distanceKm": 4.991,
+        "durationSeconds": 1837,
+        "paceSecondsPerKm": 368,
+        "garminActivityId": 13720583183
+      },
+      {
+        "date": "2024-01-26",
+        "distanceKm": 5.24,
+        "durationSeconds": 1845,
+        "paceSecondsPerKm": 352,
+        "garminActivityId": 13673723754
+      },
+      {
+        "date": "2024-01-24",
+        "distanceKm": 4.005,
+        "durationSeconds": 1411,
+        "paceSecondsPerKm": 352,
+        "garminActivityId": 13648446336
+      },
+      {
+        "date": "2024-01-22",
+        "distanceKm": 10.006,
+        "durationSeconds": 3438,
+        "paceSecondsPerKm": 344,
+        "garminActivityId": 13616496471
+      },
+      {
+        "date": "2024-01-13",
+        "distanceKm": 4.762,
+        "durationSeconds": 1344,
+        "paceSecondsPerKm": 282,
+        "garminActivityId": 13480698562
+      },
+      {
+        "date": "2024-01-12",
+        "distanceKm": 8.504,
+        "durationSeconds": 2510,
+        "paceSecondsPerKm": 295,
+        "garminActivityId": 13473948562
+      },
+      {
+        "date": "2024-01-10",
+        "distanceKm": 10.248,
+        "durationSeconds": 6179,
+        "paceSecondsPerKm": 603,
+        "garminActivityId": 13446108126
+      },
+      {
+        "date": "2024-01-08",
+        "distanceKm": 3.001,
+        "durationSeconds": 1046,
+        "paceSecondsPerKm": 349,
+        "garminActivityId": 13412567110
+      },
+      {
+        "date": "2024-01-03",
+        "distanceKm": 6.962,
+        "durationSeconds": 2163,
+        "paceSecondsPerKm": 311,
+        "garminActivityId": 13340990619
+      },
+      {
+        "date": "2023-12-29",
+        "distanceKm": 8.279,
+        "durationSeconds": 2474,
+        "paceSecondsPerKm": 299,
+        "garminActivityId": 13271416164
+      },
+      {
+        "date": "2023-12-28",
+        "distanceKm": 6.893,
+        "durationSeconds": 2066,
+        "paceSecondsPerKm": 300,
+        "garminActivityId": 13257947486
+      },
+      {
+        "date": "2023-12-25",
+        "distanceKm": 6.966,
+        "durationSeconds": 2230,
+        "paceSecondsPerKm": 320,
+        "garminActivityId": 13223405312
+      },
+      {
+        "date": "2023-12-18",
+        "distanceKm": 8.263,
+        "durationSeconds": 2594,
+        "paceSecondsPerKm": 314,
+        "garminActivityId": 13145961864
+      },
+      {
+        "date": "2023-12-17",
+        "distanceKm": 10.466,
+        "durationSeconds": 4101,
+        "paceSecondsPerKm": 392,
+        "garminActivityId": 13129916757
+      },
+      {
+        "date": "2023-12-14",
+        "distanceKm": 8.334,
+        "durationSeconds": 2571,
+        "paceSecondsPerKm": 308,
+        "garminActivityId": 13098664335
+      },
+      {
+        "date": "2023-12-04",
+        "distanceKm": 4.0,
+        "durationSeconds": 3600,
+        "paceSecondsPerKm": 900,
+        "garminActivityId": 12980132328
+      },
+      {
+        "date": "2023-12-01",
+        "distanceKm": 8.19,
+        "durationSeconds": 2356,
+        "paceSecondsPerKm": 288,
+        "garminActivityId": 12943382470
+      },
+      {
+        "date": "2023-11-29",
+        "distanceKm": 11.759,
+        "durationSeconds": 3768,
+        "paceSecondsPerKm": 320,
+        "garminActivityId": 12920159274
+      },
+      {
+        "date": "2023-11-28",
+        "distanceKm": 10.31,
+        "durationSeconds": 3229,
+        "paceSecondsPerKm": 313,
+        "garminActivityId": 12907011199
+      },
+      {
+        "date": "2023-11-27",
+        "distanceKm": 2.951,
+        "durationSeconds": 1014,
+        "paceSecondsPerKm": 344,
+        "garminActivityId": 12894441662
+      },
+      {
+        "date": "2023-11-26",
+        "distanceKm": 5.443,
+        "durationSeconds": 1684,
+        "paceSecondsPerKm": 309,
+        "garminActivityId": 12879985358
+      },
+      {
+        "date": "2023-11-24",
+        "distanceKm": 7.108,
+        "durationSeconds": 2225,
+        "paceSecondsPerKm": 313,
+        "garminActivityId": 12856690861
+      },
+      {
+        "date": "2023-11-22",
+        "distanceKm": 10.014,
+        "durationSeconds": 3066,
+        "paceSecondsPerKm": 306,
+        "garminActivityId": 12833202014
+      },
+      {
+        "date": "2023-11-21",
+        "distanceKm": 6.219,
+        "durationSeconds": 1824,
+        "paceSecondsPerKm": 293,
+        "garminActivityId": 12819049772
+      },
+      {
+        "date": "2023-11-20",
+        "distanceKm": 1.9,
+        "durationSeconds": 542,
+        "paceSecondsPerKm": 285,
+        "garminActivityId": 12807646589
+      },
+      {
+        "date": "2023-11-19",
+        "distanceKm": 9.62,
+        "durationSeconds": 3088,
+        "paceSecondsPerKm": 321,
+        "garminActivityId": 12787422303
+      },
+      {
+        "date": "2023-11-18",
+        "distanceKm": 7.649,
+        "durationSeconds": 2306,
+        "paceSecondsPerKm": 301,
+        "garminActivityId": 12781711122
+      },
+      {
+        "date": "2023-11-16",
+        "distanceKm": 7.637,
+        "durationSeconds": 2491,
+        "paceSecondsPerKm": 326,
+        "garminActivityId": 12755403133
+      },
+      {
+        "date": "2023-11-15",
+        "distanceKm": 11.012,
+        "durationSeconds": 3326,
+        "paceSecondsPerKm": 302,
+        "garminActivityId": 12742549882
+      },
+      {
+        "date": "2023-11-14",
+        "distanceKm": 10.565,
+        "durationSeconds": 3250,
+        "paceSecondsPerKm": 308,
+        "garminActivityId": 12728999828
+      },
+      {
+        "date": "2023-11-12",
+        "distanceKm": 7.34,
+        "durationSeconds": 2204,
+        "paceSecondsPerKm": 300,
+        "garminActivityId": 12703717520
+      },
+      {
+        "date": "2023-11-01",
+        "distanceKm": 9.039,
+        "durationSeconds": 2620,
+        "paceSecondsPerKm": 290,
+        "garminActivityId": 12558182038
+      },
+      {
+        "date": "2023-10-31",
+        "distanceKm": 9.126,
+        "durationSeconds": 2680,
+        "paceSecondsPerKm": 294,
+        "garminActivityId": 12544118795
+      },
+      {
+        "date": "2023-10-27",
+        "distanceKm": 6.884,
+        "durationSeconds": 2069,
+        "paceSecondsPerKm": 301,
+        "garminActivityId": 12490475872
+      },
+      {
+        "date": "2023-10-16",
+        "distanceKm": 13.549,
+        "durationSeconds": 4295,
+        "paceSecondsPerKm": 317,
+        "garminActivityId": 12343115409
+      },
+      {
+        "date": "2023-10-14",
+        "distanceKm": 4.946,
+        "durationSeconds": 1228,
+        "paceSecondsPerKm": 248,
+        "garminActivityId": 12307147488
+      },
+      {
+        "date": "2023-10-13",
+        "distanceKm": 8.858,
+        "durationSeconds": 2659,
+        "paceSecondsPerKm": 300,
+        "garminActivityId": 12300625894
+      },
+      {
+        "date": "2023-10-11",
+        "distanceKm": 0.92,
+        "durationSeconds": 341,
+        "paceSecondsPerKm": 371,
+        "garminActivityId": 12274479816
+      },
+      {
+        "date": "2023-10-11",
+        "distanceKm": 8.81,
+        "durationSeconds": 2524,
+        "paceSecondsPerKm": 287,
+        "garminActivityId": 12274478831
+      },
+      {
+        "date": "2023-10-11",
+        "distanceKm": 2.154,
+        "durationSeconds": 655,
+        "paceSecondsPerKm": 304,
+        "garminActivityId": 12274472392
+      },
+      {
+        "date": "2023-10-09",
+        "distanceKm": 6.409,
+        "durationSeconds": 1756,
+        "paceSecondsPerKm": 274,
+        "garminActivityId": 12243978774
+      },
+      {
+        "date": "2023-10-07",
+        "distanceKm": 4.97,
+        "durationSeconds": 1233,
+        "paceSecondsPerKm": 248,
+        "garminActivityId": 12206961490
+      },
+      {
+        "date": "2023-10-07",
+        "distanceKm": 1.804,
+        "durationSeconds": 513,
+        "paceSecondsPerKm": 284,
+        "garminActivityId": 12206960626
+      },
+      {
+        "date": "2023-10-04",
+        "distanceKm": 15.016,
+        "durationSeconds": 4277,
+        "paceSecondsPerKm": 285,
+        "garminActivityId": 12171859948
+      },
+      {
+        "date": "2023-10-03",
+        "distanceKm": 10.019,
+        "durationSeconds": 2760,
+        "paceSecondsPerKm": 275,
+        "garminActivityId": 12162767109
+      },
+      {
+        "date": "2023-10-02",
+        "distanceKm": 5.21,
+        "durationSeconds": 1419,
+        "paceSecondsPerKm": 272,
+        "garminActivityId": 12154870477
+      }
+    ],
+    "historyComplete": true,
+    "historyStart": "2023-10-02",
+    "totalRuns": 775,
+    "totalDistanceKm": 4383.44
   }
 }
