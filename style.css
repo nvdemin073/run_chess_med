@@ -149,3 +149,18 @@
 .shortcut-soon .shortcut-circle.shortcut-photo{border-style:solid}
 .shortcut-photo.shortcut-chess img{object-position:center}
 .shortcut-photo.shortcut-touches img{object-position:center}
+
+/* Девять касаний — крупнее, в основной колонке, левее боковой навигации. */
+.hero-visual{min-width:0;align-self:center}
+.touches-feature{display:block;margin-top:24px;padding:26px;background:#332e2c;border:1px solid #63544a;border-radius:16px;color:#f6eee3;transition:background .25s,border-color .25s}
+.touches-feature:hover{background:#3d332e;border-color:#b49673}.touches-tag{color:#dfb987;font-size:12px;letter-spacing:1.3px;text-transform:uppercase}
+.home-page .touches-feature h2{font-family:var(--display-font);font-size:28px;line-height:1.35;font-weight:400;margin:10px 0 14px;letter-spacing:-.3px}
+.touches-description{font-size:17px;line-height:1.8;color:#dcd4cb}
+.touches-entry{display:flex;align-items:center;gap:25px;margin-top:22px}
+.touches-portrait{display:block;width:164px;height:164px;flex:0 0 auto;overflow:hidden;border-radius:50%;background:#171614}
+.touches-portrait img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .4s}.touches-feature:hover .touches-portrait img{transform:scale(1.035)}
+.touches-invitation{font-size:18px;line-height:1.65;color:#e8ded2}.touches-link{display:block;font-size:15px;color:#dfb987;margin-top:16px}.touches-link>span{margin-left:8px}
+@media(max-width:1099px),(max-height:650px){.project-shortcuts{grid-template-columns:repeat(3,minmax(0,1fr));max-width:430px}}
+@media(min-width:601px) and (max-width:1000px){.touches-feature{padding:22px}.home-page .touches-feature h2{font-size:25px}.touches-portrait{width:115px;height:115px}.touches-entry{gap:18px}.touches-invitation{font-size:16px}.touches-description{font-size:16px}.touches-link{font-size:14px}}
+@media(max-width:600px){.touches-feature{padding:24px 21px;margin-top:25px}.home-page .touches-feature h2{font-size:27px}.touches-description{font-size:17px}.touches-portrait{width:140px;height:140px}.touches-entry{gap:20px}.touches-invitation{font-size:17px}.touches-link{font-size:14px}}
+@media(max-width:380px){.touches-portrait{width:120px;height:120px}.touches-entry{gap:17px}.touches-invitation{font-size:16px}.home-page .touches-feature h2{font-size:25px}}
