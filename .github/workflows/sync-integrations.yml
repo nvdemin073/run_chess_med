@@ -6,6 +6,10 @@ on:
   push:
     branches: [main]
     paths:
+      - "*.html"
+      - "*.css"
+      - "*.js"
+      - "images/**"
       - scripts/sync_integrations.py
       - .github/workflows/sync-integrations.yml
 permissions:
