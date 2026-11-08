@@ -11,11 +11,12 @@
 </style>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="garmin-home.css?v=20261108-portrait-large">
+<link rel="stylesheet" href="training-section.css?v=20261108">
 </head>
 <body>
 <a class="skip" href="#main">К содержанию</a>
 <div class="wrap">
-<header class="header"><a class="brand" href="#home"><span></span>БЕГИ И ДЫШИ</a><nav class="nav" aria-label="Основная навигация"><a href="#about">Обо мне</a><a href="#run">Бег</a><a href="#stats">Статистика</a><a class="nav-instagram" href="https://www.instagram.com/runandbreathe_nikolay/" target="_blank" rel="noopener noreferrer" aria-label="Открыть Instagram Николая">Instagram ↗</a><a href="#social">На связи ↗</a></nav></header>
+<header class="header"><a class="brand" href="#home"><span></span>БЕГИ И ДЫШИ</a><nav class="nav" aria-label="Основная навигация"><a href="#about">Обо мне</a><a href="#run">Бег</a><a href="#training-plan">План недели</a><a href="#stats">Статистика</a><a class="nav-instagram" href="https://www.instagram.com/runandbreathe_nikolay/" target="_blank" rel="noopener noreferrer" aria-label="Открыть Instagram Николая">Instagram ↗</a><a href="#social">На связи ↗</a></nav></header>
 <main id="main">
 <section class="hero" id="home" aria-labelledby="hero-title">
 <img class="hero-photo" src="./images/my-photo.jpg" alt="Николай Демин" fetchpriority="high">
@@ -27,6 +28,15 @@
 <div class="themes"><article class="theme"><span class="number">01</span><h3>Мой бег</h3><p>Выхожу за дверь, нахожу свой ритм и смотрю вокруг. У каждой пробежки — своя история.</p></article><article class="theme"><span class="number">02</span><h3>Моё тело</h3><p>Мне нравится ощущать силу и лёгкость. Учусь слышать себя: когда двигаться, а когда дать себе отдых.</p></article><article class="theme"><span class="number">03</span><h3>Мой свет</h3><p>Моменты радости, ясности и близости к миру. Замечаю их, проживаю и делюсь тем, что откликается.</p></article></div>
 </section>
 <section class="run" id="run" aria-labelledby="run-title"><div class="run-grid"><img class="run-image" src="./images/run-photo.jpg" alt="Моя пробежка" loading="lazy"><div class="run-copy"><p class="eyebrow">02 / В движении</p><h2 id="run-title">Выйти.<br>Вдохнуть.<br>Побежать.</h2><p>Бег со мной с 2015 года. За это время он стал частью моей жизни. Я выхожу на пробежку, чтобы двигаться, побыть с собой и почувствовать мир вокруг.</p><a class="text-link" href="https://t.me/run_and_breathe" target="_blank" rel="noopener noreferrer">Мои истории о беге в Telegram ↗</a></div></div></section>
+<section class="training-section" id="training-plan" aria-labelledby="training-title">
+ <div><p class="eyebrow">Беги и Дыши / Telegram <span class="training-pilot">18+ · Пилот</span></p>
+ <h2 id="training-title">План тренировок<br>на твою неделю.</h2>
+ <p>Расскажи, как бегаешь сейчас, к чему готовишься и когда можешь тренироваться. Бот соберёт спокойную ознакомительную неделю с учётом твоего опыта и расписания.</p>
+ <a class="training-cta" href="https://t.me/RunAndBreatheAssistantBot?start=plan" target="_blank" rel="noopener noreferrer">Собрать план в Telegram <span aria-hidden="true">↗</span></a>
+ <p class="training-scope">Первая версия — для взрослых начинающих бегунов. Без скоростных и марафонских программ. При боли или медицинских ограничениях сначала нужно уточнить допустимую нагрузку со специалистом.</p></div>
+ <div><ol class="training-steps"><li><strong>Расскажи о себе</strong>Опыт, привычная нагрузка, цель, дни и время для занятий.</li><li><strong>Добавь тренировки</strong>Пришли скрины и проверь распознанные цифры. Можно продолжить без скринов.</li><li><strong>Получи семь дней</strong>Пробежки, ходьба и восстановление. Отмечай выполнение и самочувствие — следующая неделя учтёт твои ответы.</li></ol>
+ <a class="training-privacy" href="training-privacy.html">Как используются и удаляются данные</a></div>
+</section>
 <section class="connect-overview" id="stats" aria-labelledby="overview-title">
   <div class="overview-heading"><div><p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> Мой бег / Garmin Connect</p><h2 id="overview-title">Мой бег. Мой ритм.</h2></div><a class="connect-action" href="runs.html">Все тренировки <span aria-hidden="true">↗</span></a></div>
   <div class="connect-kpis" id="home-run-kpis" aria-live="polite"><article class="connect-kpi"><span class="kpi-label" id="home-month-label">Этот месяц</span><strong><span id="home-month-distance">—</span><small>км</small></strong><span class="kpi-foot" id="home-month-runs">Загружаю тренировки</span></article><article class="connect-kpi"><span class="kpi-label">Вся история Garmin</span><strong><span id="home-total-distance">—</span><small>км</small></strong><span class="kpi-foot" id="home-history-since">История тренировок</span></article><article class="connect-kpi"><span class="kpi-label">Тренировки</span><strong id="home-total-runs">—</strong><span class="kpi-foot" id="home-total-hours">Время в движении</span></article><article class="connect-kpi"><span class="kpi-label">Средний темп</span><strong><span id="home-average-pace">—</span><small>/км</small></strong><span class="kpi-foot">По общей дистанции и времени</span></article></div>
@@ -41,7 +51,7 @@
 <a class="social" href="https://t.me/run_and_breathe" target="_blank" rel="noopener noreferrer" aria-label="Открыть канал Беги и Дыши в Telegram"><span class="circle"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 15 28 6l-5 21-8-6-5 4 1-8 12-7-10 10-2-3z" stroke-linejoin="round"/></svg></span><span>Telegram ↗</span><small>Беги и Дыши</small></a>
 <div class="social pending" aria-label="YouTube — ссылка появится позже"><span class="circle"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="7" width="26" height="18" rx="6"/><path d="m13 12 8 4-8 4z" fill="currentColor" stroke="none"/></svg></span><span>YouTube</span><small>Скоро</small></div>
 </div></section>
-</main><footer class="footer"><span>© 2026 Николай Демин · Беги и Дыши</span><span>Моё тело. Мой бег. Мой свет.</span></footer>
+</main><footer class="footer"><span>© 2026 Николай Демин · Беги и Дыши</span><span>Моё тело. Мой бег. Мой свет.</span><a href="training-privacy.html">Данные бота</a></footer>
 </div>
 <script src="garmin-data.js?v=20261107"></script><script src="main-page-runs.js?v=20261107"></script>
 </body>
