@@ -1,4 +1,5 @@
 """Publish only chess data and a small allowlist of running metrics."""
+# Refresh requested for the 2026-11-08 running video.
 import json
 import os
 import sys
