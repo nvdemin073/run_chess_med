@@ -12,6 +12,18 @@
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="garmin-home.css?v=20261108-portrait-large">
 <link rel="stylesheet" href="training-section.css?v=20261108">
+<style id="fixed-social-links">
+body{padding-right:88px}
+.social-rail{position:fixed;right:max(18px,env(safe-area-inset-right));top:50%;transform:translateY(-50%);z-index:100;display:flex;flex-direction:column;gap:14px}
+.social-rail a{display:grid;place-items:center;width:52px;height:52px;border-radius:50%;color:#fff;box-shadow:0 4px 18px #0005;border:2px solid #ffffff30;transition:transform .18s}
+.social-rail a:hover{transform:scale(1.1)}.social-rail a:focus-visible{outline:3px solid #fff;outline-offset:4px}
+.social-rail svg{width:27px;height:27px;fill:none;stroke:currentColor;stroke-width:1.8}
+.social-rail .instagram{background:radial-gradient(circle at 30% 110%,#ffdc80 0%,#fcaf45 20%,#f56040 38%,#e1306c 55%,#c13584 70%,#833ab4 90%)}
+.social-rail .telegram{background:#229ed9}.social-rail .youtube{background:#f00}.social-rail .tiktok{background:#080808}
+.social-rail .tiktok svg{filter:drop-shadow(-1px -1px 0 #25f4ee) drop-shadow(1px 1px 0 #fe2c55)}
+@media(max-width:800px){body{padding-right:60px}.social-rail{right:max(7px,env(safe-area-inset-right));gap:12px}.social-rail a{width:44px;height:44px}.social-rail svg{width:24px;height:24px}.header .nav{flex-wrap:wrap}}
+@media(prefers-reduced-motion:reduce){.social-rail a{transition:none}}
+</style>
 </head>
 <body>
 <a class="skip" href="#main">К содержанию</a>
@@ -46,13 +58,10 @@
 
 <div class="quote"><p>«Когда я бегу, я — трава, небо,<br>листок, букашка. Я — всё».</p><small>То самое чувство на пробежке</small></div>
 <section class="social-section" id="social" aria-labelledby="social-title"><p class="eyebrow">03 / Остаёмся рядом</p><h2 id="social-title">Увидимся в движении.</h2><p>Делюсь своим бегом, мыслями и моментами,<br>которые хочется сохранить.</p>
-<div class="socials">
-<a class="social" href="https://www.instagram.com/runandbreathe_nikolay/" target="_blank" rel="noopener noreferrer" aria-label="Открыть Instagram Николая — runandbreathe_nikolay"><span class="circle"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="5" y="5" width="22" height="22" rx="7"/><circle cx="16" cy="16" r="5.5"/><circle cx="23" cy="9" r="1" fill="currentColor" stroke="none"/></svg></span><span>Instagram ↗</span><small style="max-width:88px;overflow-wrap:anywhere;text-align:center">@runandbreathe_nikolay</small></a>
-<a class="social" href="https://t.me/run_and_breathe" target="_blank" rel="noopener noreferrer" aria-label="Открыть канал Беги и Дыши в Telegram"><span class="circle"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 15 28 6l-5 21-8-6-5 4 1-8 12-7-10 10-2-3z" stroke-linejoin="round"/></svg></span><span>Telegram ↗</span><small>Беги и Дыши</small></a>
-<a class="social" href="https://www.youtube.com/channel/UCAae3ARFY95jJFjB3_jxwHQ" target="_blank" rel="noopener noreferrer" aria-label="Открыть канал RunAndBreathe на YouTube"><span class="circle"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="7" width="26" height="18" rx="6"/><path d="m13 12 8 4-8 4z" fill="currentColor" stroke="none"/></svg></span><span>YouTube ↗</span><small>Смотреть видео</small></a>
-</div></section>
+</section>
 </main><footer class="footer"><span>© 2026 Николай Демин · Беги и Дыши</span><span>Моё тело. Мой бег. Мой свет.</span><a href="training-privacy.html">Данные бота</a></footer>
 </div>
 <script src="garmin-data.js?v=20261107"></script><script src="main-page-runs.js?v=20261107"></script>
+<nav class="social-rail" aria-label="Мои социальные сети"><a class="instagram" href="https://www.instagram.com/runandbreathe_nikolay/" target="_blank" rel="noopener noreferrer" aria-label="Открыть Instagram" title="Instagram"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="5" y="5" width="22" height="22" rx="7"/><circle cx="16" cy="16" r="5.5"/><circle cx="23" cy="9" r="1" fill="currentColor" stroke="none"/></svg></a><a class="telegram" href="https://t.me/run_and_breathe" target="_blank" rel="noopener noreferrer" aria-label="Открыть Telegram" title="Telegram"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="m4 15 24-9-5 21-8-6-5 4 1-8 12-7-10 10-2-3z" stroke-linejoin="round"/></svg></a><a class="youtube" href="https://www.youtube.com/channel/UCAae3ARFY95jJFjB3_jxwHQ" target="_blank" rel="noopener noreferrer" aria-label="Открыть YouTube" title="YouTube"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="7" width="26" height="18" rx="6"/><path d="m13 12 8 4-8 4z" fill="currentColor" stroke="none"/></svg></a><a class="tiktok" href="https://www.tiktok.com/@runandbreathe" target="_blank" rel="noopener noreferrer" aria-label="Открыть TikTok" title="TikTok"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M19 5v15a6 6 0 1 1-5-5.9V18a3 3 0 1 0 2 2V5h3c.4 3 2.3 5 6 5v3c-2.3 0-4.3-.8-6-2.2" fill="currentColor" stroke="none"/></svg></a></nav>
 </body>
 </html>
