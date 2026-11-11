@@ -61,6 +61,15 @@ body{padding-right:96px}
 @media(max-width:800px){.header{grid-template-columns:1fr;gap:18px;padding:24px 0 20px}.header .brand{font-size:19px}.header .nav{justify-content:flex-start;gap:12px 20px}.header .nav a{font-size:14px}.header-channels{justify-content:flex-start;gap:14px 22px}.header-social{font-size:14px}}
 @media(max-width:480px){.header .nav a:first-child{display:inline}.header-channels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px 12px}.header-social{font-size:13px;gap:7px}.header .nav{justify-content:flex-start;gap:12px 17px}.header .nav a{font-size:13px}}
 </style>
+<style id="mobile-bottom-social-dock">
+@media(max-width:800px){
+ body{padding-right:0;padding-bottom:calc(94px + env(safe-area-inset-bottom))}
+ .social-rail{top:auto;bottom:calc(12px + env(safe-area-inset-bottom));left:50%;right:auto;transform:translateX(-50%);flex-direction:row;justify-content:center;gap:18px;padding:10px 16px;border-radius:36px;width:max-content;max-width:calc(100vw - 24px)}
+ .social-rail a{width:46px;height:46px;flex:0 0 46px}
+ .social-tip{display:none}
+}
+@media(max-width:360px){.social-rail{gap:14px;padding:9px 14px}.social-rail a{width:44px;height:44px;flex-basis:44px}}
+</style>
 </head>
 <body>
 <a class="skip" href="#main">К содержанию</a>
