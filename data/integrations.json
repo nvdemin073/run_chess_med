@@ -2,7 +2,7 @@
   "version": 1,
   "chess": {
     "username": "peretoka73",
-    "updatedAt": "2026-11-11T19:35:56.870108+00:00",
+    "updatedAt": "2026-11-11T21:06:23.767490+00:00",
     "stats": {
       "chess_rapid": {
         "last": {
@@ -170,7 +170,7 @@
     ]
   },
   "garmin": {
-    "updatedAt": "2026-11-11T19:36:01.798638+00:00",
+    "updatedAt": "2026-11-11T21:06:27.565136+00:00",
     "month": "2026-11",
     "monthRuns": 5,
     "monthDistanceKm": 38.42,
