@@ -2,7 +2,7 @@
   "version": 1,
   "chess": {
     "username": "peretoka73",
-    "updatedAt": "2026-11-12T07:10:26.107579+00:00",
+    "updatedAt": "2026-11-12T19:54:20.328590+00:00",
     "stats": {
       "chess_rapid": {
         "last": {
@@ -170,11 +170,18 @@
     ]
   },
   "garmin": {
-    "updatedAt": "2026-11-12T07:10:30.264520+00:00",
+    "updatedAt": "2026-11-12T19:54:26.151289+00:00",
     "month": "2026-11",
-    "monthRuns": 5,
-    "monthDistanceKm": 38.42,
+    "monthRuns": 6,
+    "monthDistanceKm": 46.7,
     "recentRuns": [
+      {
+        "date": "2026-11-12",
+        "distanceKm": 8.281,
+        "durationSeconds": 2609,
+        "paceSecondsPerKm": 315,
+        "garminActivityId": 25052695064
+      },
       {
         "date": "2026-11-11",
         "distanceKm": 8.591,
@@ -377,16 +384,16 @@
         "durationSeconds": 2298,
         "paceSecondsPerKm": 345,
         "garminActivityId": 24692436575
-      },
-      {
-        "date": "2026-10-12",
-        "distanceKm": 1.484,
-        "durationSeconds": 532,
-        "paceSecondsPerKm": 359,
-        "garminActivityId": 24692435955
       }
     ],
     "runs": [
+      {
+        "date": "2026-11-12",
+        "distanceKm": 8.281,
+        "durationSeconds": 2609,
+        "paceSecondsPerKm": 315,
+        "garminActivityId": 25052695064
+      },
       {
         "date": "2026-11-11",
         "distanceKm": 8.591,
@@ -5850,7 +5857,7 @@
     ],
     "historyComplete": true,
     "historyStart": "2023-10-02",
-    "totalRuns": 780,
-    "totalDistanceKm": 4421.86
+    "totalRuns": 781,
+    "totalDistanceKm": 4430.14
   }
 }
